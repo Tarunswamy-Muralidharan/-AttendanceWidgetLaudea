@@ -1,0 +1,454 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Google Apps Script" [ref=e10] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e11]
+          - generic [ref=e12]: Apps Script
+        - generic [ref=e13]:
+          - generic [ref=e16]:
+            - button "Rename" [ref=e18] [cursor=pointer]: JustPass Exam Parser
+            - generic [ref=e220]: cloud_done
+          - generic [ref=e26]:
+            - button "Deploy" [ref=e31] [cursor=pointer]:
+              - generic [ref=e34]:
+                - text: Deploy
+                - generic [ref=e35]: 
+            - button "Share this project with others" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: person_add
+            - button "Support" [ref=e42] [cursor=pointer]:
+              - generic [ref=e45]: help_outline
+        - generic [ref=e47]:
+          - button "Google apps" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - 'button "Google Account: Tarunswamy Muralidharan (tmswamy10@gmail.com)" [ref=e57] [cursor=pointer]':
+            - img [ref=e59]
+            - img [ref=e65]
+    - generic [ref=e67]:
+      - navigation "Apps Script project pages" [ref=e69]:
+        - link "Overview" [ref=e70] [cursor=pointer]:
+          - generic [ref=e72]: info_outline
+          - generic [ref=e73]: Overview
+        - link "Editor" [ref=e74] [cursor=pointer]:
+          - generic [ref=e76]: code
+          - generic [ref=e77]: Editor
+        - link "Project History" [ref=e78] [cursor=pointer]:
+          - generic [ref=e80]: history
+          - generic [ref=e81]: Project History
+        - link "Triggers" [ref=e82] [cursor=pointer]:
+          - generic [ref=e84]: alarm
+          - generic [ref=e85]: Triggers
+        - link "Executions" [ref=e86] [cursor=pointer]:
+          - generic [ref=e88]: playlist_play
+          - generic [ref=e89]: Executions
+        - link "Project Settings" [ref=e90] [cursor=pointer]:
+          - generic [ref=e92]: settings
+          - generic [ref=e93]: Project Settings
+      - generic [ref=e94]:
+        - heading "Editor" [level=1] [ref=e95]
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - heading "Files" [level=2] [ref=e100]
+              - generic [ref=e102]:
+                - button "Sort files alphabetically" [disabled] [ref=e104]:
+                  - generic [ref=e107]: sort_by_alpha
+                - button "Add a file" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e112]: add
+            - listbox "Project files" [ref=e114]:
+              - option "Code.gs" [ref=e115] [cursor=pointer]:
+                - generic "Code.gs" [ref=e116]
+                - button "File operations menu for Code.gs." [ref=e117]:
+                  - button "File operations menu for Code.gs." [ref=e118]:
+                    - generic [ref=e121]: 
+            - generic [ref=e122]:
+              - heading "Libraries" [level=2] [ref=e123]
+              - button "Add a library" [ref=e126] [cursor=pointer]:
+                - generic [ref=e129]: add
+            - generic:
+              - listbox "Library Dependencies"
+            - generic [ref=e130]:
+              - heading "Services" [level=2] [ref=e131]
+              - button "Add a service" [ref=e134] [cursor=pointer]:
+                - generic [ref=e137]: add
+            - listbox "Service Dependencies" [ref=e139]:
+              - option "Drive Operations menu for Drive." [ref=e140] [cursor=pointer]:
+                - generic "Drive" [ref=e141]
+                - button "Operations menu for Drive." [ref=e142]:
+                  - button "Operations menu for Drive." [ref=e143]:
+                    - generic [ref=e146]: 
+          - generic [ref=e153]:
+            - region [ref=e154]:
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e159]:
+                    - button "Undo code edit" [disabled]:
+                      - generic: undo
+                  - generic [ref=e162]:
+                    - button "Redo code edit" [disabled]:
+                      - generic: redo
+                - generic [ref=e166]:
+                  - button "Save project to Drive" [disabled]:
+                    - img
+                - generic [ref=e167]:
+                  - generic [ref=e170]:
+                    - button "Run the selected function" [disabled]:
+                      - generic: play_arrow
+                      - generic: Run
+                  - generic [ref=e178]:
+                    - button "Debug the selected function" [disabled]:
+                      - img
+                      - generic: Debug
+                  - listbox "Select function to run" [disabled] [ref=e188]:
+                    - option "reprocessAll" [disabled] [selected] [ref=e481]
+                  - button "Stop the execution" [ref=e393]:
+                    - generic [ref=e396]: stop
+                    - generic [ref=e397]: Stop
+                - button "Close the execution log panel" [ref=e398]:
+                  - generic [ref=e197]: Execution log
+            - generic [ref=e199]:
+              - main [ref=e203]:
+                - generic [ref=e204]: .
+                - generic [ref=e206]:
+                  - iframe [ref=e207]:
+                    
+                  - code [ref=e209]:
+                    - generic [ref=e210]:
+                      - generic [ref=e223]:
+                        - generic [ref=e224]:
+                          - generic [ref=e226] [cursor=pointer]: 
+                          - generic [ref=e227]: "1"
+                        - generic [ref=e229]: "2"
+                        - generic [ref=e231]: "3"
+                        - generic [ref=e233]: "4"
+                        - generic [ref=e235]: "5"
+                      - generic [ref=e312]:
+                        - generic [ref=e314]: /**
+                        - generic [ref=e316]: "* JustPass Exam Auto-Parser"
+                        - generic [ref=e318]: "* Google Apps Script that monitors Gmail for college exam emails:"
+                        - generic [ref=e369]: "* - Excel attachments -> Exam seat arrangements (hall + seat per roll number)"
+                        - generic [ref=e371]: "* - PDF attachments -> Exam timetables (date + session + subject per branch)"
+                      - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=e213]: "/** * JustPass Exam Auto-Parser * Google Apps Script that monitors Gmail for college exam emails: * - Excel attachments -> Exam seat arrangements (hall + seat per roll number) * - PDF attachments -> Exam timetables (date + session + subject per branch) * * SETUP: * 1. Open script.google.com -> New Project * 2. Paste this code * 3. Enable Drive API: Services -> + -> Drive API"
+              - generic [ref=e400]:
+                - complementary [ref=e402]:
+                  - generic [ref=e404]: Execution log
+                  - generic [ref=e482]:
+                    - list "Logs" [active] [ref=e485]:
+                      - listitem "Log 1. 8:52:20 PM. Notice. Execution started." [ref=e486]:
+                        - generic [ref=e487]: 8:52:20 PM
+                        - generic [ref=e488]: Notice
+                        - generic [ref=e489]: Execution started
+                      - listitem "Log 2. 8:52:21 PM. Info. Removing label from 4 threads." [ref=e490]:
+                        - generic [ref=e491]: 8:52:21 PM
+                        - generic [ref=e492]: Info
+                        - generic [ref=e493]: Removing label from 4 threads
+                      - listitem "Log 3. 8:52:22 PM. Info. Found 8 thread(s) to process.." [ref=e494]:
+                        - generic [ref=e495]: 8:52:22 PM
+                        - generic [ref=e496]: Info
+                        - generic [ref=e497]: Found 8 thread(s) to process.
+                      - 'listitem "Log 4. 8:52:24 PM. Info. PDF: CAT - II - III yrs - Time table.pdf." [ref=e529]':
+                        - generic [ref=e530]: 8:52:24 PM
+                        - generic [ref=e531]: Info
+                        - generic [ref=e532]: "PDF: CAT - II - III yrs - Time table.pdf"
+                      - 'listitem "Log 5. 8:52:31 PM. Info. PDF text length: 3870." [ref=e533]':
+                        - generic [ref=e534]: 8:52:31 PM
+                        - generic [ref=e535]: Info
+                        - generic [ref=e536]: "PDF text length: 3870"
+                      - listitem [ref=e537]:
+                        - generic [ref=e538]: 8:52:31 PM
+                        - generic [ref=e539]: Info
+                        - generic [ref=e540]: "PDF text preview: PSG iTech PSG INSTITUTE OF TECHNOLOGY AND APPLIED RESEARCH OFFICE OF THE CONTROLLER OF EXAMINATIONS CONTROLLER OF EXAMINATIONS Ref: 124 /COE/A-M-26/ VI/CAT-II/2026 CIRCULAR Date: 6-4-2026 The Continuous Assessment Test-II for the VI Semester B.E./B.Tech. Students will be held from 17-4-2026 to 22-4-2026. The Schedule for the test is as mentioned below: Date Session FN-I Course Code Course Name Branch AG3601 Engineering Geology CIVIL (8.45 am EE3601 Protection and Switchgear EEE to 10.30 am) ME3691 Heat and Mass Transfer MECHANICAL FN-II CCS342 DEVOPS AI&DS (10.45am CCS356 to 17-4-2026 12.30 pm) ET3491 Object Oriented Software Engineering Embedded Systems and IOT Design CSBS, CSE ECE (Friday) AN-I OCS353 Data Science Fundamentals CIVIL, EEE, MECH (12.45 pm to OCS352 IOT Concepts and Applications 2.30 pm) AN-II OCE351 (2.45 pm Environment and Social Impact Assessment EEE AI&DS, CSBS, CSE to 4.30 pm) CS3491 Artificial Intelligence and Machine Learning ECE CE3601 Design of Steel Structural Elements CIVIL FN-I (8.45 am EE3602 Power System Operation and Control EEE to CAU332 Dynamics of Ground Vehicles 10.30 am) MECHANICAL CME338 Value Engineering FN-II CS3691 Embedded Systems and IOT AI&DS, CSE (10.45am CCW332 Digital Marketing CSBS to 12.30 pm) CEC366 Image Processing ECE 18-4-2026 CE3005 Rehabilitation/Heritage Restoration CIVIL (Saturday) AN-I (12.45 pm EE3016 Embedded System Design EEE to CME342 Ergonomics in Design 2.30 pm) MECHANICAL CME387 Non-Traditional Machining Processes AD3002 Health Care Analytics AI&DS AN-II CCS336 Cloud Services Management AI&DS, CSE (2.45 pm CCS335 Cloud Computing CSBS to 4.30 pm) CEC332 CEC339 Advanced Digital Signal Processing Fundamentals of Nanoelectronics ECE Course Date Session Course Name Branch Code CE3602 Structural Analysis II CIVIL FN-I (8.45 am to CEI331 PLC Programming EEE CME343 New Prod"
+                      - listitem "Log 7. 8:53:18 PM. Info. Added 57 timetable entries from CAT - II - III yrs - Time table.pdf." [ref=e541]:
+                        - generic [ref=e542]: 8:53:18 PM
+                        - generic [ref=e543]: Info
+                        - generic [ref=e544]: Added 57 timetable entries from CAT - II - III yrs - Time table.pdf
+                      - 'listitem "Log 8. 8:53:19 PM. Info. PDF: 15L301 (3).pdf." [ref=e545]':
+                        - generic [ref=e546]: 8:53:19 PM
+                        - generic [ref=e547]: Info
+                        - generic [ref=e548]: "PDF: 15L301 (3).pdf"
+                      - 'listitem "Log 9. 8:53:23 PM. Info. PDF text length: 4127." [ref=e549]':
+                        - generic [ref=e550]: 8:53:23 PM
+                        - generic [ref=e551]: Info
+                        - generic [ref=e552]: "PDF text length: 4127"
+                      - listitem [ref=e553]:
+                        - generic [ref=e554]: 8:53:23 PM
+                        - generic [ref=e555]: Info
+                        - generic [ref=e556]: "PDF text preview: 2216 No of Pages : 3 Course Code : 15D301 / E / L / R / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, MAY 2017 BE/(SW)BE – BIOMEDICAL / EEE / ECE / ROBOTICS / ICE Semester : 3 15D301 / E / L / R / U LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions from GROUP – I. 2. Answer any FOUR questions from GROUP – II. 3. Answer any ONE question from GROUP – III. 4. Ignore the box titled as “Answers for Group III” in the Main Answer Book. GROUP - I Marks : 10 x 3 = 30 1. Which of the following sets are linearly dependent/linearly independent? Why? i) ⎭⎬⎫ ⎩⎨⎧ ⊃Λ S 0 ii) S = {v1,v2 } , where 0ˆ v1 ≠and v2 ≠ α v1 for any iii) S = {v1,v2,v3,v4 }in (3) R . α , in (n) R . 2. Is all the vectors of the form (a,0,0), subspace of (3) R? Justify. 3. A civil engineer has measured the height of a 10 floor building as 2950 cm and the working height of each beam as 35 cm while the true values are 2945 cm and 30 cm respectively. Compare their absolute error and relative error. 4. What is the advantage of Pseudo inverse of a matrix over regular inverse? 5. What are the drawbacks of Newton’s Raphson method of solving f (x) = 0, numerically? 6. What are the disadvantages of Lagrange’s interpolation over Newton divided difference interpolation? 7. How the accuracy can be increased in Trapezoidal rule of evaluating a given definite integral ∫nxxf x dx ( )? 0 8. Using Gaussian two point formula, evaluate ∫1 0 5 x dx . Page No: 1 2216 No of Pages : 3 Course Code : 15D301 / E / L / R / U dy= , y(x0 ) = y0, 9. Interpret Euler’s method of solving initial value problem f (x, y) dx geometrically. 10. Distinguish between single step method and multi step method. GROUP - II Marks : 4 x 12.5 = 50 11. a) Check whether the set of all triples of real numbers (x, y,z)with the operations (x, y,z) + (x', y',z') = (x + x', y + y',"
+                      - 'listitem "Log 11. 8:53:23 PM. Info. No timetable entries found in: 15L301 (3).pdf." [ref=e557]':
+                        - generic [ref=e558]: 8:53:23 PM
+                        - generic [ref=e559]: Info
+                        - generic [ref=e560]: "No timetable entries found in: 15L301 (3).pdf"
+                      - 'listitem "Log 12. 8:53:25 PM. Info. PDF: 15L301 (4).pdf." [ref=e561]':
+                        - generic [ref=e562]: 8:53:25 PM
+                        - generic [ref=e563]: Info
+                        - generic [ref=e564]: "PDF: 15L301 (4).pdf"
+                      - 'listitem "Log 13. 8:53:32 PM. Info. PDF text length: 4330." [ref=e565]':
+                        - generic [ref=e566]: 8:53:32 PM
+                        - generic [ref=e567]: Info
+                        - generic [ref=e568]: "PDF text length: 4330"
+                      - listitem [ref=e569]:
+                        - generic [ref=e570]: 8:53:32 PM
+                        - generic [ref=e571]: Info
+                        - generic [ref=e572]: "PDF text preview: 1689 N o o f P ag es : 3 C o u rse C o d e : 15D 3 01 / E / L / U / R R oll N o: (T o be filled in by the candidate) P S G C O L L E G E O F T E C H N O L O G Y , C O IM B A T O R E - 641 004 S E M E S T E R E X A M IN A T IO N S , D E C E M B E R 2017 BE / B E (S W ) – B IO M E D IC A L / E C E / E E E / IC E / R& A S em ester : 3 15D 301 / E / L / U / R L IN E A R A L G E B R A A N D N U M E R I C A L A N A L Y S IS T im e : 3 H ou rs M axim u m M arks : 100 IN ST R U C T IO N S: 1. A nsw er A L L questions. E ach question carries 20 M ark s. 2. S ubdivision (a) carries 3 m arks each , subdivision (b) carries 7 m arks each and subdivision (c) carries 10 m arks each . 1. a) Is w , the set of all points on and inside a unit circle in XY - plane a subspace of R2 under sta ndard additio n and s tandard m ultiplicatio n by s calar? W hy o r w hy not? ’ b) Find the basis and dim ension of the solu tion spa ce of the hom oge neous sy stem AX = 0, w here 1 3 2 0 2 0 − ⎥⎥⎥⎥⎦⎤ ⎢⎢⎢⎢⎣⎡− − − A = 2 6 5 2 4 3 0 0 0 5 10 15 2 6 0 8 4 18 a 1 c) C heck w hether the set of all 2 X 2 m atrices of the form ⎟⎟⎠⎞ ⎜⎜⎝⎛b 1 w ith standard m atrix addition and stand ard m ultiplication by sc alar form s a vector space or not by verifying all axiom s. 2. a) W hy do w e require a bsolute rela tive error w hen abso lute error is th ere? If an exact value 5lb is approxim ated to 4 .8 lb , then calculate the afore m entioned errors . b) Find the n um erically dom inant e igen va lue an d its correspon ding eigenvec tor of ⎢⎢⎢⎣⎡ 10 0 0 ⎥⎥⎥⎦⎤ ⎢⎢⎢⎣⎡111, perform ing 5 ⎥⎥⎥⎦⎤ Ausing pow er m ethod w ith initial vector = − − 1 3 7 0 2 6 iterations c) Find the solu tion of the follow ing linear system of equ ations using. (i) C rout’s m ethod P age N o: 1 1689 N o o f P ag es : 3 C o u rse C o d e : 15D 3 01 / E / L / U / R (ii) G auss-S eidel m ethod perform ing 4 iteratio ns w ith initial guess (0, 0, 0 ) 6 2 11 x x x − + = 1 2 3 − + + = 2"
+                      - 'listitem "Log 15. 8:53:32 PM. Info. No timetable entries found in: 15L301 (4).pdf." [ref=e573]':
+                        - generic [ref=e574]: 8:53:32 PM
+                        - generic [ref=e575]: Info
+                        - generic [ref=e576]: "No timetable entries found in: 15L301 (4).pdf"
+                      - 'listitem "Log 16. 8:53:32 PM. Info. PDF: 15L301 (5).pdf." [ref=e577]':
+                        - generic [ref=e578]: 8:53:32 PM
+                        - generic [ref=e579]: Info
+                        - generic [ref=e580]: "PDF: 15L301 (5).pdf"
+                      - 'listitem "Log 17. 8:53:37 PM. Info. PDF text length: 4591." [ref=e581]':
+                        - generic [ref=e582]: 8:53:37 PM
+                        - generic [ref=e583]: Info
+                        - generic [ref=e584]: "PDF text length: 4591"
+                      - listitem [ref=e585]:
+                        - generic [ref=e586]: 8:53:37 PM
+                        - generic [ref=e587]: Info
+                        - generic [ref=e588]: "PDF text preview: 2007 No of Pages : 3 Course Code : 15D301/ E / L / R / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, DECEMBER - 2016 BE / BE(SW) – BIOMEDICAL / EEE / ECE / ICE / ROBOTICS Semester : 3 15D301 / E / L / R / U LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions from GROUP – I. 2. Answer any FOUR questions from GROUP – II. 3. Answer any ONE question from GROUP – III. 4. Ignore the box titled as “Answers for Group III” in the Main Answer Book. GROUP - I Marks : 10 x 3 = 30 1. Prove or disprove: “If AX =0is a homogeneous linear system of m equations in n unknowns, then the set of solution vectors is a subspace of Rn“. 2. Determine the basis and dimension for the subspace W of R4, where W = {(a,b,c,d); d =a +b, c = a −b}. 3. Evaluate −5 eusing two approaches 2 3 x x −+.... and x= − + − e x 1 − 2! 3! 1 1 x, ex = = e 1 2 3 x x + + + + x 2! 3! .... and compare with the true value of 6.737947 x 10-3. Use 4 terms to evaluate each series and compute true and approximate relative errors. 4. What is the speciality of pseudo inverse of a matrix over regular inverse? Why is it needed? 5. Interpret geometrically, False-position method. 6. List the advantages and disadvantages of Bairstow’s method. 7. Give the uses of Chebyshev interpolation. b 8. Can Gaussian quadrature be directly used to evaluate the integral f (x) dx ∫for the a following data? Why or Why not? x:0 x 2 x x 1 x 3 f (x):0 y 2 y 1 y 3 y Page No: 1 2007 No of Pages : 3 Course Code : 15D301/ E / L / R / U 9. Compare and contrast Taylor’s series method and Euler’s method. dy= = f (x), f (x ) y 10. Is it possible to integrate the initial value problem0 0 dx using Trapezoidal rule? Why or why not? GROUP - II Marks : 4 x 12.5 = 50 11.a) Check whether the set of all pairs of real numbers (x, y)with addition :(x, y) + (x′, y′)="
+                      - 'listitem "Log 19. 8:53:37 PM. Info. No timetable entries found in: 15L301 (5).pdf." [ref=e589]':
+                        - generic [ref=e590]: 8:53:37 PM
+                        - generic [ref=e591]: Info
+                        - generic [ref=e592]: "No timetable entries found in: 15L301 (5).pdf"
+                      - 'listitem "Log 20. 8:53:38 PM. Info. PDF: 15L301 (1).pdf." [ref=e593]':
+                        - generic [ref=e594]: 8:53:38 PM
+                        - generic [ref=e595]: Info
+                        - generic [ref=e596]: "PDF: 15L301 (1).pdf"
+                      - 'listitem "Log 21. 8:53:42 PM. Info. PDF text length: 4848." [ref=e597]':
+                        - generic [ref=e598]: 8:53:42 PM
+                        - generic [ref=e599]: Info
+                        - generic [ref=e600]: "PDF text length: 4848"
+                      - listitem [ref=e601]:
+                        - generic [ref=e602]: 8:53:42 PM
+                        - generic [ref=e603]: Info
+                        - generic [ref=e604]: "PDF text preview: 4418 No of Pages : 3 Course Code : 15D301 / E / L / R / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, DECEMBER 2019 BE / BE (SW) – BIOMEDICAL / ECE / EEE / ICE / ROBOTICS Semester : 3 15D301 / E / L / R / U LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivision (a) carries 3 marks each, subdivision (b) carries 7 marks each and subdivision (c) carries 10 marks each. 3. Course Outcome : Table Qn.3 CO3 Qn.1 CO1 Qn.2 CO2 Qn.4 CO4 Qn.5 CO5 …… …… …… …… …… ... . 1. a) Is W, the set of all points in R2 such that . x ≥ 0and y ≥ 0a subspace of R2 under standard addition and standard multiplication by scalar? Justify your answer geometrically. b) Determine a basis for and the dimension of the solution space of the homogeneous system 2x1 + 2 x2 − x3 + x5 = 0 − x1 − x2 +2 x3 −3 x4 + x5 = 0 x1 + x2 −2 x3 − x5 = 0 x3 + x4 + x5 = 0 a ⎡ c) Check whether the set of all 2 x 2 matrices of the form ⎢ 0with matrix addition ⎤ ⎣ 0 b ⎥ ⎦ and scalar multiplication forms a vector space or not. If so, prove it. If not, list the axioms that fail to hold. 2. a) Suppose that you have the task of measuring the lengths of a bridge and a rivet and come up with 9999 and 9 cm, respectively. If the true values are 10,000 and 10 cm, respectively, compute the true error and the true percent relative error for each case. Comment on your result. b) Employ the power method to determine numerically highest eigenvalue and the ⎡ ⎢ 6 2 0 ⎤ ⎥ Awith initial eigenvector = corresponding eigenvector for the matrix ⎢ ⎢ 2 4 1 ⎥ ⎥ 0 1 1 ⎡ ⎢ ⎢ ⎢ ⎣ 1 0 0 ⎤ ⎥ ⎥ ⎥ ⎦ − ⎣ ⎦ , Perform 5 iterations. Page No. : 1 4418 No of Pages : 3 Course Code : 15D301 / E / L / R / U c) i) Solve the following system of equations by Gauss Seidel and Gauss Jacobi methods : 6 2 11, x1"
+                      - 'listitem "Log 23. 8:53:42 PM. Info. No timetable entries found in: 15L301 (1).pdf." [ref=e605]':
+                        - generic [ref=e606]: 8:53:42 PM
+                        - generic [ref=e607]: Info
+                        - generic [ref=e608]: "No timetable entries found in: 15L301 (1).pdf"
+                      - 'listitem "Log 24. 8:53:44 PM. Info. PDF: 15L301 (2).pdf." [ref=e609]':
+                        - generic [ref=e610]: 8:53:44 PM
+                        - generic [ref=e611]: Info
+                        - generic [ref=e612]: "PDF: 15L301 (2).pdf"
+                      - 'listitem "Log 25. 8:53:58 PM. Info. PDF text length: 3616." [ref=e613]':
+                        - generic [ref=e614]: 8:53:58 PM
+                        - generic [ref=e615]: Info
+                        - generic [ref=e616]: "PDF text length: 3616"
+                      - listitem [ref=e617]:
+                        - generic [ref=e618]: 8:53:58 PM
+                        - generic [ref=e619]: Info
+                        - generic [ref=e620]: "PDF text preview: 3563 No of Pages : 2 Course Code : 15D301 / E / L / U / R Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, MAY 2018 BE / (SW) BE / BTech – BIOMEDICAL / EEE / ECE / ICE / ROBOTICS Semester : 3 15D301 / E / L / U / R LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivision (a) carries 3 marks each, subdivision (b) carries 7 marks each and subdivision (c) carries 10 marks each. 1. a) In a vector space Vover a field F, what is the geometrical meaning of the axiom kv∈V? (where kis a scalar) b) Determine whether the set of triples of real numbers (x, y,z)with the operations (x, y,z) + (x' , y' ,z ') = (x + x' , y + y' ,z + z ')and k(x, y,z) = (0,0,0)form a vector space or not, by verifying all axioms. c) When will you say that a vector space is infinite dimensional? Determine a basis and dimension of the solution space of the homogeneous system 2x1 + 2x2 − x3 + x5 = 0 − x1 − x2 + 2x3 −3x4 + x5 = 0 x1 + x2 − 2x3 − x5 = 0 x3 + x4 + x5 = 0. 2. a) The voltage of a high transmission line is stated to be 2.4 mV, while the actual voltage may range from 2.1 mV to 2.7 mV. What is the absolute and relative error of the voltage? b) Find the dominant eigenvalue and the corresponding eigenvector for the matrix 3 1 0 ⎡ − − − ⎤ ⎢ ⎢ 2 4 3 ⎥ ⎥ 0 1 1 using Power method. ⎣ − ⎦ c) Apply Gauss Jacobi and Gauss siedel method of iteration to solve the equations 3x1 − 0.1x2 + 0.2x3 = 7.85 0.1x1 + 7x2 − 0.3x3 =19.3 0.3x1 −0.2x2 +10x3 = 71.4. Compare the results. 3. a) Interpret geometrically the method of false position. b) Explain the convergence criteria of Newton Raphson method. Hence find the 2 f x = x − x +by using Newton Raphson method. positive root of ( ) 2cos 1 Page No.1 3563 No of Pages : 2 Course Code : 15D301 / E / L / U / R c) Find all roots of t"
+                      - 'listitem "Log 27. 8:53:58 PM. Info. No timetable entries found in: 15L301 (2).pdf." [ref=e621]':
+                        - generic [ref=e622]: 8:53:58 PM
+                        - generic [ref=e623]: Info
+                        - generic [ref=e624]: "No timetable entries found in: 15L301 (2).pdf"
+                      - 'listitem "Log 28. 8:53:59 PM. Info. PDF: 15L301.pdf." [ref=e625]':
+                        - generic [ref=e626]: 8:53:59 PM
+                        - generic [ref=e627]: Info
+                        - generic [ref=e628]: "PDF: 15L301.pdf"
+                      - 'listitem "Log 29. 8:54:07 PM. Info. PDF text length: 3612." [ref=e629]':
+                        - generic [ref=e630]: 8:54:07 PM
+                        - generic [ref=e631]: Info
+                        - generic [ref=e632]: "PDF text length: 3612"
+                      - listitem [ref=e633]:
+                        - generic [ref=e634]: 8:54:08 PM
+                        - generic [ref=e635]: Info
+                        - generic [ref=e636]: "PDF text preview: 2677 No of Pages : 2 Course Code : 15D301 / E / L / R / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, MAY 2019 BE / (SW)BE – BIOMEDICAL / ECE / EEE / ICE / ROBOTICS Semester : 1 15D301 / E / L / R / U LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivision (a) carries 3 marks each, subdivision (b) carries 7 marks each and subdivision (c) carries 10 marks each. 1. a) Test whether all the vectors of the form (a, 1, 1) in R3form the subspace of R3. b) Determine the dimension and basis for the solution space of x1 − 3x2 + x3 = 0 2x1 − 6x2 + 2x3 = 0 3x1 − 9x2 + 3x3 = 0 c) Determine whether the set of all pairs of real numbers (x, y) is a vector space with the operation (x, y)+(x/, y/) = (x + x/ + 1, y + y/ + 1) and k(x, y) = (kx, ky), k, any scalar. If not list all the axioms that fails to hold. 2. a) In numerical analysis how will you interpret accuracy and precision? b) Find the largest Eigen value and the corresponding Eigen vector of the matrix ⎡ ⎢ 2 1 0 − − − ⎤ ⎥ ⎡ ⎢ 1 0 ⎤ ⎥ ⎢ ⎢ 1 2 1 ⎥ ⎥ 0 1 2 using power method with the initial Eigen vector ⎢ ⎥ ⎢ ⎥ 0 ⎣ − ⎦ ⎣ ⎦ c) i) Solve the system of equations 2x + 3y + z = −1 5x + y + z = 9 3x + 2y + 4z = 11 using Crouts method and Gauss Jordan method. (OR) ii) Solve the following system of equations by Gauss-Jacobi method and Gauss Seidal method. 27x + 6y − z = 85 6x + 15y + 2z = 72 x + y + 54z = 110 Page No. : 1 2677 No of Pages : 2 Course Code : 15D301 / E / L / R / U 3. a) Apply Newton’s method to the equation x = Nto derive iterative formula for getting square root of a natural number N. b) Find the real root of the equation x3 – 1 – cosx = 0 that lies in (1,,2) by regula-Falsi method (correct to 3 decimal places) c) Apply Graeffe’s method upto 3 squaring to the find the roots of the po"
+                      - 'listitem "Log 31. 8:54:08 PM. Info. No timetable entries found in: 15L301.pdf." [ref=e637]':
+                        - generic [ref=e638]: 8:54:08 PM
+                        - generic [ref=e639]: Info
+                        - generic [ref=e640]: "No timetable entries found in: 15L301.pdf"
+                      - 'listitem "Log 32. 8:54:09 PM. Info. PDF: 15L401 (2).pdf." [ref=e641]':
+                        - generic [ref=e642]: 8:54:09 PM
+                        - generic [ref=e643]: Info
+                        - generic [ref=e644]: "PDF: 15L401 (2).pdf"
+                      - 'listitem "Log 33. 8:54:14 PM. Info. PDF text length: 5736." [ref=e645]':
+                        - generic [ref=e646]: 8:54:14 PM
+                        - generic [ref=e647]: Info
+                        - generic [ref=e648]: "PDF text length: 5736"
+                      - listitem [ref=e649]:
+                        - generic [ref=e650]: 8:54:14 PM
+                        - generic [ref=e651]: Info
+                        - generic [ref=e652]: "PDF text preview: 3550 No of Pages : 4 Course Code : 15D401 / E / L / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, MAY 2018 BE / (SW) BE – BIOMEDICAL ENGINEERING / EEE / ECE / ICE Semester : 4 15D401 / 15E401 / 15L401 / 15U401 PROBABILITY AND RANDOM PROCESSES Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivision (a) carries 3 marks each, subdivision (b) carries 7 marks each and subdivision (c) carries 10 marks each. 3. Normal Area Table is to be permitted. 4. Course Outcome : Table Qn.2 CO2 Qn.3 CO3 Qn.1 CO1 Qn.4 CO4 Qn.5 CO5 …… . 1. a) A microcomputer system consists of a microprocessor CPU chip and a random access main memory chip. The CPU is selected from a lot of 100, of which 10 are defective, and the memory chip is selected from a lot of 300, of which 15 are defective. What is the probability that both the chips are defective? b) i) Find the system reliability of the following : (5) 0.8 0.7 0.8 i/p o/p 0.97 0.8 0.60.9 0.8 0.6 0.93 ii) Give an example of a real time parallel system. (2) c) i) State and prove Baye’s theorem. (4) ii) A binary communication channel carries data as one of two types of signals denoted by 0 and 1. Owing to noise, a transmitted 0 is sometimes received as a 1 and a transmitted 1 is sometimes received as 0. For a given channel, assume a probability of 0.94 that a transmitted 0 is correctly received as 0 and a probability of 0.91 that a transmitted 1 is received as 1. Further assume a probability of 0.45 of transmitting a 0. If a signal is sent, determine (1) probability that a 1 is received. (2) probability that a 1 was transmitted, given that a 1 was received. (6) Page No.1 3550 No of Pages : 4 Course Code : 15D401 / E / L / U 2. a) When the basketball player LeBron James shot two free throws, each shot was equally likely either to be good or bad. Each shot was good was"
+                      - 'listitem "Log 35. 8:54:14 PM. Info. No timetable entries found in: 15L401 (2).pdf." [ref=e653]':
+                        - generic [ref=e654]: 8:54:14 PM
+                        - generic [ref=e655]: Info
+                        - generic [ref=e656]: "No timetable entries found in: 15L401 (2).pdf"
+                      - 'listitem "Log 36. 8:54:15 PM. Info. PDF: 15L401 (1).pdf." [ref=e657]':
+                        - generic [ref=e658]: 8:54:15 PM
+                        - generic [ref=e659]: Info
+                        - generic [ref=e660]: "PDF: 15L401 (1).pdf"
+                      - 'listitem "Log 37. 8:54:19 PM. Info. PDF text length: 5299." [ref=e661]':
+                        - generic [ref=e662]: 8:54:19 PM
+                        - generic [ref=e663]: Info
+                        - generic [ref=e664]: "PDF text length: 5299"
+                      - listitem [ref=e665]:
+                        - generic [ref=e666]: 8:54:19 PM
+                        - generic [ref=e667]: Info
+                        - generic [ref=e668]: "PDF text preview: 2678 No of Pages : 3 Course Code : 15D401 / E / L / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, MAY 2019 BE / (SW) BE – BIOMEDICAL / ECE / EEE / ICE Semester : 4 15D401 / E / L / U PROBABILITY AND RANDOM PROCESSES Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivision (a) carries 3 marks each, subdivision (b) carries 7 marks each and subdivision (c) carries 10 marks each. 3. Normal Distribution Table φ(y) and Q(z) may be permitted 4. Course Outcome : TableQn.3 CO.3 Qn.1 CO.1 Qn.2 CO.2 Qn.4 CO.4 Qn.5 CO.5 .… …… …… …… …. ….. . 1. a) What do you mean by conditional probability? If A and B are independent, what is P(A|B)? b) (i) Find the system reliability for the following (correct to two places of decimals) [5] 0.91 0.6 0.9 0.7 0.9 0.82 i/p o/p 0.92 0.8 0.8 0.9 (ii) For any two events A and B, prove that P(A∪B) ≥ P(B) [2] c) Suppose that for the general population, 1 in 5000 people carries the HIV virus. A test for the presence of HIV(H) yields either a positive (+) or negative(−) response. Suppose that the test gives the correct answer 99% of the times (i) What is P(−/H), the conditional probabilities that a person tests negative given that the person does have the HIV virus? (ii)What is P(H/+), the conditional probability that a randomly chosen person has the HIV virus given that the person tests positive? 2. a) In a test of integrated circuits there is possibility ‘p’ that each circuit is rejected. Let Y equal the number of tests upto and including the first test that discovers a reject. What is the PMF of Y? b) The Binomial variable X has PMF ⎛ 5 1 5 P x X ⎜ ⎞ ⎟ ⎛ ⎞ ( ) ⎟ = ⎜ ⎝ x ⎟ ⎠ ⎜ ⎝ 2 ⎠ Page No. : 1 2678 No of Pages : 3 Course Code : 15D401 / E / L / U (i) Find the standard deviation of X [2] (ii) Find ( ) P μ X −σ X ≤ X ≤ μ X +σ X[5] c) An analog s"
+                      - 'listitem "Log 39. 8:54:19 PM. Info. No timetable entries found in: 15L401 (1).pdf." [ref=e669]':
+                        - generic [ref=e670]: 8:54:19 PM
+                        - generic [ref=e671]: Info
+                        - generic [ref=e672]: "No timetable entries found in: 15L401 (1).pdf"
+                      - 'listitem "Log 40. 8:54:21 PM. Info. PDF: 15L401 (4).pdf." [ref=e673]':
+                        - generic [ref=e674]: 8:54:21 PM
+                        - generic [ref=e675]: Info
+                        - generic [ref=e676]: "PDF: 15L401 (4).pdf"
+                      - 'listitem "Log 41. 8:54:26 PM. Info. PDF text length: 5712." [ref=e677]':
+                        - generic [ref=e678]: 8:54:26 PM
+                        - generic [ref=e679]: Info
+                        - generic [ref=e680]: "PDF text length: 5712"
+                      - listitem [ref=e681]:
+                        - generic [ref=e682]: 8:54:26 PM
+                        - generic [ref=e683]: Info
+                        - generic [ref=e684]: "PDF text preview: 1694 N o o f P ag es : 4 C o u rse C o d e : 15D 40 1 / E / L / U R oll N o: (T o be filled in by the candidate) P S G C O L L E G E O F T E C H N O L O G Y , C O IM B A T O R E - 641 004 S E M E S T E R E X A M IN A T IO N S , D E C E M B E R 2017 B E / B E (S W ) – B IO M E D IC A L / E C E / E E E /IC E S em ester : 4 15D 401 / 15E 401 / 15L 401 /15U 401 P R O B A B IL I T Y A N D R A N D O M P R O C E S S E S T im e : 3 H ou rs M axim u m M arks : 100 IN ST R U C T IO N S: 1. A nsw er A L L questions. E ach question carries 20 M ark s. 2. S ubdivision (a) carries 3 m arks each , subdivision (b) carries 7 m arks each and subdivision (c) carries 10 m arks each . 3. S tatistical tab le is t o b e p erm itted . 1. a) S uppose that 33% of the people have O +blood and 7% hav e O -. W hat is the probability that the next prim e m inister of In dia has type O bloo d? b) The peak tem perature T, in degrees Fa hre nheit, on a July da y in A ntarctica is a G aussian random varia ble w ith a varia nce of 225. W ith pro bability21, the tem perature T e xceeds 10 de grees. W hat isP(T > 32),the proba bility th e tem perature is a bove freezing ? W hat isP(T < 0)?W hat is P(T > 60)? c) i) 1) S tate and prove B aye’s theorem . 2) A m achine produces ph oto detectors in pairs. Tests show that the first photo detector is a ccepta ble w ith probab ility .53 W hen the first photo d etector is 4. If the acceptable, th e se cond photo detector is ac cepta ble w ith p robability 5 first pho to de tector is d efectiv e, the sec ond p hoto detector is accep table w ith 2 W hat is the probability that exactly one photo detector of a pair probability .5 is acceptab le? W hat is the prob ability th at both ph oto dete ctors in a p air are defective ? (O R ) ii)1) For indep endent events A and B , prove tha t A and B care indepen dent. 2) The system show n in the figure is m ade of ten com ponents. C om ponents 3, 4 and 5 a re not identical a nd atle ast o ne"
+                      - 'listitem "Log 43. 8:54:26 PM. Info. No timetable entries found in: 15L401 (4).pdf." [ref=e685]':
+                        - generic [ref=e686]: 8:54:26 PM
+                        - generic [ref=e687]: Info
+                        - generic [ref=e688]: "No timetable entries found in: 15L401 (4).pdf"
+                      - 'listitem "Log 44. 8:54:27 PM. Info. PDF: 15L401 (3).pdf." [ref=e689]':
+                        - generic [ref=e690]: 8:54:27 PM
+                        - generic [ref=e691]: Info
+                        - generic [ref=e692]: "PDF: 15L401 (3).pdf"
+                      - 'listitem "Log 45. 8:54:32 PM. Info. PDF text length: 6377." [ref=e693]':
+                        - generic [ref=e694]: 8:54:32 PM
+                        - generic [ref=e695]: Info
+                        - generic [ref=e696]: "PDF text length: 6377"
+                      - listitem [ref=e697]:
+                        - generic [ref=e698]: 8:54:32 PM
+                        - generic [ref=e699]: Info
+                        - generic [ref=e700]: "PDF text preview: 1666 No of Pages : 4 Course Code : 15D401 / E / L / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, MAY 2017 BE / (SW) BE – BIOMEDICAL / EEE / ECE / ICE Semester : 4 15D401 / E / L / U PROBABILITY AND RANDOM PROCESSES Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions from GROUP – I. 2. Answer any FOUR questions from GROUP – II. 3. Answer any ONE question from GROUP – III. 4. Ignore the box titled as “Answers for Group III” in the Main Answer Book. 5. Standard normal table CDF(One sheet two paper), Φ(y), Q(z) is to be permitted. GROUP - I Marks : 10 x 3 = 30 1. Computer programs are classified by the length of the source code and by the execution time. Lengths of the programs are of two types big (B) and little (L). Execution times are of two types fast (F) and slow (W). The probability model for this experiment contains the information: P(LF) = 0.5, P(BF) = 0.2 and P(BW) = 0.2. What is the sample space? What is P(W)? 2. Let the sample space of an experiment consist of all the undergraduates of our college. Give two examples of event space. 3. Discrete random variable Y has the CDF FY(y) as shown: 1 0.75 0.5 0.25 0 1 2 3 4 5 What is (i) P(Y > 2)? (ii) P(Y = 1)? (iii) PY(y)? 4. Figure (i) and (ii) below represent the surfaces f1(x, y) and f2(x,y) and their limits on xy plane. Are they valid joint probability density functions? Why? z x f1 (x, y) = y 2 2 1 π zf 2 (x, y) = 2 x + y =1y x x + y = fig(i) 1 Page No: 1 fig(ii) 1666 No of Pages : 4 Course Code : 15D401 / E / L / U 5. If Cov(X, Y) = 0, Can we conclude that X and Y are independent? Why or why not? 6. Check whether the following random variables are positively, negatively or uncorrelated. (i) X is the temperature of a resistor measured in degrees celsius. Y is the temperature of the same resistor measured in degrees Kelvin. (ii) X is the telephone number of a cel"
+                      - 'listitem "Log 47. 8:54:32 PM. Info. No timetable entries found in: 15L401 (3).pdf." [ref=e701]':
+                        - generic [ref=e702]: 8:54:32 PM
+                        - generic [ref=e703]: Info
+                        - generic [ref=e704]: "No timetable entries found in: 15L401 (3).pdf"
+                      - 'listitem "Log 48. 8:54:33 PM. Info. PDF: 19L302.pdf." [ref=e705]':
+                        - generic [ref=e706]: 8:54:33 PM
+                        - generic [ref=e707]: Info
+                        - generic [ref=e708]: "PDF: 19L302.pdf"
+                      - 'listitem "Log 49. 8:54:40 PM. Info. PDF text length: 3965." [ref=e709]':
+                        - generic [ref=e710]: 8:54:40 PM
+                        - generic [ref=e711]: Info
+                        - generic [ref=e712]: "PDF text length: 3965"
+                      - listitem [ref=e713]:
+                        - generic [ref=e714]: 8:54:40 PM
+                        - generic [ref=e715]: Info
+                        - generic [ref=e716]: "PDF text preview: PSG TECH PSG TECH CH To be filled in by the candidate) PSG TECH PSG TECH PSG TECH OF TECHNO PSG TECH PSCECHSLECH PSG TECH 4720 Course Code: 19L302 HH PSC CHSLECH PSG TECH ,COIMBATORE - 641 E-ELECH PSG TECH INST. ' PSCAND ITINATIONS, BE ELECTRONICS Time : 3 191302 ANALOG ELECTROSTECH PSG TECH PSG TECH S TECH PSCECH INSTRUCTIONS: Subdivisions PSG TEC/ Answer ALL ‹ ECS TECH PS&ECH PSG TECH TECH 1. Answer ALL questions. Each question carries 20 Mar 26 TEMPximum ] 3. Course Outcome: 1. a) i) A Table and (a)(ii) carries 2 marks (C) carries 10 marks each. 100 each, subdivision (b) carries 6 marks each On.1] CÒI Qn.2 CO2 On.3 CO.3 Quế CỦA Ông Còi A load of 100 was rectifier acconnected at the a capacitor wut of a full wave PSG TECH Picu PSG ECHO PICCH PSG TECH PSG TECH PSG T ii) Tapsee on PSG TECH a ripple of shunted across the output terminals. If the rectifier that generated 230V, 50HZ at its input, find the magnitude of capacitance. Derive the rectification efficiency of a full wave rectifier. the expression for ripple factor of an inductor filter at the PSG TECH PServe rive 2. a c) Draw the circuit diagram of a transistorised series voltage regulatoRSG TZH PSG TECH the wing specifications: V,9V; Vint - PSG TECH Her pear cross amplifier. and IL: output of a full wave output of a PSG TECH PSG than Hapa PSG TECH and design it for Write the need for coupling capacitors and emitter ors and emitter bypass capacitor any two SG applications. With the hybrid PS E voltage c) i) In a common a common ages of a PSC in OSFET amplifier. Mention any one of SG TECH of a common base amplifier, derive the CECH PSC TECH output expr sion for its PSG TECH PSE MORA POSFET amplifier. Ment TEC BJT CE 3. a) i) ii) specite along with R.: : R1 = 68 hoe 1 μ S, With a circuit diagram PSG TECraw the circuit of a PSG circuit calculate circuit and device input impedance SG TECH voltage gain (with and R2 56 k Q, 2.1 kn."
+                      - 'listitem "Log 51. 8:54:40 PM. Info. No timetable entries found in: 19L302.pdf." [ref=e717]':
+                        - generic [ref=e718]: 8:54:40 PM
+                        - generic [ref=e719]: Info
+                        - generic [ref=e720]: "No timetable entries found in: 19L302.pdf"
+                      - 'listitem "Log 52. 8:54:41 PM. Info. PDF: 19L303.pdf." [ref=e721]':
+                        - generic [ref=e722]: 8:54:41 PM
+                        - generic [ref=e723]: Info
+                        - generic [ref=e724]: "PDF: 19L303.pdf"
+                      - 'listitem "Log 53. 8:54:46 PM. Info. PDF text length: 4119." [ref=e725]':
+                        - generic [ref=e726]: 8:54:46 PM
+                        - generic [ref=e727]: Info
+                        - generic [ref=e728]: "PDF text length: 4119"
+                      - listitem [ref=e729]:
+                        - generic [ref=e730]: 8:54:46 PM
+                        - generic [ref=e731]: Info
+                        - generic [ref=e732]: "PDF text preview: PSG TECH PSG TECHGECH No of Pages To be filled in by the candidate) OF TECHNO EMESTER PSG TECH PSG TECH PSG TECH 4721 Course Code: 19L303 CHSLECH PSG TECH PSG TECH PSCECCHSENSEECH PSG TECH Time : 3 19L303 INSTR ' \"se\" MINATIONS. ,COIMBAT, 641 DIGITAL ELPS TECH PSG TECH PSG TECH TECH PSC ECH INSTRUCTIONS: Subdivisions PSG TEC/ Answer ALL ‹ EERING :3 ECKS TEAH PSECH PSG TECH XECH 1. Answer ALL questions. Each question carries 20 Mar 26 TEMPximum ] 3. Cision and (a)(ii) carries 2 marks 3. Course Outcome Table (C) carries 10 marks each. 3ECH PSGCH PSG TECH 100 each, subdivision (b) carries 6 marks each ESG TECH Qn.1 CO1 Qn.2 CO2 On.3 C03 Qn.4 CO4 Qn 5 C05 1. a) i) Show that the dual of the exclusive-OR is equal to its comp PSG TECH PSOE the F(x,y,z) = a the complement of the b) Design a combinational he squircuit PS function in PSCMECH YSG TECH um of minterms number should be the square of the input binary number. Run Coin Put PSClement. maxterms with three inputs and six outp then express the simplified function in (i) sum of minterms and PSG TECH PSmplify the following Boolean function F together with the don't-care {(0,1,2,4,5) bina TECH Fund PSG TECH P42) the wine dx d(x,y,z) = [(3,6,7) 2. a) i) Design a combinational circuit with three inputs and one otherwise. ii) Give the truth table The output conditions d, and (li) product of PSG TECH to logic-1 when the binary value of the input is less than 4. The output is logic-0 PSG TECH GOS The output is equal PSG TECH Pong pool for Her Teeth Post ECH ECPSG TECH Draw the No. of a code converter that converts a BCD code to Excess + BC(A+B) DEG TE SGCH OG TU Verilog code for the above circuit using dataflow PSG TECH P/Implement the Boolean function F 7 a Decimal to BCD Encoder. Explain Modeling. (OR) PSG TECH ON SG sing PSG TECHSG TECH 3. a) i) Design a master-slave JK flipflop using working. NAND gates. N Compare Mealy and Moore model state m"
+                      - 'listitem "Log 55. 8:54:46 PM. Info. No timetable entries found in: 19L303.pdf." [ref=e733]':
+                        - generic [ref=e734]: 8:54:46 PM
+                        - generic [ref=e735]: Info
+                        - generic [ref=e736]: "No timetable entries found in: 19L303.pdf"
+                      - 'listitem "Log 56. 8:54:47 PM. Info. PDF: 15L401.pdf." [ref=e737]':
+                        - generic [ref=e738]: 8:54:47 PM
+                        - generic [ref=e739]: Info
+                        - generic [ref=e740]: "PDF: 15L401.pdf"
+                      - 'listitem "Log 57. 8:54:51 PM. Info. PDF text length: 5229." [ref=e741]':
+                        - generic [ref=e742]: 8:54:51 PM
+                        - generic [ref=e743]: Info
+                        - generic [ref=e744]: "PDF text length: 5229"
+                      - listitem [ref=e745]:
+                        - generic [ref=e746]: 8:54:51 PM
+                        - generic [ref=e747]: Info
+                        - generic [ref=e748]: "PDF text preview: No of Pages : 3 Course Code : 15D401 / E / L / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, NOVEMBER 2019 BE / BE(SW) - BIOMEDICAL / EEE / ECE / I&CE Semester : 4 15D401/15E401/15L401/15U401 PROBABILITY AND RANDOM PROCESSES Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivision (a) carries 3 marks each, subdivision (b) carries 7 marks each and subdivision (c) carries 10 marks each. 3. Normal table to be brought by the candidate in the examination hall 1. a) Figure given below shows an electric circuit in which each of the switches located at 1, 2, 3, and 4 is independently closed or open with probability pand 1− p respectively. If a signal is fed to the input, what is the probability that it is transmitted to the output? b) Mobile telephones perform handoffs as they move from cell to cell. During a call, a telephone either performs zero handoffs (H0), one handoff (H1), or more than one handoff (H2). In addition, each call is either long (L), if it lasts more than three minutes, or brief (B). The following table describes the probabilities of the possible types of calls. H0 H1 H2 L 0.1 0.1 0.2 B 0.4 0.1 0.1 What is the probability P[H0] that a phone makes no handoffs? What is the probability a call is brief? What is the probability a call is long or there are at least two handoffs? c) State and prove Law of Total Probability and Baye’s theorem. 2. a) Suppose you test one circuit. With probability p, the circuit is rejected. If Xdenotes number of rejected circuits in one test, what is PX (x) b) The random variable Xhas PMF ⎧ = c x x / 2, 4,8 ( ), find the value of cand the probabilities P[3≤ X ≤9]and PX x P[X < 4]. = ⎨ ⎩ 0 otherwise Page No. : 1 No of Pages : 3 Course Code : 15D401 / E / L / U c) The peak temperature T, as measured in degrees Fahrenheit, on a J"
+                      - 'listitem "Log 59. 8:54:51 PM. Info. No timetable entries found in: 15L401.pdf." [ref=e749]':
+                        - generic [ref=e750]: 8:54:51 PM
+                        - generic [ref=e751]: Info
+                        - generic [ref=e752]: "No timetable entries found in: 15L401.pdf"
+                      - 'listitem "Log 60. 8:54:51 PM. Info. PDF: 19L304.pdf." [ref=e753]':
+                        - generic [ref=e754]: 8:54:51 PM
+                        - generic [ref=e755]: Info
+                        - generic [ref=e756]: "PDF: 19L304.pdf"
+                      - 'listitem "Log 61. 8:54:57 PM. Info. PDF text length: 4787." [ref=e757]':
+                        - generic [ref=e758]: 8:54:57 PM
+                        - generic [ref=e759]: Info
+                        - generic [ref=e760]: "PDF text length: 4787"
+                      - listitem [ref=e761]:
+                        - generic [ref=e762]: 8:54:57 PM
+                        - generic [ref=e763]: Info
+                        - generic [ref=e764]: "PDF text preview: PSG TECH No of Pages: 2 Roll (To be filled in by the candidate) PSG TECH CH PSG TECH PSG TACH PSG TECH BE- TECTROS OCH PSG TECH 4722 Course Code: 191304 PSC ECH ,COIMBATORE - 641004~CH PSG TECH ONS PSGELECOM NOCH PSG TECH 19L304 PSG TEC INSTRUCTIONS: 2. Subdivision AND CH PSOVETION DECCATOCH PSC Ch PSSTECHG TE PSG TECH 1. Answer questions. Each question carries 20 Marks. (a)(i) and subdivision) carries 4. Course Outcome: Table (c) carries 10 marks each. each, subdivisi WAVES um Marks: 100 SCIECH PSG TECH 2 marks (b) carries PSG TE TWO Smith chart is to be provided to the candidate in the examination hall. 1. a) i) In PSG TECH'S 2x(z2+1)ã PSG TECH PSC TESH PSG + In free space, V= Vsino nc/mc PSG TECH PTTH OG TEPS density lculate the charge density. 6 marks each Qn.5 COS given sin cosp. Find the electric field density E at P (1, 30°, lius 'a' meter is PSG TECH PSC CS TECH GTPS the disk lies on the z=0 plane with its axis along the z-axis, show th CCH h PSG TECH PSOLECION, TECH TECHNGTH PS 2E0 m2. If with a density of z-axis, show that at point (0, 0, h) SG TECH PSG TECH PSG GF to TECH SG TECH c) The region y<0 contains a dielectric material for which &= is characterized byɛ,,= 4. Let =4. Let E = −306, +501 field and flux densiCo PSG TECH hile the region? G TECH PSG TECH PTE The CHCH PSG TECHCH PSG TECH 2. a) i) normal to the interface. Current sheets of ·30ã ̧ + inside region2 (E2 & D2), the angles E, and E2 make with the PSG70 V/m, find the Electric PSG TECHG TOCH PSG TECH respectively. Find H in region ii) Given that A= outer radius 'b' c) i) Deri 10 H a, A/m and 20 a, A/m y=-1 TECated at y=1 and find the current density J in free space. PSG TEG TE TECH PSG TECH for self inductance of a coaxial cable of inner radius PSG TE THG an expression for the magnetic field intenship which is placed in 20 plane of rad SG TECH a single turn coil in the form of a cirde Page No.: 1 PSG TEL PSG"
+                      - 'listitem "Log 63. 8:54:57 PM. Info. No timetable entries found in: 19L304.pdf." [ref=e765]':
+                        - generic [ref=e766]: 8:54:57 PM
+                        - generic [ref=e767]: Info
+                        - generic [ref=e768]: "No timetable entries found in: 19L304.pdf"
+                      - 'listitem "Log 64. 8:54:58 PM. Info. PDF: 19L305.pdf." [ref=e769]':
+                        - generic [ref=e770]: 8:54:58 PM
+                        - generic [ref=e771]: Info
+                        - generic [ref=e772]: "PDF: 19L305.pdf"
+                      - 'listitem "Log 65. 8:55:04 PM. Info. PDF text length: 5328." [ref=e773]':
+                        - generic [ref=e774]: 8:55:04 PM
+                        - generic [ref=e775]: Info
+                        - generic [ref=e776]: "PDF text length: 5328"
+                      - listitem [ref=e777]:
+                        - generic [ref=e778]: 8:55:04 PM
+                        - generic [ref=e779]: Info
+                        - generic [ref=e780]: "PDF text preview: PSG TECH PSG TECHGECH No of Pages To be filled in by the candidate) PSG TECH PSG TECH PSG TECH OF TECHNO PSCH PSG TECH PSGCH SECH PSG TECH BE - ELECTRONICS 4723 Course Code : 19L305 ,COIMBATORE - 641 TECHNICECH PSC CH PSG TEC CHASLECH PSG TECH Time: 3 Hou DATA ( (c) carrie question TECH WGN CHOPS TECH PSG TECH INSTTI INSTRUCTIONS: Subdivisions and 3. Course Outcome: CATION ENGINEERING ECCHESE TECH SECH PSG TECH carries 20 Marl (C) carries 10 marks each. PSG TECH\\\\\\\\POE(4)(i) and (a)(ii) carries 2 marks Table Maximum Mark 100 3ECH PSGCH PSG TECH and (a)(ii) carries 2 marks each, subdivision (b) carries 6 marks, each Qn.1 C01 Qn.2 CO2 Qn.3 C03 1. a) i) What is an Abstract PSG TECH PSO Analyze time com Data plexity of the for k-5e (ADT)? Give an e n do x = y+z; PSG TECH PSG TEC for 11 to k do with end snippet: ESG TECH Qn.4 CO4 Qn.5 COS PSPSG TECH PSG TECH PSG TECH PSPSG TECH PS b) Describe in detail about the best case, average case and worst case time complexity big-Oh notatio Solve the recurrence relation PSG TECH PSG The Pics, PSG CHSG TECH PSG TECHSG TECH a) i) Given an array COLOR[1:15,1:5] where each cell occupies 21 the starting address 4056. Find the number of elementsTEV ii) Comment on Stack follows a PSG TECH PS (n) = b+T(n - the advantages and disadvantstrators TEN PSG TECH PSG TECH PSG TECH PSG TE SCHG TECH PSG TECH of Last In First Out (LIFO)\". of memory with b) What are an array? representation of sparse matrix using array. Ilustrate using the following matrix. 1 TECAPS -8 0 0 0 0 using the followin ECHSG TECH Suggest efficient TECH PSG TECH PSG TECH c) Sketch an algorithm to conve TECH PSG TECH n+t). PSG TEZssion. Trace the an infix expression into its postfix on the following infix infix PSG TECoron into its PSG Pression (c + Page No.: 1 TECH PSG TEC equivalent PSG TECH? SG TECH, PSG TECH PSG TECH No of PSG TECH PSGCH i) How priority 852 SG TECH are implemented?"
+                      - 'listitem "Log 67. 8:55:04 PM. Info. No timetable entries found in: 19L305.pdf." [ref=e781]':
+                        - generic [ref=e782]: 8:55:04 PM
+                        - generic [ref=e783]: Info
+                        - generic [ref=e784]: "No timetable entries found in: 19L305.pdf"
+                      - 'listitem "Log 68. 8:55:04 PM. Info. PDF: 19L401 (1).pdf." [ref=e785]':
+                        - generic [ref=e786]: 8:55:04 PM
+                        - generic [ref=e787]: Info
+                        - generic [ref=e788]: "PDF: 19L401 (1).pdf"
+                      - 'listitem "Log 69. 8:55:12 PM. Info. PDF text length: 7881." [ref=e789]':
+                        - generic [ref=e790]: 8:55:12 PM
+                        - generic [ref=e791]: Info
+                        - generic [ref=e792]: "PDF text length: 7881"
+                      - listitem [ref=e793]:
+                        - generic [ref=e794]: 8:55:12 PM
+                        - generic [ref=e795]: Info
+                        - generic [ref=e796]: "PDF text preview: PSG TECH TECH PSG TECH(To be filled in h the candidate). PSG TECH PSG PSG TECH OGY, PSG TEC. Com a PSG TECH BE - ECE/ 3960 PSECH PG TECH 10 PUTETIOCH PSG TECH TE INSTRUCTIONS: TECH ABILON PEETECH TECH AND ATORE-641 JUNE 2022 ENGINEERING BILITY AND RANDOM PROCk Semu PSG TECH 1. Answer ALL questions. Each question cXH PSTEVE PSG TEC Time: 3 Hours PSG TECA Subdivisions ( ) and (a)(ii) carries EXH subdivision carries 10 marks each. arries 20 Marks. ECHOTE PSG TECH 2. marks each and @marks each, subdivision (b) carriaSG TE100 3. Normal distribution table may be permitted. 4. Course Outcome: PSG TECH se Table Qn.1 CO1 Qn.2 CO2 PSG TECH PSG Tegrated circuit factory has 3 machines led CH ECHG TECH Qn.3 C03 Qn.4 CO4 Qn.5 C05 a. i) An machines X,Y and nd Z. Test one integrated circuit produced by each machine. Either a circuit is observation is sequence of 3 test results corres ZF A PSG TECH PS THE b) Find the A fetele 'a' or it fails 'f. An = to the circuits from and Z respectively. What are the elements of the sets fromZfails) and X collectively exhaustive? Justify If two events E, and E2 are independent, PSG TECH PSG TECstem reliability for the following from Xis acceptable)? Are Z, then what is P then what is P(2) rect PSG TECH PSTE PSG TECforthendeti cu are i/p 0.8 0.6 G TECH Are Z, SG TECH CECH to two decimal places): 05 PSG TECH 9G TECK PSGZECH PATE TECH 0.92 State and prove&G TECH P/G TECH which. 05 0.7 atcom Comes proneCH TECH PTECH PSG TECH State and prove Baye's theorem and apply it to the following: Suppose you have 2 coins, one biased, one fair, but you don't know PSG TE that of the Latic Pro PCH PSC CHSG TECH Coin 1 is biased. It comes up heads with PSG TECH PSC CHow he PSG T with probability. Suppose you probability 3. which coin is PS TEC PECH PSG TECH a coin at random dflip it. Let C. den PSG TEC le coin 2 will flip heads event that coin 't is picked. Lat H and T denote the pos"
+                      - 'listitem "Log 71. 8:55:12 PM. Info. No timetable entries found in: 19L401 (1).pdf." [ref=e797]':
+                        - generic [ref=e798]: 8:55:12 PM
+                        - generic [ref=e799]: Info
+                        - generic [ref=e800]: "No timetable entries found in: 19L401 (1).pdf"
+                      - 'listitem "Log 72. 8:55:13 PM. Info. PDF: 19l401.pdf." [ref=e801]':
+                        - generic [ref=e802]: 8:55:13 PM
+                        - generic [ref=e803]: Info
+                        - generic [ref=e804]: "PDF: 19l401.pdf"
+                      - 'listitem "Log 73. 8:55:21 PM. Info. PDF text length: 7318." [ref=e805]':
+                        - generic [ref=e806]: 8:55:21 PM
+                        - generic [ref=e807]: Info
+                        - generic [ref=e808]: "PDF text length: 7318"
+                      - listitem [ref=e809]:
+                        - generic [ref=e810]: 8:55:21 PM
+                        - generic [ref=e811]: Info
+                        - generic [ref=e812]: "PDF text preview: PSG TECH 4 PSG TECH TECH To be filled in by the candidate) PSG TECH PSG TAPSG TECH - PSG TECH TECHNOLO...H PSG. TECH 4069 SEMESTER EXAMINATIONS, NOVEMBER 207,WECH PSG TECH TORE - 641 chCH PSOLVEN TECH PSG TECANSECTRONICS & C PSG TEC /19U401 PSC ITY AND 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivisions (a)(i) and (a)(ii) carries and subdivision (c) carries 10 marks each. 3. Normal Distribution is to be 1. a) i) Of the as 30 PSC PROCESSES Marks: 100 ing on TEOSGH PSSTECH PSG TECH probabilities of the events PSS TECH Pson is to be permitted. sion (b) carries that you roll a six-sided die in which all faces are equally marks each The following circuit operates on SG TE SGN PSC TECH PSG TECH ii) What do you mean E1 = {Roll 4 or higher) and E2 = (Roll is the square of an integer is PA PSG TECH BSG Tat devices fail indepe Dah SG TEG SCHSG TECH If A and Find the TE right. The probability that each device functions is shown on the graph. Assume of functionant PSG TECH PSG TECH PSG T operates only if there is a path of functional devices from left to 0.95 What is the pr PSGYCH PSG ability that the SG NECK PSG Tuit operates? PSG TECH PSGCH 0.95 and prove Baye's theorem and PSG TECH PSGCH Prod the 0.86 PSG TECH PPho H acceptable with YG TEZH PSG TECH PSG TECH detector is A machine produces photo detectors in pairs. photo detector is it to the following: 3. ctors in pairs. Tests show that the first photo acceptable, the second photo detector is acceptable with 5 hen the first PSG TECHSTE Hombolo and West PSG TECH PSG TECH What is the probability that S fective, the second photo detector is acceptable with probability that exactly one photo What is the probability that both photo detectable with 2. a bability that the first PSG TECH the der detector is 4. If the PSG TECH resin Coolaba H PSG TECH one is acceptable If X and Y are two random are two random E(X tector of a pair is acce"
+                      - 'listitem "Log 75. 8:55:21 PM. Info. No timetable entries found in: 19l401.pdf." [ref=e813]':
+                        - generic [ref=e814]: 8:55:21 PM
+                        - generic [ref=e815]: Info
+                        - generic [ref=e816]: "No timetable entries found in: 19l401.pdf"
+                      - 'listitem "Log 76. 8:55:21 PM. Info. PDF: 19L402 (1).pdf." [ref=e817]':
+                        - generic [ref=e818]: 8:55:21 PM
+                        - generic [ref=e819]: Info
+                        - generic [ref=e820]: "PDF: 19L402 (1).pdf"
+                    - generic [ref=e499]:
+                      - generic: Loading...
+                - generic:
+                  - button "Close execution logs pane" [ref=e214] [cursor=pointer]:
+                    - generic [ref=e215]: close
+                  - tooltip [ref=e216]: Close execution logs
+  - generic [ref=e217]:
+    - alert
+    - alert
+    - complementary
+    - complementary

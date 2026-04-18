@@ -1,0 +1,9 @@
+[    1138ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[    7624ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://docs.google.com/drivesharing/clientmodel?id=13gaf0mwiuRJkZnHmGhmljunSv4RglC8OhXvF52rwPPI&foreignService=ritz&authuser=0&origin=https%3A%2F%2Fdocs.google.com:0
+[   11893ms] [INFO] Autofocus processing was blocked because a document already has a focused element. @ https://docs.google.com/spreadsheets/d/13gaf0mwiuRJkZnHmGhmljunSv4RglC8OhXvF52rwPPI/edit?gid=0#gid=0:0
+[   16321ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[   16492ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[   16521ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[   16531ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0
+[   16539ms] [ERROR] Framing 'https://contacts.google.com/' violates the following report-only Content Security Policy directive: "frame-ancestors 'self'". The violation has been logged, but no further action has been taken.
+ @ :0

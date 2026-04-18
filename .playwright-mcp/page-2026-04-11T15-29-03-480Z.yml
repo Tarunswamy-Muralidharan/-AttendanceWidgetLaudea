@@ -1,0 +1,193 @@
+- generic [ref=e3]:
+  - button "Skip to main content" [ref=e5] [cursor=pointer]:
+    - generic [ref=e6]: Skip to main content
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - button "Menu" [ref=e13] [cursor=pointer]:
+            - img [ref=e16]: menu
+          - link "Go to AdMob home" [ref=e18] [cursor=pointer]:
+            - /url: /v2/home
+        - generic [ref=e24]:
+          - img [ref=e27]: search
+          - generic [ref=e28]:
+            - generic:
+              - generic: Search for apps, ad units, mediation groups, reports, and campaigns
+            - combobox "Search box to look for your apps, ad units, mediation groups, reports, and campaigns" [ref=e29]
+        - generic [ref=e30]:
+          - button "Open notifications" [ref=e33] [cursor=pointer]:
+            - generic [ref=e36]:
+              - img [ref=e38]: notifications
+              - generic [ref=e40]: "3"
+          - button "Google account" [ref=e44] [cursor=pointer]:
+            - img "Google account (tmswamy10@gmail.com)" [ref=e45]
+    - generic [ref=e46]:
+      - navigation [ref=e47]:
+        - navigation "Sidebar" [ref=e50]:
+          - link "Home" [ref=e55] [cursor=pointer]:
+            - /url: /v2/home
+            - img [ref=e57]: home
+          - link "Open/Close apps" [ref=e64] [cursor=pointer]:
+            - img [ref=e66]: apps
+          - generic [ref=e70]:
+            - link "Reports" [ref=e74] [cursor=pointer]:
+              - /url: /v2/reports/library
+              - img [ref=e76]: assessment
+            - link "Mediation" [ref=e81] [cursor=pointer]:
+              - /url: /v2/mediation/groups/list
+            - link "Campaigns" [ref=e87] [cursor=pointer]:
+              - /url: /v2/campaigns/list
+              - img [ref=e89]: campaign
+          - generic [ref=e91]:
+            - link "Policy center" [ref=e95] [cursor=pointer]:
+              - /url: /v2/policycenter
+              - img [ref=e97]: verified_user
+            - link "Privacy & messaging" [ref=e102] [cursor=pointer]:
+              - /url: /v2/privacymessaging
+            - link "Publisher data" [ref=e108] [cursor=pointer]:
+              - /url: /v2/first-party-data-controls/list
+              - img [ref=e110]: badge
+            - link "Blocking controls" [ref=e115] [cursor=pointer]:
+              - /url: /v2/pubcontrols
+              - img [ref=e117]: block
+            - link "Payments" [ref=e122] [cursor=pointer]:
+              - /url: /v2/payments/overview
+            - link "Change history" [ref=e128] [cursor=pointer]:
+              - /url: /v2/changehistory
+              - img [ref=e130]: history
+            - link "Settings" [ref=e135] [cursor=pointer]:
+              - /url: /v2/settings/personal-settings
+              - img [ref=e137]: settings
+            - link "Labs" [ref=e142] [cursor=pointer]:
+              - /url: /v2/labs/list
+              - img [ref=e144]: stream_science
+            - button "Help" [ref=e149] [cursor=pointer]:
+              - img [ref=e151]: help_outline
+            - button "Feedback" [ref=e156] [cursor=pointer]:
+              - img [ref=e158]: feedback
+      - main [ref=e160]:
+        - generic [ref=e167]:
+          - generic [ref=e180]:
+            - generic [ref=e182]:
+              - heading "All apps" [level=1] [ref=e186]
+              - tablist [ref=e190]:
+                - tab "Apps" [ref=e191] [cursor=pointer]:
+                  - generic [ref=e192]: Apps
+                - tab "Apps to confirm" [ref=e193] [cursor=pointer]:
+                  - generic [ref=e194]: Apps to confirm
+                - tab "app-ads.txt" [ref=e195] [cursor=pointer]:
+                  - generic [ref=e196]: app-ads.txt
+            - generic [ref=e200]:
+              - button "Set up app-ads.txt" [ref=e202] [cursor=pointer]:
+                - generic [ref=e203]: Set up app-ads.txt
+              - generic [ref=e207]:
+                - generic [ref=e209]:
+                  - button "Add app" [ref=e210] [cursor=pointer]:
+                    - generic [ref=e211]: Add app
+                  - button "App visibility" [disabled] [ref=e214]:
+                    - generic:
+                      - generic:
+                        - img: arrow_drop_down
+                      - generic: App visibility
+                  - button "Point to or press enter on this icon for more information about App visibility" [ref=e215] [cursor=pointer]:
+                    - img [ref=e217]: help_outline
+                  - button "All visible apps" [ref=e220] [cursor=pointer]:
+                    - generic [ref=e221]: All visible apps
+                    - img [ref=e223]: arrow_drop_down
+                - grid "Apps" [ref=e226]:
+                  - row "Select all rows App App ID Approval status Status details Stores Package name or store ID Ad units" [ref=e227]:
+                    - gridcell "Select all rows" [ref=e228]:
+                      - checkbox "Select all rows" [ref=e230] [cursor=pointer]:
+                        - img [ref=e232]
+                    - columnheader "App" [ref=e233] [cursor=pointer]:
+                      - generic [ref=e235]:
+                        - generic [ref=e236]: App
+                        - img [ref=e238]: help_outline
+                    - columnheader "App ID" [ref=e239] [cursor=pointer]:
+                      - generic [ref=e241]:
+                        - generic [ref=e242]: App ID
+                        - img [ref=e244]: help_outline
+                    - columnheader "Approval status" [ref=e245] [cursor=pointer]:
+                      - generic [ref=e247]:
+                        - generic [ref=e248]: Approval status
+                        - img [ref=e250]: help_outline
+                    - columnheader "Status details" [ref=e251]:
+                      - generic [ref=e253]:
+                        - generic [ref=e254]: Status details
+                        - img [ref=e256]: help_outline
+                    - columnheader "Stores" [ref=e257] [cursor=pointer]:
+                      - generic [ref=e259]:
+                        - generic [ref=e260]: Stores
+                        - img [ref=e262]: help_outline
+                    - columnheader "Package name or store ID" [ref=e263] [cursor=pointer]:
+                      - generic [ref=e265]:
+                        - generic [ref=e266]: Package name or store ID
+                        - img [ref=e268]: help_outline
+                    - columnheader "Ad units" [ref=e269] [cursor=pointer]:
+                      - generic [ref=e271]:
+                        - generic [ref=e272]: Ad units
+                        - img [ref=e274]: help_outline
+                  - row "Select row JustPass Android Copy to clipboard Requires review Limited ad serving Add store to lift limit Add store — 1 active" [ref=e275]:
+                    - gridcell "Select row" [ref=e276]:
+                      - checkbox "Select row" [ref=e278] [cursor=pointer]:
+                        - img [ref=e280]
+                    - gridcell "JustPass Android" [ref=e281]:
+                      - region "JustPass Android" [ref=e285]:
+                        - img [ref=e287]
+                        - generic [ref=e288]:
+                          - link "JustPass" [ref=e290] [cursor=pointer]
+                          - generic [ref=e291]: Android
+                    - gridcell "Copy to clipboard" [ref=e292]:
+                      - button "Copy to clipboard" [ref=e295] [cursor=pointer]:
+                        - img [ref=e298]: content_copy
+                        - generic [ref=e302]:
+                          - generic [ref=e303]: ca-app-pub-4936276228225156~
+                          - generic [ref=e304]: "9342992412"
+                    - gridcell "Requires review" [active] [ref=e305]:
+                      - generic [ref=e308]:
+                        - img [ref=e310]: alert
+                        - generic [ref=e311]: Requires review
+                    - gridcell "Limited ad serving Add store to lift limit" [ref=e312]:
+                      - generic [ref=e313]:
+                        - text: Limited ad serving
+                        - generic [ref=e315]: Add store to lift limit
+                    - gridcell "Add store" [ref=e316]:
+                      - link "Add store" [ref=e318] [cursor=pointer]
+                    - gridcell "—" [ref=e319]:
+                      - generic [ref=e324]: —
+                    - gridcell "1 active" [ref=e325]:
+                      - link "1 active" [ref=e327] [cursor=pointer]:
+                        - /url: /v2/apps/9342992412/adunits/list
+                        - generic [ref=e331]: 1 active
+                - generic [ref=e334]:
+                  - generic [ref=e335]:
+                    - generic [ref=e336]: "Show rows:"
+                    - 'button "Show rows: 15 selected." [ref=e339] [cursor=pointer]':
+                      - generic [ref=e340]: "15"
+                      - img [ref=e342]: arrow_drop_down
+                  - generic [ref=e343]:
+                    - generic [ref=e345]: 1 - 1 of 1
+                    - generic [ref=e346]:
+                      - button "Go to the first page" [disabled] [ref=e347]:
+                        - generic:
+                          - generic:
+                            - img: first_page
+                      - button "Go to the previous page" [disabled] [ref=e348]:
+                        - generic:
+                          - generic:
+                            - img: chevron_left
+                      - button "Go to the next page" [disabled] [ref=e349]:
+                        - generic:
+                          - generic:
+                            - img: chevron_right
+                      - button "Go to the last page" [disabled] [ref=e350]:
+                        - generic:
+                          - generic:
+                            - img: last_page
+          - generic [ref=e169]:
+            - text: © 2026 Google
+            - link "Privacyopen_in_new" [ref=e170] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en_US/policies/privacy
+            - link "Termsopen_in_new" [ref=e171] [cursor=pointer]:
+              - /url: https://adsense.google.com/adsense/terms

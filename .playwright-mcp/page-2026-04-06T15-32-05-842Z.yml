@@ -1,0 +1,109 @@
+- application [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - iframe [ref=e3]:
+    
+  - banner "Menu bar" [ref=e4]:
+    - generic [ref=e7]:
+      - link "Sheets home" [ref=e9] [cursor=pointer]:
+        - /url: https://docs.google.com/spreadsheets/u/0/?authuser=0&usp=sheets_web
+      - generic [ref=e16]:
+        - generic "JustPass Exam Data" [ref=e18]:
+          - generic [ref=e19]:
+            - generic: JustPass Exam Data
+            - textbox "Rename" [ref=e21]: JustPass Exam Data
+          - generic [ref=e22]:
+            - checkbox "Star" [ref=e24] [cursor=pointer]
+            - 'button "Document status: Saved to Drive." [ref=e28]'
+        - generic [ref=e35]:
+          - button "Last edit was 2 minutes ago" [ref=e37] [cursor=pointer]
+          - button "Show all comments" [ref=e41] [cursor=pointer]
+          - button [ref=e45]
+          - generic [ref=e50]:
+            - button "Share. Private to only me." [ref=e51] [cursor=pointer]: Share
+            - button "Quick sharing actions" [ref=e53] [cursor=pointer]
+          - 'button "Google Account: Tarunswamy Muralidharan (tmswamy10@gmail.com)" [ref=e57] [cursor=pointer]':
+            - img [ref=e59]
+            - img [ref=e64]
+    - generic [ref=e65]:
+      - menubar [ref=e67]:
+        - menuitem "File" [ref=e68] [cursor=pointer]
+        - menuitem "Edit" [ref=e69] [cursor=pointer]
+        - menuitem "View" [ref=e70] [cursor=pointer]
+        - menuitem "Insert" [ref=e71] [cursor=pointer]
+        - menuitem "Format" [ref=e72] [cursor=pointer]
+        - menuitem "Data" [ref=e73] [cursor=pointer]
+        - menuitem "Tools" [ref=e74] [cursor=pointer]
+        - menuitem "Gemini" [ref=e75] [cursor=pointer]
+        - menuitem "Extensions" [ref=e76] [cursor=pointer]
+        - menuitem "Help" [ref=e77] [cursor=pointer]
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - toolbar "Search the menus (Alt+/)" [ref=e80]:
+            - combobox "Menus" [ref=e82]
+          - toolbar "Main" [ref=e83]:
+            - button "Undo (Ctrl+Z)" [ref=e84] [cursor=pointer]
+            - button "Redo (Ctrl+Y)" [ref=e89] [cursor=pointer]
+            - button "Print (Ctrl+P)" [ref=e94] [cursor=pointer]
+            - button "Paint format" [ref=e99] [cursor=pointer]
+            - combobox "Zoom" [ref=e104] [cursor=pointer]:
+              - option "Zoom list. 100% selected." [selected] [ref=e107]:
+                - textbox "Zoom" [ref=e108]: 100%
+            - separator [disabled] [ref=e112]
+            - button "Format as currency" [ref=e113] [cursor=pointer]:
+              - generic [ref=e115]: $
+            - button "Format as percent" [ref=e116] [cursor=pointer]:
+              - generic [ref=e118]: "%"
+            - button "Decrease decimal places" [ref=e119] [cursor=pointer]
+            - button "Increase decimal places" [ref=e124] [cursor=pointer]
+            - button "More formats" [ref=e129] [cursor=pointer]:
+              - generic [ref=e132]: "123"
+            - separator [disabled] [ref=e133]
+            - listbox "Font" [ref=e134] [cursor=pointer]:
+              - option "Font list. Default (Arial) selected." [selected] [ref=e137]: Default (Arial)
+            - separator [disabled] [ref=e141]
+            - button "Decrease font size (Ctrl+Shift+comma)" [ref=e142] [cursor=pointer]
+            - combobox "Font size" [ref=e147] [cursor=pointer]:
+              - option "Font size list. 10 selected." [selected] [ref=e150]:
+                - textbox "Font size" [ref=e151]: "10"
+            - button "Increase font size (Ctrl+Shift+period)" [ref=e152] [cursor=pointer]
+            - separator [disabled] [ref=e157]
+            - button "Bold (Ctrl+B)" [ref=e158] [cursor=pointer]
+            - button "Italic (Ctrl+I)" [ref=e163] [cursor=pointer]
+            - button "Strikethrough (Alt+Shift+5)" [ref=e168] [cursor=pointer]
+            - button "Text color" [ref=e173] [cursor=pointer]
+            - separator [disabled] [ref=e180]
+            - button "Fill color" [ref=e181] [cursor=pointer]
+            - button "Borders" [ref=e188] [cursor=pointer]
+            - button "Merge cells" [disabled] [ref=e194]
+            - button "Select merge type" [disabled] [ref=e199]
+            - separator [disabled] [ref=e205]
+            - button "More" [ref=e206] [cursor=pointer]
+        - toolbar "Mode and view" [ref=e213]:
+          - button "Hide the menus (Ctrl+Shift+F)" [ref=e214] [cursor=pointer]
+    - generic:
+      - generic:
+        - button "Show side panel":
+          - img [ref=e220] [cursor=pointer]
+    - generic [ref=e225]:
+      - generic "Name box (Ctrl + J)" [ref=e226]:
+        - textbox [ref=e227]: A1
+        - button "Name box menu button. Select one of the menu items to navigate to its corresponding named range." [ref=e229] [cursor=pointer]
+      - textbox [ref=e245]
+  - navigation "Sheet tab bar" [ref=e281]:
+    - toolbar [ref=e282]:
+      - button "Add Sheet" [ref=e283] [cursor=pointer]
+      - button "All Sheets" [ref=e288] [cursor=pointer]
+    - toolbar [ref=e295]:
+      - button "Sheet1" [ref=e296]:
+        - generic [ref=e300]: Sheet1
+      - button "ExamTimetable" [ref=e304] [cursor=pointer]:
+        - generic [ref=e308]: ExamTimetable
+    - toolbar [ref=e312]
+  - generic [ref=e313]:
+    - textbox [active]
+  - link "Turn on screen reader support" [ref=e314] [cursor=pointer]:
+    - /url: "#"
+  - textbox [ref=e315]
+  - region [ref=e316]: To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+  - region

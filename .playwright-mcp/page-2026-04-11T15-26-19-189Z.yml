@@ -1,0 +1,246 @@
+- generic [ref=e3]:
+  - button "Skip to main content" [ref=e5] [cursor=pointer]:
+    - generic [ref=e6]: Skip to main content
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - button "Menu" [ref=e13] [cursor=pointer]:
+            - img [ref=e16]: menu
+          - link "Go to AdMob home" [ref=e18] [cursor=pointer]:
+            - /url: /v2/home
+        - generic [ref=e24]:
+          - img [ref=e27]: search
+          - generic [ref=e28]:
+            - generic:
+              - generic: Search for apps, ad units, mediation groups, reports, and campaigns
+            - combobox "Search box to look for your apps, ad units, mediation groups, reports, and campaigns" [ref=e29]
+        - generic [ref=e30]:
+          - button "Open notifications" [ref=e33] [cursor=pointer]:
+            - generic [ref=e36]:
+              - img [ref=e38]: notifications
+              - generic [ref=e40]: "3"
+          - button "Google account" [ref=e44] [cursor=pointer]:
+            - img "Google account (tmswamy10@gmail.com)" [ref=e45]
+    - generic [ref=e46]:
+      - navigation [ref=e47]:
+        - navigation "Sidebar" [ref=e50]:
+          - link "Home" [ref=e55] [cursor=pointer]:
+            - /url: /v2/home
+            - img [ref=e57]: home
+          - link "Open/Close apps" [active] [ref=e64] [cursor=pointer]:
+            - img [ref=e66]: apps
+            - img [ref=e473]: chevron_right
+            - dialog [ref=e474]:
+              - generic [ref=e476]:
+                - menu [ref=e479]:
+                  - menuitem "JustPass Android" [ref=e480]:
+                    - region "JustPass Android" [ref=e483]:
+                      - img [ref=e485]
+                      - generic [ref=e486]:
+                        - generic [ref=e488]: JustPass
+                        - generic [ref=e489]: Android
+                - generic [ref=e491]:
+                  - button "Add app" [ref=e492]:
+                    - generic [ref=e493]: Add app
+                  - button "View all apps" [ref=e496]:
+                    - generic [ref=e497]: View all apps
+          - generic [ref=e68]:
+            - link "Reports" [ref=e72] [cursor=pointer]:
+              - /url: /v2/reports/library
+              - img [ref=e74]: assessment
+            - link "Mediation" [ref=e79] [cursor=pointer]:
+              - /url: /v2/mediation/groups/list
+            - link "Campaigns" [ref=e85] [cursor=pointer]:
+              - /url: /v2/campaigns/list
+              - img [ref=e87]: campaign
+          - generic [ref=e89]:
+            - link "Policy center" [ref=e93] [cursor=pointer]:
+              - /url: /v2/policycenter
+              - img [ref=e95]: verified_user
+            - link "Privacy & messaging" [ref=e100] [cursor=pointer]:
+              - /url: /v2/privacymessaging
+            - link "Publisher data" [ref=e106] [cursor=pointer]:
+              - /url: /v2/first-party-data-controls/list
+              - img [ref=e108]: badge
+            - link "Blocking controls" [ref=e113] [cursor=pointer]:
+              - /url: /v2/pubcontrols
+              - img [ref=e115]: block
+            - link "Payments" [ref=e120] [cursor=pointer]:
+              - /url: /v2/payments/overview
+            - link "Change history" [ref=e126] [cursor=pointer]:
+              - /url: /v2/changehistory
+              - img [ref=e128]: history
+            - link "Settings" [ref=e133] [cursor=pointer]:
+              - /url: /v2/settings/personal-settings
+              - img [ref=e135]: settings
+            - link "Labs" [ref=e140] [cursor=pointer]:
+              - /url: /v2/labs/list
+              - img [ref=e142]: stream_science
+            - button "Help" [ref=e147] [cursor=pointer]:
+              - img [ref=e149]: help_outline
+            - button "Feedback" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]: feedback
+      - main [ref=e158]:
+        - heading "Home" [level=1] [ref=e166]
+        - generic [ref=e168]:
+          - generic [ref=e186]:
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - generic [ref=e190]: Welcome to AdMob!
+                - generic [ref=e191]: We'll help you start earning money from your apps. Follow these tasks to complete AdMob account approval and setup. Take a tour
+              - generic [ref=e192]:
+                - generic [ref=e194]: 3/4
+                - generic [ref=e199]:
+                  - generic [ref=e201]:
+                    - generic [ref=e202]:
+                      - generic [ref=e203]: Apps
+                      - generic [ref=e204]:
+                        - img [ref=e206]: check_circle_filled
+                        - img [ref=e208]: lens
+                        - img [ref=e210]: lens
+                    - generic [ref=e211]: Link to app store
+                    - generic [ref=e212]: Apps must be approved before serving ads. Link to an app store to prompt a review.
+                    - link "Learn more, Opens in a new tab" [ref=e214] [cursor=pointer]:
+                      - /url: https://support.google.com/admob/answer/10037806?hl=en_US
+                      - text: Learn more open_in_new
+                    - button "Link to app store" [ref=e218] [cursor=pointer]:
+                      - generic [ref=e219]: Link to app store
+                  - generic [ref=e222]:
+                    - generic [ref=e223]:
+                      - generic [ref=e224]: Payments
+                      - img [ref=e227]: check_circle_filled
+                    - generic [ref=e228]: Your payment profile is complete
+                    - generic [ref=e229]: Now your account is all set to be reviewed and approved.
+                    - button "Hide" [ref=e233] [cursor=pointer]:
+                      - generic [ref=e234]: Hide
+                  - generic [ref=e237]:
+                    - generic [ref=e238]:
+                      - generic [ref=e239]: Ad units
+                      - img [ref=e242]: check_circle_filled
+                    - generic [ref=e243]: Your first ad unit is set up
+                    - generic [ref=e244]: You successfully added an ad unit in your app.
+                    - button "Hide" [ref=e248] [cursor=pointer]:
+                      - generic [ref=e249]: Hide
+              - generic [ref=e251]:
+                - button "Show hidden tasks (0)" [disabled] [ref=e253]:
+                  - generic: Show hidden tasks (0)
+                - generic [ref=e257]:
+                  - generic [ref=e259]: 1 - 3 of 4
+                  - generic [ref=e260]:
+                    - button "Go to the previous page" [disabled] [ref=e261]:
+                      - generic:
+                        - generic:
+                          - img: chevron_left
+                    - button "Go to the next page" [ref=e262] [cursor=pointer]:
+                      - img [ref=e265]: chevron_right
+            - generic [ref=e268]:
+              - generic [ref=e273]:
+                - generic [ref=e275]:
+                  - generic [ref=e276]: Total estimated earnings
+                  - button "Point to or press enter on this icon for more information about Total estimated earnings" [ref=e277] [cursor=pointer]:
+                    - img [ref=e279]: help_outline
+                - generic [ref=e281]:
+                  - generic "$0.000" [ref=e282]:
+                    - generic [ref=e283]: Today so far
+                    - generic [ref=e284]: $0.00
+                  - generic "$0.000" [ref=e285]:
+                    - generic [ref=e286]: Yesterday
+                    - generic [ref=e287]: $0.00
+                  - generic "$0.000" [ref=e288]:
+                    - generic [ref=e289]: This month so far
+                    - generic [ref=e290]: $0.00
+                  - generic "$0.000" [ref=e291]:
+                    - generic [ref=e292]: Last month
+                    - generic [ref=e293]: $0.00
+              - generic [ref=e294]:
+                - img [ref=e296]: event_note
+                - button "Last 7 days vs previous 7 days" [ref=e299] [cursor=pointer]:
+                  - generic [ref=e300]: Last 7 days vs previous 7 days
+                  - img [ref=e302]: arrow_drop_down
+              - generic [ref=e303]:
+                - generic [ref=e307]:
+                  - generic [ref=e312]:
+                    - generic [ref=e313]: Your account is approved
+                    - generic [ref=e314]: Congratulations! We've verified your account information and your ad serving is enabled.
+                  - button "Dismiss" [ref=e321] [cursor=pointer]:
+                    - generic [ref=e322]: Dismiss
+                - generic [ref=e327]:
+                  - generic [ref=e330]: Ads activity performance
+                  - generic [ref=e333]:
+                    - generic [ref=e335]:
+                      - generic [ref=e336]:
+                        - generic [ref=e337]: Estimated earnings
+                        - button "Point to or press enter on this icon for more information about Estimated earnings" [ref=e338] [cursor=pointer]:
+                          - img [ref=e340]: help_outline
+                      - generic [ref=e341]:
+                        - 'generic "Current: $0.00 Previous: $0.00" [ref=e342]':
+                          - generic [ref=e344]: $0.00
+                          - generic [ref=e345]: $0.00 (—)
+                        - img [ref=e349]
+                    - generic [ref=e353]:
+                      - generic [ref=e354]:
+                        - generic [ref=e355]: Requests
+                        - button "Point to or press enter on this icon for more information about Requests" [ref=e356] [cursor=pointer]:
+                          - img [ref=e358]: help_outline
+                      - generic [ref=e359]:
+                        - 'generic "Current: 0 Previous: 0" [ref=e360]':
+                          - generic [ref=e362]: "0"
+                          - generic [ref=e363]: 0 (—)
+                        - img [ref=e367]
+                    - generic [ref=e371]:
+                      - generic [ref=e372]:
+                        - generic [ref=e373]: Impressions
+                        - button "Point to or press enter on this icon for more information about Impressions" [ref=e374] [cursor=pointer]:
+                          - img [ref=e376]: help_outline
+                      - generic [ref=e377]:
+                        - 'generic "Current: 0 Previous: 0" [ref=e378]':
+                          - generic [ref=e380]: "0"
+                          - generic [ref=e381]: 0 (—)
+                        - img [ref=e385]
+                    - generic [ref=e389]:
+                      - generic [ref=e390]:
+                        - generic [ref=e391]: Match rate
+                        - button "Point to or press enter on this icon for more information about Match rate" [ref=e392] [cursor=pointer]:
+                          - img [ref=e394]: help_outline
+                      - generic [ref=e395]:
+                        - 'generic "Current: 0.00% Previous: 0.00%" [ref=e396]':
+                          - generic [ref=e398]: 0.00%
+                          - generic [ref=e399]: 0.00% (—)
+                        - img [ref=e403]
+                    - generic [ref=e407]:
+                      - generic [ref=e408]:
+                        - generic [ref=e409]: eCPM
+                        - button "Point to or press enter on this icon for more information about eCPM" [ref=e410] [cursor=pointer]:
+                          - img [ref=e412]: help_outline
+                      - generic [ref=e413]:
+                        - 'generic "Current: $0.00 Previous: $0.00" [ref=e414]':
+                          - generic [ref=e416]: $0.00
+                          - generic [ref=e417]: $0.00 (—)
+                        - img [ref=e421]
+                  - button "View report" [ref=e427] [cursor=pointer]:
+                    - generic [ref=e428]: View report
+                - generic [ref=e433]:
+                  - generic [ref=e436]: App performance
+                  - grid [ref=e444]:
+                    - row "App Estimated earnings Impressions" [ref=e445]:
+                      - columnheader "App" [ref=e446]:
+                        - generic [ref=e449]: App
+                      - columnheader "Estimated earnings" [ref=e450]:
+                        - generic [ref=e453]: Estimated earnings
+                      - columnheader "Impressions" [ref=e454]:
+                        - generic [ref=e457]: Impressions
+                    - row "No data to display" [ref=e458]:
+                      - cell "No data to display" [ref=e459]:
+                        - generic [ref=e461]: No data to display
+                  - generic [ref=e463]:
+                    - button "View report" [ref=e465] [cursor=pointer]:
+                      - generic [ref=e466]: View report
+                    - button "Add app" [ref=e469] [cursor=pointer]:
+                      - generic [ref=e470]: Add app
+          - generic [ref=e180]:
+            - text: © 2026 Google
+            - link "Privacyopen_in_new" [ref=e181] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en_US/policies/privacy
+            - link "Termsopen_in_new" [ref=e182] [cursor=pointer]:
+              - /url: https://adsense.google.com/adsense/terms

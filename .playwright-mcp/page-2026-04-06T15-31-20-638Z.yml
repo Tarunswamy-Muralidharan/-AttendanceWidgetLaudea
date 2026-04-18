@@ -1,0 +1,130 @@
+- generic [active] [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - region
+  - generic [ref=e4]:
+    - navigation [ref=e5]:
+      - button "Skip to main content" [ref=e7] [cursor=pointer]:
+        - generic [ref=e9]: Skip to main content
+      - button "Keyboard shortcuts" [ref=e11] [cursor=pointer]:
+        - generic [ref=e13]: Keyboard shortcuts
+      - button "Accessibility feedback" [ref=e15] [cursor=pointer]:
+        - generic [ref=e17]: Accessibility feedback
+    - banner [ref=e19]:
+      - generic [ref=e20]:
+        - link "Drive" [ref=e24] [cursor=pointer]:
+          - /url: https://drive.google.com/?tab=oo&authuser=0
+          - img [ref=e25]
+          - generic [ref=e26]: Drive
+        - generic [ref=e28]:
+          - button "Support" [ref=e31] [cursor=pointer]:
+            - img [ref=e32]
+          - button "Settings" [ref=e36] [cursor=pointer]:
+            - img [ref=e38]
+          - generic [ref=e43]:
+            - generic:
+              - button "Ask Gemini" [ref=e46] [cursor=pointer]:
+                - img [ref=e49]
+              - tooltip [ref=e52]: Ask Gemini
+        - generic [ref=e54]:
+          - button "Google apps" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+          - 'button "Google Account: Tarunswamy Muralidharan (tmswamy10@gmail.com)" [ref=e64] [cursor=pointer]':
+            - img [ref=e66]
+            - img [ref=e72]
+    - button "New" [ref=e75] [cursor=pointer]:
+      - img [ref=e78]
+      - generic [ref=e80]: New
+    - navigation [ref=e86]:
+      - heading "Folders and views" [level=2] [ref=e87]
+      - tree "Folders and views" [ref=e88]:
+        - treeitem "Home" [ref=e89]:
+          - link "Home" [ref=e90] [cursor=pointer]:
+            - generic "Home" [ref=e93]:
+              - generic [ref=e95]:
+                - img [ref=e98]
+                - img [ref=e103]
+              - generic "Home" [ref=e108]
+          - group
+        - treeitem "My Drive" [ref=e109]:
+          - link "My Drive" [ref=e110] [cursor=pointer]:
+            - img [ref=e113]
+            - generic "My Drive" [ref=e116]:
+              - generic [ref=e118]:
+                - img [ref=e121]
+                - img [ref=e126]
+              - generic "My Drive" [ref=e128]
+        - treeitem "Computers" [ref=e129]:
+          - link "Computers" [ref=e130] [cursor=pointer]:
+            - img [ref=e133]
+            - generic "Computers" [ref=e136]:
+              - generic [ref=e138]:
+                - img [ref=e141]
+                - img [ref=e146]
+              - generic "Computers" [ref=e149]
+        - treeitem "Shared with me" [ref=e150]:
+          - link "Shared with me" [ref=e151] [cursor=pointer]:
+            - generic "Shared with me" [ref=e154]:
+              - generic [ref=e156]:
+                - img [ref=e159]
+                - img [ref=e164]
+              - generic "Items shared with me" [ref=e170]: Shared with me
+          - group
+        - treeitem "Recent" [ref=e171]:
+          - link "Recent" [ref=e172] [cursor=pointer]:
+            - generic "Recent" [ref=e175]:
+              - generic [ref=e177]:
+                - img [ref=e180]
+                - img [ref=e186]
+              - generic "Recent items" [ref=e191]: Recent
+          - group
+        - treeitem "Starred" [ref=e192]:
+          - link "Starred" [ref=e193] [cursor=pointer]:
+            - generic "Starred" [ref=e196]:
+              - generic [ref=e198]:
+                - img [ref=e200]
+                - img [ref=e203]
+              - generic "Starred items" [ref=e207]: Starred
+          - group
+        - treeitem "Spam" [ref=e208]:
+          - link "Spam" [ref=e209] [cursor=pointer]:
+            - generic "Spam" [ref=e212]:
+              - generic [ref=e214]:
+                - img [ref=e217]
+                - img [ref=e221]
+              - generic "Spam" [ref=e226]
+          - group
+        - treeitem "Trash" [ref=e227]:
+          - link "Trash" [ref=e228] [cursor=pointer]:
+            - generic "Trash" [ref=e231]:
+              - generic [ref=e233]:
+                - img [ref=e236]
+                - img [ref=e241]
+              - generic "Trashed items" [ref=e246]: Trash
+          - group
+        - treeitem "Storage" [ref=e247]:
+          - link "Storage" [ref=e248] [cursor=pointer]:
+            - generic "Storage" [ref=e251]:
+              - generic [ref=e253]:
+                - img [ref=e256]
+                - img [ref=e261]
+              - generic "Storage" [ref=e264]
+          - group
+      - generic [ref=e269]:
+        - 'generic "Storage Summary: 15.32 GB of 5 TB used" [ref=e272] [cursor=pointer]': 15.32 GB of 5 TB used
+        - generic [ref=e276] [cursor=pointer]:
+          - text: Get more storage
+          - link "Get more storage" [ref=e277]:
+            - /url: https://drive.google.com/settings/storage?authuser=0&i=m&utm_source=drive&utm_medium=web&utm_campaign=g1_widget_normal#upgrade
+    - generic [ref=e280]:
+      - generic [ref=e283]:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - toolbar
+      - generic:
+        - navigation
+  - region

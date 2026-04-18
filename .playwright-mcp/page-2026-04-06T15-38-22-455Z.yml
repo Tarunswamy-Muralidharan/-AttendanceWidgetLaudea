@@ -1,0 +1,279 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Google Apps Script" [ref=e10] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e11]
+          - generic [ref=e12]: Apps Script
+        - generic [ref=e13]:
+          - generic [ref=e16]:
+            - button "Rename" [ref=e18] [cursor=pointer]: JustPass Exam Parser
+            - generic [ref=e1936]: cloud_done
+          - generic [ref=e26]:
+            - button "Deploy" [ref=e31] [cursor=pointer]:
+              - generic [ref=e34]:
+                - text: Deploy
+                - generic [ref=e35]: 
+            - button "Share this project with others" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: person_add
+            - button "Support" [ref=e42] [cursor=pointer]:
+              - generic [ref=e45]: help_outline
+        - generic [ref=e47]:
+          - button "Google apps" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - 'button "Google Account: Tarunswamy Muralidharan (tmswamy10@gmail.com)" [ref=e57] [cursor=pointer]':
+            - img [ref=e59]
+            - img [ref=e65]
+    - generic [ref=e67]:
+      - navigation "Apps Script project pages" [ref=e69]:
+        - link "Overview" [ref=e70] [cursor=pointer]:
+          - generic [ref=e72]: info_outline
+          - generic [ref=e73]: Overview
+        - link "Editor" [ref=e74] [cursor=pointer]:
+          - generic [ref=e76]: code
+          - generic [ref=e77]: Editor
+        - link "Project History" [ref=e78] [cursor=pointer]:
+          - generic [ref=e80]: history
+          - generic [ref=e81]: Project History
+        - link "Triggers" [ref=e82] [cursor=pointer]:
+          - generic [ref=e84]: alarm
+          - generic [ref=e85]: Triggers
+        - link "Executions" [ref=e86] [cursor=pointer]:
+          - generic [ref=e88]: playlist_play
+          - generic [ref=e89]: Executions
+        - link "Project Settings" [ref=e90] [cursor=pointer]:
+          - generic [ref=e92]: settings
+          - generic [ref=e93]: Project Settings
+      - generic [ref=e94]:
+        - heading "Editor" [level=1] [ref=e95]
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - heading "Files" [level=2] [ref=e100]
+              - generic [ref=e102]:
+                - button "Sort files alphabetically" [disabled] [ref=e104]:
+                  - generic [ref=e107]: sort_by_alpha
+                - button "Add a file" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e112]: add
+            - listbox "Project files" [ref=e114]:
+              - option "Code.gs" [ref=e115] [cursor=pointer]:
+                - generic "Code.gs" [ref=e116]
+                - button "File operations menu for Code.gs." [ref=e117]:
+                  - button "File operations menu for Code.gs." [ref=e118]:
+                    - generic [ref=e121]: 
+            - generic [ref=e122]:
+              - heading "Libraries" [level=2] [ref=e123]
+              - button "Add a library" [ref=e126] [cursor=pointer]:
+                - generic [ref=e129]: add
+            - generic:
+              - listbox "Library Dependencies"
+            - generic [ref=e130]:
+              - heading "Services" [level=2] [ref=e131]
+              - button "Add a service" [ref=e134] [cursor=pointer]:
+                - generic [ref=e137]: add
+            - listbox "Service Dependencies" [ref=e139]:
+              - option "Drive Operations menu for Drive." [ref=e140] [cursor=pointer]:
+                - generic "Drive" [ref=e141]
+                - button "Operations menu for Drive." [ref=e142]:
+                  - button "Operations menu for Drive." [ref=e143]:
+                    - generic [ref=e146]: 
+          - generic [ref=e153]:
+            - region [ref=e154]:
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e159]:
+                    - button "Undo code edit" [disabled]:
+                      - generic: undo
+                  - generic [ref=e162]:
+                    - button "Redo code edit" [disabled]:
+                      - generic: redo
+                - generic [ref=e166]:
+                  - button "Save project to Drive" [disabled]:
+                    - img
+                - generic [ref=e1910]:
+                  - generic [ref=e1913]:
+                    - button "Run the selected function" [disabled]:
+                      - generic: play_arrow
+                      - generic: Run
+                  - generic [ref=e1921]:
+                    - button "Debug the selected function" [disabled]:
+                      - img
+                      - generic: Debug
+                  - listbox "Select function to run" [disabled] [ref=e1931]:
+                    - option "reprocessAll" [disabled] [selected] [ref=e2007]
+                  - button "Stop the execution" [ref=e1954]:
+                    - generic [ref=e1957]: stop
+                    - generic [ref=e1958]: Stop
+                - button "Close the execution log panel" [ref=e1959]:
+                  - generic [ref=e197]: Execution log
+            - generic [ref=e199]:
+              - main [ref=e203]:
+                - generic [ref=e204]: .
+                - generic [ref=e206]:
+                  - iframe [ref=e207]:
+                    
+                  - code [ref=e209]:
+                    - generic [ref=e210]:
+                      - generic [ref=e223]:
+                        - generic [ref=e1771]:
+                          - generic [ref=e1773] [cursor=pointer]: 
+                          - generic [ref=e1774]: "1"
+                        - generic [ref=e1776]: "2"
+                        - generic [ref=e1778]: "3"
+                        - generic [ref=e1780]: "4"
+                        - generic [ref=e1782]: "5"
+                      - generic [ref=e312]:
+                        - generic [ref=e1859]: /**
+                        - generic [ref=e1861]: "* JustPass Exam Auto-Parser"
+                        - generic [ref=e1863]: "* Google Apps Script that monitors Gmail for college exam emails:"
+                        - generic [ref=e1865]: "* - Excel attachments -> Exam seat arrangements (hall + seat per roll number)"
+                        - generic [ref=e1867]: "* - PDF attachments -> Exam timetables (date + session + subject per branch)"
+                      - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=e213]: "/** * JustPass Exam Auto-Parser * Google Apps Script that monitors Gmail for college exam emails: * - Excel attachments -> Exam seat arrangements (hall + seat per roll number) * - PDF attachments -> Exam timetables (date + session + subject per branch) * * SETUP: * 1. Open script.google.com -> New Project * 2. Paste this code * 3. Enable Drive API: Services -> + -> Drive API"
+              - generic [ref=e400]:
+                - complementary [ref=e402]:
+                  - generic [ref=e404]: Execution log
+                  - generic [ref=e1960]:
+                    - list "Logs" [active] [ref=e1963]:
+                      - listitem "Log 1. 9:06:59 PM. Notice. Execution started." [ref=e1964]:
+                        - generic [ref=e1965]: 9:06:59 PM
+                        - generic [ref=e1966]: Notice
+                        - generic [ref=e1967]: Execution started
+                      - listitem "Log 2. 9:07:00 PM. Info. Removing label from 4 threads." [ref=e1968]:
+                        - generic [ref=e1969]: 9:07:00 PM
+                        - generic [ref=e1970]: Info
+                        - generic [ref=e1971]: Removing label from 4 threads
+                      - listitem "Log 3. 9:07:01 PM. Info. Found 8 thread(s) to process.." [ref=e1972]:
+                        - generic [ref=e1973]: 9:07:01 PM
+                        - generic [ref=e1974]: Info
+                        - generic [ref=e1975]: Found 8 thread(s) to process.
+                      - 'listitem "Log 4. 9:07:01 PM. Info. PDF: CAT - II - III yrs - Time table.pdf." [ref=e2008]':
+                        - generic [ref=e2009]: 9:07:01 PM
+                        - generic [ref=e2010]: Info
+                        - generic [ref=e2011]: "PDF: CAT - II - III yrs - Time table.pdf"
+                      - 'listitem "Log 5. 9:07:09 PM. Info. PDF text length: 3870." [ref=e2012]':
+                        - generic [ref=e2013]: 9:07:09 PM
+                        - generic [ref=e2014]: Info
+                        - generic [ref=e2015]: "PDF text length: 3870"
+                      - listitem [ref=e2016]:
+                        - generic [ref=e2017]: 9:07:09 PM
+                        - generic [ref=e2018]: Info
+                        - generic [ref=e2019]: "PDF text preview: PSG iTech PSG INSTITUTE OF TECHNOLOGY AND APPLIED RESEARCH OFFICE OF THE CONTROLLER OF EXAMINATIONS CONTROLLER OF EXAMINATIONS Ref: 124 /COE/A-M-26/ VI/CAT-II/2026 CIRCULAR Date: 6-4-2026 The Continuous Assessment Test-II for the VI Semester B.E./B.Tech. Students will be held from 17-4-2026 to 22-4-2026. The Schedule for the test is as mentioned below: Date Session FN-I Course Code Course Name Branch AG3601 Engineering Geology CIVIL (8.45 am EE3601 Protection and Switchgear EEE to 10.30 am) ME3691 Heat and Mass Transfer MECHANICAL FN-II CCS342 DEVOPS AI&DS (10.45am CCS356 to 17-4-2026 12.30 pm) ET3491 Object Oriented Software Engineering Embedded Systems and IOT Design CSBS, CSE ECE (Friday) AN-I OCS353 Data Science Fundamentals CIVIL, EEE, MECH (12.45 pm to OCS352 IOT Concepts and Applications 2.30 pm) AN-II OCE351 (2.45 pm Environment and Social Impact Assessment EEE AI&DS, CSBS, CSE to 4.30 pm) CS3491 Artificial Intelligence and Machine Learning ECE CE3601 Design of Steel Structural Elements CIVIL FN-I (8.45 am EE3602 Power System Operation and Control EEE to CAU332 Dynamics of Ground Vehicles 10.30 am) MECHANICAL CME338 Value Engineering FN-II CS3691 Embedded Systems and IOT AI&DS, CSE (10.45am CCW332 Digital Marketing CSBS to 12.30 pm) CEC366 Image Processing ECE 18-4-2026 CE3005 Rehabilitation/Heritage Restoration CIVIL (Saturday) AN-I (12.45 pm EE3016 Embedded System Design EEE to CME342 Ergonomics in Design 2.30 pm) MECHANICAL CME387 Non-Traditional Machining Processes AD3002 Health Care Analytics AI&DS AN-II CCS336 Cloud Services Management AI&DS, CSE (2.45 pm CCS335 Cloud Computing CSBS to 4.30 pm) CEC332 CEC339 Advanced Digital Signal Processing Fundamentals of Nanoelectronics ECE Course Date Session Course Name Branch Code CE3602 Structural Analysis II CIVIL FN-I (8.45 am to CEI331 PLC Programming EEE CME343 New Prod"
+                      - listitem "Log 7. 9:07:46 PM. Info. Added 57 timetable entries from CAT - II - III yrs - Time table.pdf." [ref=e2020]:
+                        - generic [ref=e2021]: 9:07:46 PM
+                        - generic [ref=e2022]: Info
+                        - generic [ref=e2023]: Added 57 timetable entries from CAT - II - III yrs - Time table.pdf
+                      - 'listitem "Log 8. 9:07:47 PM. Info. PDF: 15L301 (3).pdf." [ref=e2024]':
+                        - generic [ref=e2025]: 9:07:47 PM
+                        - generic [ref=e2026]: Info
+                        - generic [ref=e2027]: "PDF: 15L301 (3).pdf"
+                      - 'listitem "Log 9. 9:07:51 PM. Info. PDF text length: 4127." [ref=e2028]':
+                        - generic [ref=e2029]: 9:07:51 PM
+                        - generic [ref=e2030]: Info
+                        - generic [ref=e2031]: "PDF text length: 4127"
+                      - listitem [ref=e2032]:
+                        - generic [ref=e2033]: 9:07:51 PM
+                        - generic [ref=e2034]: Info
+                        - generic [ref=e2035]: "PDF text preview: 2216 No of Pages : 3 Course Code : 15D301 / E / L / R / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, MAY 2017 BE/(SW)BE – BIOMEDICAL / EEE / ECE / ROBOTICS / ICE Semester : 3 15D301 / E / L / R / U LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions from GROUP – I. 2. Answer any FOUR questions from GROUP – II. 3. Answer any ONE question from GROUP – III. 4. Ignore the box titled as “Answers for Group III” in the Main Answer Book. GROUP - I Marks : 10 x 3 = 30 1. Which of the following sets are linearly dependent/linearly independent? Why? i) ⎭⎬⎫ ⎩⎨⎧ ⊃Λ S 0 ii) S = {v1,v2 } , where 0ˆ v1 ≠and v2 ≠ α v1 for any iii) S = {v1,v2,v3,v4 }in (3) R . α , in (n) R . 2. Is all the vectors of the form (a,0,0), subspace of (3) R? Justify. 3. A civil engineer has measured the height of a 10 floor building as 2950 cm and the working height of each beam as 35 cm while the true values are 2945 cm and 30 cm respectively. Compare their absolute error and relative error. 4. What is the advantage of Pseudo inverse of a matrix over regular inverse? 5. What are the drawbacks of Newton’s Raphson method of solving f (x) = 0, numerically? 6. What are the disadvantages of Lagrange’s interpolation over Newton divided difference interpolation? 7. How the accuracy can be increased in Trapezoidal rule of evaluating a given definite integral ∫nxxf x dx ( )? 0 8. Using Gaussian two point formula, evaluate ∫1 0 5 x dx . Page No: 1 2216 No of Pages : 3 Course Code : 15D301 / E / L / R / U dy= , y(x0 ) = y0, 9. Interpret Euler’s method of solving initial value problem f (x, y) dx geometrically. 10. Distinguish between single step method and multi step method. GROUP - II Marks : 4 x 12.5 = 50 11. a) Check whether the set of all triples of real numbers (x, y,z)with the operations (x, y,z) + (x', y',z') = (x + x', y + y',"
+                      - 'listitem "Log 11. 9:07:51 PM. Info. No timetable entries found in: 15L301 (3).pdf." [ref=e2036]':
+                        - generic [ref=e2037]: 9:07:51 PM
+                        - generic [ref=e2038]: Info
+                        - generic [ref=e2039]: "No timetable entries found in: 15L301 (3).pdf"
+                      - 'listitem "Log 12. 9:07:53 PM. Info. PDF: 15L301 (4).pdf." [ref=e2040]':
+                        - generic [ref=e2041]: 9:07:53 PM
+                        - generic [ref=e2042]: Info
+                        - generic [ref=e2043]: "PDF: 15L301 (4).pdf"
+                      - 'listitem "Log 13. 9:07:57 PM. Info. PDF text length: 4330." [ref=e2044]':
+                        - generic [ref=e2045]: 9:07:57 PM
+                        - generic [ref=e2046]: Info
+                        - generic [ref=e2047]: "PDF text length: 4330"
+                      - listitem [ref=e2048]:
+                        - generic [ref=e2049]: 9:07:57 PM
+                        - generic [ref=e2050]: Info
+                        - generic [ref=e2051]: "PDF text preview: 1689 N o o f P ag es : 3 C o u rse C o d e : 15D 3 01 / E / L / U / R R oll N o: (T o be filled in by the candidate) P S G C O L L E G E O F T E C H N O L O G Y , C O IM B A T O R E - 641 004 S E M E S T E R E X A M IN A T IO N S , D E C E M B E R 2017 BE / B E (S W ) – B IO M E D IC A L / E C E / E E E / IC E / R& A S em ester : 3 15D 301 / E / L / U / R L IN E A R A L G E B R A A N D N U M E R I C A L A N A L Y S IS T im e : 3 H ou rs M axim u m M arks : 100 IN ST R U C T IO N S: 1. A nsw er A L L questions. E ach question carries 20 M ark s. 2. S ubdivision (a) carries 3 m arks each , subdivision (b) carries 7 m arks each and subdivision (c) carries 10 m arks each . 1. a) Is w , the set of all points on and inside a unit circle in XY - plane a subspace of R2 under sta ndard additio n and s tandard m ultiplicatio n by s calar? W hy o r w hy not? ’ b) Find the basis and dim ension of the solu tion spa ce of the hom oge neous sy stem AX = 0, w here 1 3 2 0 2 0 − ⎥⎥⎥⎥⎦⎤ ⎢⎢⎢⎢⎣⎡− − − A = 2 6 5 2 4 3 0 0 0 5 10 15 2 6 0 8 4 18 a 1 c) C heck w hether the set of all 2 X 2 m atrices of the form ⎟⎟⎠⎞ ⎜⎜⎝⎛b 1 w ith standard m atrix addition and stand ard m ultiplication by sc alar form s a vector space or not by verifying all axiom s. 2. a) W hy do w e require a bsolute rela tive error w hen abso lute error is th ere? If an exact value 5lb is approxim ated to 4 .8 lb , then calculate the afore m entioned errors . b) Find the n um erically dom inant e igen va lue an d its correspon ding eigenvec tor of ⎢⎢⎢⎣⎡ 10 0 0 ⎥⎥⎥⎦⎤ ⎢⎢⎢⎣⎡111, perform ing 5 ⎥⎥⎥⎦⎤ Ausing pow er m ethod w ith initial vector = − − 1 3 7 0 2 6 iterations c) Find the solu tion of the follow ing linear system of equ ations using. (i) C rout’s m ethod P age N o: 1 1689 N o o f P ag es : 3 C o u rse C o d e : 15D 3 01 / E / L / U / R (ii) G auss-S eidel m ethod perform ing 4 iteratio ns w ith initial guess (0, 0, 0 ) 6 2 11 x x x − + = 1 2 3 − + + = 2"
+                      - 'listitem "Log 15. 9:07:57 PM. Info. No timetable entries found in: 15L301 (4).pdf." [ref=e2052]':
+                        - generic [ref=e2053]: 9:07:57 PM
+                        - generic [ref=e2054]: Info
+                        - generic [ref=e2055]: "No timetable entries found in: 15L301 (4).pdf"
+                      - 'listitem "Log 16. 9:07:58 PM. Info. PDF: 15L301 (5).pdf." [ref=e2056]':
+                        - generic [ref=e2057]: 9:07:58 PM
+                        - generic [ref=e2058]: Info
+                        - generic [ref=e2059]: "PDF: 15L301 (5).pdf"
+                      - 'listitem "Log 17. 9:08:02 PM. Info. PDF text length: 4591." [ref=e2060]':
+                        - generic [ref=e2061]: 9:08:02 PM
+                        - generic [ref=e2062]: Info
+                        - generic [ref=e2063]: "PDF text length: 4591"
+                      - listitem [ref=e2064]:
+                        - generic [ref=e2065]: 9:08:02 PM
+                        - generic [ref=e2066]: Info
+                        - generic [ref=e2067]: "PDF text preview: 2007 No of Pages : 3 Course Code : 15D301/ E / L / R / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, DECEMBER - 2016 BE / BE(SW) – BIOMEDICAL / EEE / ECE / ICE / ROBOTICS Semester : 3 15D301 / E / L / R / U LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions from GROUP – I. 2. Answer any FOUR questions from GROUP – II. 3. Answer any ONE question from GROUP – III. 4. Ignore the box titled as “Answers for Group III” in the Main Answer Book. GROUP - I Marks : 10 x 3 = 30 1. Prove or disprove: “If AX =0is a homogeneous linear system of m equations in n unknowns, then the set of solution vectors is a subspace of Rn“. 2. Determine the basis and dimension for the subspace W of R4, where W = {(a,b,c,d); d =a +b, c = a −b}. 3. Evaluate −5 eusing two approaches 2 3 x x −+.... and x= − + − e x 1 − 2! 3! 1 1 x, ex = = e 1 2 3 x x + + + + x 2! 3! .... and compare with the true value of 6.737947 x 10-3. Use 4 terms to evaluate each series and compute true and approximate relative errors. 4. What is the speciality of pseudo inverse of a matrix over regular inverse? Why is it needed? 5. Interpret geometrically, False-position method. 6. List the advantages and disadvantages of Bairstow’s method. 7. Give the uses of Chebyshev interpolation. b 8. Can Gaussian quadrature be directly used to evaluate the integral f (x) dx ∫for the a following data? Why or Why not? x:0 x 2 x x 1 x 3 f (x):0 y 2 y 1 y 3 y Page No: 1 2007 No of Pages : 3 Course Code : 15D301/ E / L / R / U 9. Compare and contrast Taylor’s series method and Euler’s method. dy= = f (x), f (x ) y 10. Is it possible to integrate the initial value problem0 0 dx using Trapezoidal rule? Why or why not? GROUP - II Marks : 4 x 12.5 = 50 11.a) Check whether the set of all pairs of real numbers (x, y)with addition :(x, y) + (x′, y′)="
+                      - 'listitem "Log 19. 9:08:02 PM. Info. No timetable entries found in: 15L301 (5).pdf." [ref=e2068]':
+                        - generic [ref=e2069]: 9:08:02 PM
+                        - generic [ref=e2070]: Info
+                        - generic [ref=e2071]: "No timetable entries found in: 15L301 (5).pdf"
+                      - 'listitem "Log 20. 9:08:03 PM. Info. PDF: 15L301 (1).pdf." [ref=e2072]':
+                        - generic [ref=e2073]: 9:08:03 PM
+                        - generic [ref=e2074]: Info
+                        - generic [ref=e2075]: "PDF: 15L301 (1).pdf"
+                      - 'listitem "Log 21. 9:08:07 PM. Info. PDF text length: 4848." [ref=e2076]':
+                        - generic [ref=e2077]: 9:08:07 PM
+                        - generic [ref=e2078]: Info
+                        - generic [ref=e2079]: "PDF text length: 4848"
+                      - listitem [ref=e2080]:
+                        - generic [ref=e2081]: 9:08:07 PM
+                        - generic [ref=e2082]: Info
+                        - generic [ref=e2083]: "PDF text preview: 4418 No of Pages : 3 Course Code : 15D301 / E / L / R / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, DECEMBER 2019 BE / BE (SW) – BIOMEDICAL / ECE / EEE / ICE / ROBOTICS Semester : 3 15D301 / E / L / R / U LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivision (a) carries 3 marks each, subdivision (b) carries 7 marks each and subdivision (c) carries 10 marks each. 3. Course Outcome : Table Qn.3 CO3 Qn.1 CO1 Qn.2 CO2 Qn.4 CO4 Qn.5 CO5 …… …… …… …… …… ... . 1. a) Is W, the set of all points in R2 such that . x ≥ 0and y ≥ 0a subspace of R2 under standard addition and standard multiplication by scalar? Justify your answer geometrically. b) Determine a basis for and the dimension of the solution space of the homogeneous system 2x1 + 2 x2 − x3 + x5 = 0 − x1 − x2 +2 x3 −3 x4 + x5 = 0 x1 + x2 −2 x3 − x5 = 0 x3 + x4 + x5 = 0 a ⎡ c) Check whether the set of all 2 x 2 matrices of the form ⎢ 0with matrix addition ⎤ ⎣ 0 b ⎥ ⎦ and scalar multiplication forms a vector space or not. If so, prove it. If not, list the axioms that fail to hold. 2. a) Suppose that you have the task of measuring the lengths of a bridge and a rivet and come up with 9999 and 9 cm, respectively. If the true values are 10,000 and 10 cm, respectively, compute the true error and the true percent relative error for each case. Comment on your result. b) Employ the power method to determine numerically highest eigenvalue and the ⎡ ⎢ 6 2 0 ⎤ ⎥ Awith initial eigenvector = corresponding eigenvector for the matrix ⎢ ⎢ 2 4 1 ⎥ ⎥ 0 1 1 ⎡ ⎢ ⎢ ⎢ ⎣ 1 0 0 ⎤ ⎥ ⎥ ⎥ ⎦ − ⎣ ⎦ , Perform 5 iterations. Page No. : 1 4418 No of Pages : 3 Course Code : 15D301 / E / L / R / U c) i) Solve the following system of equations by Gauss Seidel and Gauss Jacobi methods : 6 2 11, x1"
+                      - 'listitem "Log 23. 9:08:07 PM. Info. No timetable entries found in: 15L301 (1).pdf." [ref=e2084]':
+                        - generic [ref=e2085]: 9:08:07 PM
+                        - generic [ref=e2086]: Info
+                        - generic [ref=e2087]: "No timetable entries found in: 15L301 (1).pdf"
+                      - 'listitem "Log 24. 9:08:08 PM. Info. PDF: 15L301 (2).pdf." [ref=e2088]':
+                        - generic [ref=e2089]: 9:08:08 PM
+                        - generic [ref=e2090]: Info
+                        - generic [ref=e2091]: "PDF: 15L301 (2).pdf"
+                      - 'listitem "Log 25. 9:08:12 PM. Info. PDF text length: 3616." [ref=e2092]':
+                        - generic [ref=e2093]: 9:08:12 PM
+                        - generic [ref=e2094]: Info
+                        - generic [ref=e2095]: "PDF text length: 3616"
+                      - listitem [ref=e2096]:
+                        - generic [ref=e2097]: 9:08:12 PM
+                        - generic [ref=e2098]: Info
+                        - generic [ref=e2099]: "PDF text preview: 3563 No of Pages : 2 Course Code : 15D301 / E / L / U / R Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, MAY 2018 BE / (SW) BE / BTech – BIOMEDICAL / EEE / ECE / ICE / ROBOTICS Semester : 3 15D301 / E / L / U / R LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivision (a) carries 3 marks each, subdivision (b) carries 7 marks each and subdivision (c) carries 10 marks each. 1. a) In a vector space Vover a field F, what is the geometrical meaning of the axiom kv∈V? (where kis a scalar) b) Determine whether the set of triples of real numbers (x, y,z)with the operations (x, y,z) + (x' , y' ,z ') = (x + x' , y + y' ,z + z ')and k(x, y,z) = (0,0,0)form a vector space or not, by verifying all axioms. c) When will you say that a vector space is infinite dimensional? Determine a basis and dimension of the solution space of the homogeneous system 2x1 + 2x2 − x3 + x5 = 0 − x1 − x2 + 2x3 −3x4 + x5 = 0 x1 + x2 − 2x3 − x5 = 0 x3 + x4 + x5 = 0. 2. a) The voltage of a high transmission line is stated to be 2.4 mV, while the actual voltage may range from 2.1 mV to 2.7 mV. What is the absolute and relative error of the voltage? b) Find the dominant eigenvalue and the corresponding eigenvector for the matrix 3 1 0 ⎡ − − − ⎤ ⎢ ⎢ 2 4 3 ⎥ ⎥ 0 1 1 using Power method. ⎣ − ⎦ c) Apply Gauss Jacobi and Gauss siedel method of iteration to solve the equations 3x1 − 0.1x2 + 0.2x3 = 7.85 0.1x1 + 7x2 − 0.3x3 =19.3 0.3x1 −0.2x2 +10x3 = 71.4. Compare the results. 3. a) Interpret geometrically the method of false position. b) Explain the convergence criteria of Newton Raphson method. Hence find the 2 f x = x − x +by using Newton Raphson method. positive root of ( ) 2cos 1 Page No.1 3563 No of Pages : 2 Course Code : 15D301 / E / L / U / R c) Find all roots of t"
+                      - 'listitem "Log 27. 9:08:12 PM. Info. No timetable entries found in: 15L301 (2).pdf." [ref=e2100]':
+                        - generic [ref=e2101]: 9:08:12 PM
+                        - generic [ref=e2102]: Info
+                        - generic [ref=e2103]: "No timetable entries found in: 15L301 (2).pdf"
+                      - 'listitem "Log 28. 9:08:14 PM. Info. PDF: 15L301.pdf." [ref=e2104]':
+                        - generic [ref=e2105]: 9:08:14 PM
+                        - generic [ref=e2106]: Info
+                        - generic [ref=e2107]: "PDF: 15L301.pdf"
+                      - 'listitem "Log 29. 9:08:17 PM. Info. PDF text length: 3612." [ref=e2108]':
+                        - generic [ref=e2109]: 9:08:17 PM
+                        - generic [ref=e2110]: Info
+                        - generic [ref=e2111]: "PDF text length: 3612"
+                      - listitem [ref=e2112]:
+                        - generic [ref=e2113]: 9:08:17 PM
+                        - generic [ref=e2114]: Info
+                        - generic [ref=e2115]: "PDF text preview: 2677 No of Pages : 2 Course Code : 15D301 / E / L / R / U Roll No: (To be filled in by the candidate) PSG COLLEGE OF TECHNOLOGY, COIMBATORE - 641 004 SEMESTER EXAMINATIONS, MAY 2019 BE / (SW)BE – BIOMEDICAL / ECE / EEE / ICE / ROBOTICS Semester : 1 15D301 / E / L / R / U LINEAR ALGEBRA AND NUMERICAL ANALYSIS Time : 3 Hours Maximum Marks : 100 INSTRUCTIONS: 1. Answer ALL questions. Each question carries 20 Marks. 2. Subdivision (a) carries 3 marks each, subdivision (b) carries 7 marks each and subdivision (c) carries 10 marks each. 1. a) Test whether all the vectors of the form (a, 1, 1) in R3form the subspace of R3. b) Determine the dimension and basis for the solution space of x1 − 3x2 + x3 = 0 2x1 − 6x2 + 2x3 = 0 3x1 − 9x2 + 3x3 = 0 c) Determine whether the set of all pairs of real numbers (x, y) is a vector space with the operation (x, y)+(x/, y/) = (x + x/ + 1, y + y/ + 1) and k(x, y) = (kx, ky), k, any scalar. If not list all the axioms that fails to hold. 2. a) In numerical analysis how will you interpret accuracy and precision? b) Find the largest Eigen value and the corresponding Eigen vector of the matrix ⎡ ⎢ 2 1 0 − − − ⎤ ⎥ ⎡ ⎢ 1 0 ⎤ ⎥ ⎢ ⎢ 1 2 1 ⎥ ⎥ 0 1 2 using power method with the initial Eigen vector ⎢ ⎥ ⎢ ⎥ 0 ⎣ − ⎦ ⎣ ⎦ c) i) Solve the system of equations 2x + 3y + z = −1 5x + y + z = 9 3x + 2y + 4z = 11 using Crouts method and Gauss Jordan method. (OR) ii) Solve the following system of equations by Gauss-Jacobi method and Gauss Seidal method. 27x + 6y − z = 85 6x + 15y + 2z = 72 x + y + 54z = 110 Page No. : 1 2677 No of Pages : 2 Course Code : 15D301 / E / L / R / U 3. a) Apply Newton’s method to the equation x = Nto derive iterative formula for getting square root of a natural number N. b) Find the real root of the equation x3 – 1 – cosx = 0 that lies in (1,,2) by regula-Falsi method (correct to 3 decimal places) c) Apply Graeffe’s method upto 3 squaring to the find the roots of the po"
+                      - 'listitem "Log 31. 9:08:17 PM. Info. No timetable entries found in: 15L301.pdf." [ref=e2116]':
+                        - generic [ref=e2117]: 9:08:17 PM
+                        - generic [ref=e2118]: Info
+                        - generic [ref=e2119]: "No timetable entries found in: 15L301.pdf"
+                      - 'listitem "Log 32. 9:08:18 PM. Info. PDF: 15L401 (2).pdf." [ref=e2120]':
+                        - generic [ref=e2121]: 9:08:18 PM
+                        - generic [ref=e2122]: Info
+                        - generic [ref=e2123]: "PDF: 15L401 (2).pdf"
+                    - generic [ref=e1977]:
+                      - generic: Loading...
+                - generic:
+                  - button "Close execution logs pane" [ref=e214] [cursor=pointer]:
+                    - generic [ref=e215]: close
+                  - tooltip [ref=e216]: Close execution logs
+  - generic: Saving project...
+  - generic [ref=e217]:
+    - alert
+    - alert
+    - complementary
+    - complementary

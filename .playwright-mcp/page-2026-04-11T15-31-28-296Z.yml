@@ -1,0 +1,62 @@
+- generic [ref=e3]:
+  - button "Skip to main content" [ref=e5] [cursor=pointer]:
+    - generic [ref=e6]: Skip to main content
+  - main [ref=e45]:
+    - generic [ref=e313]:
+      - button "Close" [ref=e314] [cursor=pointer]:
+        - img [ref=e317]: close
+      - heading "Create ad unit" [level=1] [ref=e320]
+      - button "More options" [ref=e322] [cursor=pointer]:
+        - img [ref=e325]: more_vert
+    - generic [ref=e53]:
+      - generic [ref=e502]:
+        - generic [ref=e503]:
+          - generic [ref=e504]:
+            - img [ref=e506]: check_circle
+            - generic [ref=e507]: Ad unit successfully created
+          - generic [ref=e508]:
+            - text: New ad units may take up to an hour to start showing ads.
+            - link "Want to test with sample ad units while you wait?open_in_new" [ref=e510] [cursor=pointer]:
+              - /url: https://developers.google.com/admob/android/test-ads
+        - generic [ref=e511]:
+          - generic [ref=e512]: Next, place the ad unit inside your app
+          - generic [ref=e513]:
+            - generic [ref=e515]:
+              - text: "Follow these instructions:"
+              - list [ref=e516]:
+                - listitem [ref=e517]:
+                  - text: Complete the instructions in the
+                  - link "Google Mobile Ads SDK guideopen_in_new" [ref=e518] [cursor=pointer]:
+                    - /url: https://developers.google.com/admob/android/quick-start?hl=en-US#import_the_mobile_ads_sdk
+                  - text: "using this app ID:"
+                  - generic [ref=e520]:
+                    - img "JustPass" [ref=e521]
+                    - generic [ref=e522]: ca-app-pub-4936276228225156~9342992412
+                    - img [ref=e524]
+                - listitem [ref=e527]:
+                  - text: Follow the
+                  - link "interstitial implementation guideopen_in_new" [ref=e528] [cursor=pointer]:
+                    - /url: https://developers.google.com/admob/android/interstitial?hl=en-US
+                  - text: "to integrate the SDK. You'll specify ad type and placement when you integrate the code using this ad unit ID:"
+                  - generic [ref=e530]:
+                    - img "Bunkometer Interstitial" [ref=e531]
+                    - generic [ref=e532]: ca-app-pub-4936276228225156/3208220090
+                    - img [ref=e534]
+                - listitem [ref=e537]:
+                  - text: Review the
+                  - link "AdMob policiesopen_in_new" [ref=e538] [cursor=pointer]:
+                    - /url: https://support.google.com/admob/answer/6128543?hl=en-US
+                  - text: to ensure your implementation complies.
+            - button "Email instructions" [ref=e539] [cursor=pointer]:
+              - generic [ref=e540]: Email instructions
+        - generic [ref=e542]:
+          - button "Done" [ref=e543] [cursor=pointer]:
+            - generic [ref=e544]: Done
+          - button "Create another ad unit" [ref=e546] [cursor=pointer]:
+            - generic [ref=e547]: Create another ad unit
+      - generic [ref=e60]:
+        - text: © 2026 Google
+        - link "Privacyopen_in_new" [ref=e61] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en_US/policies/privacy
+        - link "Termsopen_in_new" [ref=e62] [cursor=pointer]:
+          - /url: https://adsense.google.com/adsense/terms

@@ -1,0 +1,96 @@
+- generic [ref=e3]:
+  - button "Skip to main content" [ref=e5] [cursor=pointer]:
+    - generic [ref=e6]: Skip to main content
+  - generic [ref=e8]:
+    - banner [ref=e549]:
+      - generic [ref=e550]:
+        - generic [ref=e551]:
+          - button "Menu" [ref=e553] [cursor=pointer]:
+            - img [ref=e556]: menu
+          - link "Go to AdMob home" [ref=e558] [cursor=pointer]:
+            - /url: /v2/home
+        - generic [ref=e564]:
+          - img [ref=e567]: search
+          - generic [ref=e568]:
+            - generic:
+              - generic: Search for apps, ad units, mediation groups, reports, and campaigns
+            - combobox "Search box to look for your apps, ad units, mediation groups, reports, and campaigns" [ref=e569]
+        - generic [ref=e570]:
+          - button "Open notifications" [ref=e573] [cursor=pointer]:
+            - generic [ref=e576]:
+              - img [ref=e578]: notifications
+              - generic [ref=e580]: "3"
+          - button "Google account" [ref=e584] [cursor=pointer]:
+            - img "Google account (tmswamy10@gmail.com)" [ref=e585]
+    - generic [ref=e44]:
+      - navigation [ref=e65]:
+        - navigation "Sidebar" [ref=e68]:
+          - link "Home" [ref=e73] [cursor=pointer]:
+            - /url: /v2/home
+            - img [ref=e75]: home
+          - generic [ref=e80]:
+            - link "Open/Close apps" [ref=e82] [cursor=pointer]:
+              - img [ref=e84]: apps
+            - generic [ref=e586]:
+              - region "JustPass Android" [ref=e589]:
+                - img [ref=e591]
+              - group [ref=e592]:
+                - link "App overview for JustPass" [ref=e594] [cursor=pointer]:
+                  - /url: /v2/apps/9342992412/overview
+                - link "Ad units in JustPass" [ref=e598] [cursor=pointer]:
+                  - /url: /v2/apps/9342992412/adunits/list
+                  - img [ref=e600]: ad_units
+                - link "Blocking controls for JustPass" [ref=e603] [cursor=pointer]:
+                  - /url: /v2/apps/9342992412/pubcontrols
+                  - img [ref=e605]: block
+                - link "App settings for JustPass" [ref=e608] [cursor=pointer]:
+                  - /url: /v2/apps/9342992412/settings
+          - generic [ref=e111]:
+            - link "Reports" [ref=e115] [cursor=pointer]:
+              - /url: /v2/reports/library
+              - img [ref=e117]: assessment
+            - link "Mediation" [ref=e122] [cursor=pointer]:
+              - /url: /v2/mediation/groups/list
+            - link "Campaigns" [ref=e128] [cursor=pointer]:
+              - /url: /v2/campaigns/list
+              - img [ref=e130]: campaign
+          - generic [ref=e132]:
+            - link "Policy center" [ref=e136] [cursor=pointer]:
+              - /url: /v2/policycenter
+              - img [ref=e138]: verified_user
+            - link "Privacy & messaging" [ref=e143] [cursor=pointer]:
+              - /url: /v2/privacymessaging
+            - link "Publisher data" [ref=e149] [cursor=pointer]:
+              - /url: /v2/first-party-data-controls/list
+              - img [ref=e151]: badge
+            - link "Blocking controls" [ref=e156] [cursor=pointer]:
+              - /url: /v2/pubcontrols
+              - img [ref=e158]: block
+            - link "Payments" [ref=e163] [cursor=pointer]:
+              - /url: /v2/payments/overview
+            - link "Change history" [ref=e169] [cursor=pointer]:
+              - /url: /v2/changehistory
+              - img [ref=e171]: history
+            - link "Settings" [ref=e176] [cursor=pointer]:
+              - /url: /v2/settings/personal-settings
+              - img [ref=e178]: settings
+            - link "Labs" [ref=e183] [cursor=pointer]:
+              - /url: /v2/labs/list
+              - img [ref=e185]: stream_science
+            - button "Help" [ref=e190] [cursor=pointer]:
+              - img [ref=e192]: help_outline
+            - button "Feedback" [ref=e197] [cursor=pointer]:
+              - img [ref=e199]: feedback
+      - main [ref=e45]:
+        - heading "Ad units" [level=1] [ref=e613]
+        - generic [ref=e53]:
+          - generic:
+            - generic:
+              - generic:
+                - generic "Ad units"
+          - generic [ref=e60]:
+            - text: © 2026 Google
+            - link "Privacyopen_in_new" [ref=e61] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en_US/policies/privacy
+            - link "Termsopen_in_new" [ref=e62] [cursor=pointer]:
+              - /url: https://adsense.google.com/adsense/terms

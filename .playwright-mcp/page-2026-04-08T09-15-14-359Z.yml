@@ -1,0 +1,261 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e1255] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e14]
+          - generic [ref=e15]: Apps Script
+        - generic [ref=e16]:
+          - generic [ref=e19]:
+            - button [ref=e1256] [cursor=pointer]: JustPass Exam Parser
+            - generic [ref=e1217]: cloud_done
+          - generic [ref=e38]:
+            - button [ref=e1257] [cursor=pointer]:
+              - generic [ref=e566]:
+                - text: Deploy
+                - generic [ref=e567]: 
+            - button [ref=e1258] [cursor=pointer]:
+              - generic [ref=e572]: person_add
+            - button [ref=e1259] [cursor=pointer]:
+              - generic [ref=e267]: help_outline
+        - generic [ref=e45]:
+          - button [ref=e1260] [cursor=pointer]:
+            - img [ref=e50]
+          - button [ref=e1261] [cursor=pointer]:
+            - img [ref=e57]
+            - img [ref=e63]
+    - generic [ref=e271]:
+      - navigation [ref=e1262]:
+        - link [ref=e1263] [cursor=pointer]:
+          - generic [ref=e276]: info_outline
+          - generic [ref=e277]: Overview
+        - link [ref=e1264] [cursor=pointer]:
+          - generic [ref=e280]: code
+          - generic [ref=e281]: Editor
+        - link [ref=e1265] [cursor=pointer]:
+          - generic [ref=e284]: history
+          - generic [ref=e285]: Project History
+        - link [ref=e1266] [cursor=pointer]:
+          - generic [ref=e288]: alarm
+          - generic [ref=e289]: Triggers
+        - link [ref=e1267] [cursor=pointer]:
+          - generic [ref=e292]: playlist_play
+          - generic [ref=e293]: Executions
+        - link [ref=e1268] [cursor=pointer]:
+          - generic [ref=e296]: settings
+          - generic [ref=e297]: Project Settings
+      - generic [ref=e298]:
+        - heading [level=1] [ref=e1269]: Editor
+        - generic [ref=e300]:
+          - generic [ref=e302]:
+            - generic [ref=e303]:
+              - heading [level=2] [ref=e1270]: Files
+              - generic [ref=e306]:
+                - button [disabled] [ref=e1271]:
+                  - generic [ref=e311]: sort_by_alpha
+                - button [ref=e1272] [cursor=pointer]:
+                  - generic [ref=e316]: add
+            - listbox [ref=e1273]:
+              - option [ref=e1274] [cursor=pointer]:
+                - generic [ref=e1275]: Code.gs
+                - button [ref=e1276]:
+                  - button [ref=e1277]:
+                    - generic [ref=e325]: 
+            - generic [ref=e326]:
+              - heading [level=2] [ref=e1278]: Libraries
+              - button [ref=e1279] [cursor=pointer]:
+                - generic [ref=e333]: add
+            - generic [ref=e334]:
+              - heading [level=2] [ref=e1280]: Services
+              - button [ref=e1281] [cursor=pointer]:
+                - generic [ref=e341]: add
+            - listbox [ref=e1282]:
+              - option [ref=e1283] [cursor=pointer]:
+                - generic [ref=e1284]: Drive
+                - button [ref=e1285]:
+                  - button [ref=e1286]:
+                    - generic [ref=e350]: 
+          - generic [ref=e357]:
+            - region [ref=e358]:
+              - generic [ref=e359]:
+                - generic [ref=e360]:
+                  - button [ref=e1287]:
+                    - generic [ref=e962]: undo
+                  - generic [ref=e366]:
+                    - button [disabled]:
+                      - generic: redo
+                - generic [ref=e370]:
+                  - button [disabled]:
+                    - img
+                - generic [ref=e1218]:
+                  - button [ref=e1288]:
+                    - generic [ref=e1225]: play_arrow
+                    - generic [ref=e1226]: Run
+                  - button [ref=e1289]:
+                    - img [ref=e1233]
+                    - generic [ref=e1236]: Debug
+                  - listbox [ref=e1290] [cursor=pointer]:
+                    - option [selected] [ref=e1291]: setupTrigger
+                - button [ref=e1292]:
+                  - generic [ref=e401]: Execution log
+            - generic [ref=e403]:
+              - main [ref=e407]:
+                - generic [ref=e408]: .
+                - generic [ref=e410]:
+                  - iframe [ref=e411]:
+                    
+                  - code [ref=e413]:
+                    - generic [ref=e414]:
+                      - generic [ref=e417]:
+                        - generic [ref=e970]: "680"
+                        - generic [ref=e1155]:
+                          - generic [ref=e1156] [cursor=pointer]: 
+                          - generic [ref=e1157]: "681"
+                        - generic [ref=e974]: "682"
+                        - generic [ref=e976]: "683"
+                        - generic [ref=e1158]:
+                          - generic [ref=e1159] [cursor=pointer]: 
+                          - generic [ref=e1160]: "684"
+                        - generic [ref=e1162]: "685"
+                        - generic [ref=e983]: "686"
+                        - generic [ref=e985]: "687"
+                        - generic [ref=e1164]: "688"
+                        - generic [ref=e990]: "689"
+                        - generic [ref=e992]: "690"
+                        - generic [ref=e994]: "691"
+                        - generic [ref=e1166]: "692"
+                        - generic [ref=e999]: "693"
+                        - generic [ref=e1167]:
+                          - generic [ref=e1168] [cursor=pointer]: 
+                          - generic [ref=e1169]: "694"
+                        - generic [ref=e1003]: "695"
+                        - generic [ref=e1005]: "696"
+                        - generic [ref=e1008]: "697"
+                        - generic [ref=e1010]: "698"
+                        - generic [ref=e1012]: "699"
+                        - generic [ref=e1014]: "700"
+                        - generic [ref=e1172]: "701"
+                      - generic [ref=e505]:
+                        - generic [ref=e1177]: var atts = msgs[i].getAttachments();
+                        - generic [ref=e1179]: "for (var j = 0; j < atts.length; j++) {"
+                        - generic [ref=e1181]: if (!atts[j].getName().toLowerCase().endsWith('.pdf')) continue;
+                        - generic [ref=e1183]: var blob = atts[j].copyBlob();
+                        - generic [ref=e1185]: var tempFile = Drive.Files.create(
+                        - generic [ref=e1187]: "{ title: 'justpass_test_' + Date.now(), mimeType: MimeType.GOOGLE_DOCS },"
+                        - generic [ref=e1189]: "blob, { ocr: true }"
+                        - generic [ref=e1124]: );
+                        - generic [ref=e1191]: var doc = DocumentApp.openById(tempFile.id);
+                        - generic [ref=e1193]: var text = doc.getBody().getText();
+                        - generic [ref=e1195]: DriveApp.getFileById(tempFile.id).setTrashed(true);
+                        - generic [ref=e1197]: var entries = parseExamTimetableText_(text);
+                        - generic [ref=e1199]: Logger.log('=== PARSED ' + entries.length + ' ENTRIES ===');
+                        - generic [ref=e1201]: "for (var k = 0; k < entries.length; k++) {"
+                        - generic [ref=e1203]: var e = entries[k];
+                        - generic [ref=e1205]: "Logger.log(k + ': ' + e.date + ' | ' + e.session + ' | ' + e.courseCode +"
+                        - generic [ref=e1207]: "' | ' + e.courseName + ' | ' + e.branch);"
+                        - generic [ref=e1146]: "}"
+                        - generic [ref=e1209]: Logger.log('=== END ENTRIES ===');
+                        - generic [ref=e1150]: "}"
+                        - generic [ref=e1152]: "}"
+                        - generic [ref=e1154]: "}"
+                      - textbox [ref=e1293]: "Logger.log('=== END ENTRIES ==='); } } }"
+              - button [ref=e1294] [cursor=pointer]:
+                - generic [ref=e554]: close
+              - tooltip [ref=e555]: Close execution logs
+    - dialog "Manage deployments" [ref=e1296]:
+      - heading "Manage deployments" [level=2] [ref=e1297]
+      - generic [ref=e1299]:
+        - generic [ref=e1340]:
+          - generic [ref=e1341]:
+            - generic [ref=e1342]:
+              - generic [ref=e1344]: Active
+              - listbox "Active deployment list" [ref=e1347]:
+                - option "Untitled" [ref=e1348] [cursor=pointer]:
+                  - generic [ref=e1349]: Untitled
+            - generic [ref=e1350]:
+              - generic [ref=e1352]: Archived
+              - listbox "Archived deployment list" [ref=e1355]:
+                - option "JustPass Exam Seat + Timetable API" [ref=e1356] [cursor=pointer]:
+                  - generic [ref=e1357]: JustPass Exam Seat + Timetable API
+          - generic [ref=e1358]:
+            - generic [ref=e1359]:
+              - generic [ref=e1360]: Configuration
+              - generic [ref=e1361]:
+                - generic [ref=e1362] [cursor=pointer]:
+                  - generic [ref=e1363]: help_outline
+                  - link "Learn more about deployments" [ref=e1364]:
+                    - /url: https://developers.google.com/apps-script/concepts/deployments
+                - tooltip [ref=e1365]: Learn more about deployments
+              - generic [ref=e1367]:
+                - button "Edit" [disabled] [ref=e1368]:
+                  - generic [ref=e1369]: edit
+                - tooltip [ref=e1370]: Edit
+              - generic [ref=e1372]:
+                - button "Archive deployment" [disabled] [ref=e1373]:
+                  - generic [ref=e1374]: archive
+                - tooltip [ref=e1375]: Archive deployment
+            - generic [ref=e1377]:
+              - combobox "Version Version 2 on Apr 6, 2026, 9:13 PM" [active] [ref=e1447] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - generic: Version
+                - generic:
+                  - generic: Version 2 on Apr 6, 2026, 9:13 PM
+                - generic:
+                  - img
+              - generic [ref=e1449]:
+                - generic:
+                  - generic:
+                    - generic: Description
+                - textbox "Description" [ref=e1382]
+              - generic [ref=e1384]:
+                - generic [ref=e1385]: Deployment ID
+                - generic [ref=e1386]:
+                  - generic [ref=e1389]: AKfycbzj9CMHPK6AhJLnSpBG-TFI0AsJlvBZYnpY5HIORahqO6BP-iXMU0wgTe086u66hNYMZg
+                  - button "Copy the deployment ID" [ref=e1392]:
+                    - generic [ref=e1395]: content_copy
+                    - generic [ref=e1396]: Copy
+              - generic [ref=e1398]:
+                - generic [ref=e1399]: Web app
+                - generic [ref=e1400]:
+                  - generic [ref=e1401]: URL
+                  - generic [ref=e1402]:
+                    - link "https://script.google.com/macros/s/AKfycbzj9CMHPK6AhJLnSpBG-TFI0AsJlvBZYnpY5HIORahqO6BP-iXMU0wgTe086u66hNYMZg/exec" [ref=e1406] [cursor=pointer]:
+                      - /url: https://script.google.com/macros/s/AKfycbzj9CMHPK6AhJLnSpBG-TFI0AsJlvBZYnpY5HIORahqO6BP-iXMU0wgTe086u66hNYMZg/exec
+                    - button "Copy the web app URL" [ref=e1409]:
+                      - generic [ref=e1412]: content_copy
+                      - generic [ref=e1413]: Copy
+                - combobox "Execute as Me (tmswamy10@gmail.com)" [ref=e1451] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - generic: Execute as
+                  - generic:
+                    - generic: Me (tmswamy10@gmail.com)
+                  - generic:
+                    - img
+                - generic [ref=e1416]: The web app will be authorized to run using your account data.
+                - combobox "Who has access Anyone" [ref=e1454] [cursor=pointer]:
+                  - generic:
+                    - generic:
+                      - generic: Who has access
+                  - generic:
+                    - generic: Anyone
+                  - generic:
+                    - img
+              - generic [ref=e1419]:
+                - generic [ref=e1420]: Library
+                - generic [ref=e1436]: To let other people and groups to use this project as a library, share this project with them.
+        - generic [ref=e1437]:
+          - button "Cancel" [ref=e1439]:
+            - generic [ref=e1442]: Cancel
+          - button "Deploy" [ref=e1456]:
+            - generic [ref=e1459]: Deploy
+  - generic: Saving project...
+  - generic [ref=e557]:
+    - alert
+    - alert
+    - complementary
+    - complementary

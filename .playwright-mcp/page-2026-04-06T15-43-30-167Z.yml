@@ -1,0 +1,181 @@
+- generic [active] [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e2652] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e11]
+          - generic [ref=e12]: Apps Script
+        - generic [ref=e13]:
+          - generic [ref=e16]:
+            - button [ref=e2653] [cursor=pointer]: JustPass Exam Parser
+            - generic [ref=e2985]:
+              - generic [ref=e2986]: cloud_done
+              - text: Saved to Drive
+          - generic [ref=e26]:
+            - button [ref=e2654] [cursor=pointer]:
+              - generic [ref=e34]:
+                - text: Deploy
+                - generic [ref=e35]: 
+            - button [ref=e2655] [cursor=pointer]:
+              - generic [ref=e40]: person_add
+            - button [ref=e2656] [cursor=pointer]:
+              - generic [ref=e45]: help_outline
+        - generic [ref=e47]:
+          - button [ref=e2657] [cursor=pointer]:
+            - img [ref=e52]
+          - button [ref=e2658] [cursor=pointer]:
+            - img [ref=e59]
+            - img [ref=e65]
+    - generic [ref=e67]:
+      - navigation [ref=e2659]:
+        - link [ref=e2660] [cursor=pointer]:
+          - generic [ref=e72]: info_outline
+          - generic [ref=e73]: Overview
+        - link [ref=e2661] [cursor=pointer]:
+          - generic [ref=e76]: code
+          - generic [ref=e77]: Editor
+        - link [ref=e2662] [cursor=pointer]:
+          - generic [ref=e80]: history
+          - generic [ref=e81]: Project History
+        - link [ref=e2663] [cursor=pointer]:
+          - generic [ref=e84]: alarm
+          - generic [ref=e85]: Triggers
+        - link [ref=e2664] [cursor=pointer]:
+          - generic [ref=e88]: playlist_play
+          - generic [ref=e89]: Executions
+        - link [ref=e2665] [cursor=pointer]:
+          - generic [ref=e92]: settings
+          - generic [ref=e93]: Project Settings
+      - generic [ref=e94]:
+        - heading [level=1] [ref=e2666]: Editor
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - heading [level=2] [ref=e2667]: Files
+              - generic [ref=e102]:
+                - button [disabled] [ref=e2668]:
+                  - generic [ref=e107]: sort_by_alpha
+                - button [ref=e2669] [cursor=pointer]:
+                  - generic [ref=e112]: add
+            - listbox [ref=e2670]:
+              - option [ref=e2671] [cursor=pointer]:
+                - generic [ref=e2672]: Code.gs
+                - button [ref=e2673]:
+                  - button [ref=e2674]:
+                    - generic [ref=e121]: 
+            - generic [ref=e122]:
+              - heading [level=2] [ref=e2675]: Libraries
+              - button [ref=e2676] [cursor=pointer]:
+                - generic [ref=e129]: add
+            - generic [ref=e130]:
+              - heading [level=2] [ref=e2677]: Services
+              - button [ref=e2678] [cursor=pointer]:
+                - generic [ref=e137]: add
+            - listbox [ref=e2679]:
+              - option [ref=e2680] [cursor=pointer]:
+                - generic [ref=e2681]: Drive
+                - button [ref=e2682]:
+                  - button [ref=e2683]:
+                    - generic [ref=e146]: 
+          - generic [ref=e153]:
+            - region [ref=e154]:
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e159]:
+                    - button [disabled]:
+                      - generic: undo
+                  - generic [ref=e162]:
+                    - button [disabled]:
+                      - generic: redo
+                - generic [ref=e166]:
+                  - button [disabled]:
+                    - img
+                - generic [ref=e1910]:
+                  - button [ref=e2684]:
+                    - generic [ref=e1917]: play_arrow
+                    - generic [ref=e1918]: Run
+                  - button [ref=e2685]:
+                    - img [ref=e1925]
+                    - generic [ref=e1928]: Debug
+                  - listbox [ref=e2686] [cursor=pointer]:
+                    - option [selected] [ref=e2687]: reprocessAll
+                - button [ref=e2688]:
+                  - generic [ref=e197]: Execution log
+            - generic [ref=e199]:
+              - main [ref=e203]:
+                - generic [ref=e204]: .
+                - generic [ref=e206]:
+                  - iframe [ref=e207]:
+                    
+                  - code [ref=e209]:
+                    - generic [ref=e210]:
+                      - generic [ref=e223]:
+                        - generic [ref=e1771]:
+                          - generic [ref=e1773] [cursor=pointer]: 
+                          - generic [ref=e1774]: "1"
+                        - generic [ref=e1776]: "2"
+                        - generic [ref=e1778]: "3"
+                        - generic [ref=e1780]: "4"
+                        - generic [ref=e1782]: "5"
+                        - generic [ref=e2988]: "6"
+                        - generic [ref=e2990]: "7"
+                        - generic [ref=e2992]: "8"
+                        - generic [ref=e2994]: "9"
+                        - generic [ref=e2996]: "10"
+                        - generic [ref=e2998]: "11"
+                        - generic [ref=e3000]: "12"
+                        - generic [ref=e3002]: "13"
+                        - generic [ref=e3004]: "14"
+                        - generic [ref=e3006]: "15"
+                        - generic [ref=e3008]: "16"
+                        - generic [ref=e3009]:
+                          - generic [ref=e3010] [cursor=pointer]: 
+                          - generic [ref=e3011]: "17"
+                        - generic [ref=e3013]: "18"
+                        - generic [ref=e3015]: "19"
+                        - generic [ref=e3018]: "20"
+                        - generic [ref=e3020]: "21"
+                      - generic [ref=e312]:
+                        - generic [ref=e1859]: /**
+                        - generic [ref=e1861]: "* JustPass Exam Auto-Parser"
+                        - generic [ref=e1863]: "* Google Apps Script that monitors Gmail for college exam emails:"
+                        - generic [ref=e1865]: "* - Excel attachments -> Exam seat arrangements (hall + seat per roll number)"
+                        - generic [ref=e1867]: "* - PDF attachments -> Exam timetables (date + session + subject per branch)"
+                        - generic [ref=e3053]: "*"
+                        - generic [ref=e3055]: "* SETUP:"
+                        - generic [ref=e3057]: "* 1. Open script.google.com -> New Project"
+                        - generic [ref=e3059]: "* 2. Paste this code"
+                        - generic [ref=e3061]: "* 3. Enable Drive API: Services -> + -> Drive API"
+                        - generic [ref=e3063]: "* 4. Deploy -> Web app -> Execute as \"Me\", Access \"Anyone\""
+                        - generic [ref=e3065]: "* 5. Run setupTrigger() once to start auto-scanning"
+                        - generic [ref=e3067]: "*/"
+                        - generic [ref=e3070]: // ============ CONFIGURATION ============
+                        - generic [ref=e3073]: "const CONFIG = {"
+                        - generic [ref=e3075]: // Gmail search - picks up both Excel and PDF from examcell/college
+                        - generic [ref=e3077]: "SEARCH_QUERY: '(from:(@psgtech.ac.in OR @psgitech.ac.in) OR subject:(CAT exam"
+                        - generic [ref=e3079]: seating timetable examcell)) has:attachment',
+                        - generic [ref=e3081]: "PROCESSED_LABEL: 'JustPass/Processed',"
+                        - generic [ref=e3083]: "MAX_EMAILS_PER_RUN: 10,"
+                      - textbox [ref=e2689]: "/** * JustPass Exam Auto-Parser * Google Apps Script that monitors Gmail for college exam emails: * - Excel attachments -> Exam seat arrangements (hall + seat per roll number) * - PDF attachments -> Exam timetables (date + session + subject per branch) * * SETUP: * 1. Open script.google.com -> New Project * 2. Paste this code * 3. Enable Drive API: Services -> + -> Drive API"
+              - button [ref=e2852] [cursor=pointer]:
+                - generic [ref=e215]: close
+              - tooltip [ref=e216]: Close execution logs
+    - dialog "Manage deployments" [ref=e2854]:
+      - heading "Manage deployments" [level=2] [ref=e2855]
+      - generic [ref=e2857]:
+        - generic [ref=e3084]:
+          - generic [ref=e3085]:
+            - generic: Updating the deployment...
+          - generic [ref=e3115]: Updating the deployment...
+        - generic [ref=e3117]:
+          - button "Done" [disabled]:
+            - generic: Done
+  - generic: Saving project...
+  - generic [ref=e217]:
+    - alert
+    - alert
+    - complementary
+    - complementary

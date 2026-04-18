@@ -1,0 +1,89 @@
+- generic [active] [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Main menu" [expanded] [ref=e8] [cursor=pointer]:
+            - img [ref=e9]
+          - link "Google Apps Script" [ref=e13] [cursor=pointer]:
+            - /url: /home
+            - img [ref=e14]
+            - generic [ref=e15]: Apps Script
+        - generic [ref=e16]:
+          - search [ref=e23]:
+            - generic [ref=e29]:
+              - textbox [disabled] [ref=e30]: Search
+              - combobox "Search" [ref=e31]
+            - button "Search" [ref=e32] [cursor=pointer]:
+              - img [ref=e33]
+          - button "Support" [ref=e40] [cursor=pointer]:
+            - generic [ref=e43]: help_outline
+        - generic [ref=e45]:
+          - button "Google apps" [ref=e49] [cursor=pointer]:
+            - img [ref=e50]
+          - 'button "Google Account: Tarunswamy Muralidharan (tmswamy10@gmail.com)" [ref=e55] [cursor=pointer]':
+            - img [ref=e57]
+            - img [ref=e63]
+      - navigation [ref=e64]:
+        - menu [ref=e65]:
+          - generic [ref=e67]:
+            - button "New project" [ref=e69] [cursor=pointer]:
+              - img [ref=e71]
+              - generic [ref=e77]: New project
+            - generic [ref=e78]:
+              - menuitem "Starred Projects" [ref=e79]:
+                - button "Starred Projects" [ref=e80] [cursor=pointer]:
+                  - generic [ref=e83]:
+                    - generic [ref=e84]: star_outline
+                    - generic [ref=e85]: Starred Projects
+              - menuitem "My Projects" [ref=e86]:
+                - button "My Projects" [ref=e87] [cursor=pointer]:
+                  - generic [ref=e90]:
+                    - generic [ref=e91]: folder
+                    - generic [ref=e92]: My Projects
+              - menuitem "All Projects" [ref=e93]:
+                - button "All Projects" [ref=e94] [cursor=pointer]:
+                  - generic [ref=e97]:
+                    - generic [ref=e98]: folder
+                    - generic [ref=e99]: All Projects
+              - menuitem "Shared with me" [ref=e100]:
+                - button "Shared with me" [ref=e101] [cursor=pointer]:
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: group
+                    - generic [ref=e106]: Shared with me
+              - menuitem "Trash" [ref=e107]:
+                - button "Trash" [ref=e108] [cursor=pointer]:
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: delete
+                    - generic [ref=e113]: Trash
+              - menuitem "My Executions" [ref=e115]:
+                - button "My Executions" [ref=e116] [cursor=pointer]:
+                  - generic [ref=e119]:
+                    - img [ref=e121]
+                    - generic [ref=e127]: My Executions
+              - menuitem "My Triggers" [ref=e128]:
+                - button "My Triggers" [ref=e129] [cursor=pointer]:
+                  - generic [ref=e132]:
+                    - generic [ref=e133]: alarm
+                    - generic [ref=e134]: My Triggers
+              - menuitem "Getting Started" [ref=e136]:
+                - button "Getting Started" [ref=e137] [cursor=pointer]:
+                  - generic [ref=e140]:
+                    - generic [ref=e141]: play_circle_outline
+                    - generic [ref=e142]: Getting Started
+              - menuitem "Settings" [ref=e143]:
+                - button "Settings" [ref=e144] [cursor=pointer]:
+                  - generic [ref=e147]:
+                    - generic [ref=e148]: settings
+                    - generic [ref=e149]: Settings
+              - menuitem "Service Status" [ref=e150]:
+                - button "Service Status" [ref=e151] [cursor=pointer]:
+                  - generic [ref=e154]:
+                    - generic [ref=e155]: warning_amber
+                    - generic [ref=e156]: Service Status
+    - generic [ref=e157]:
+      - heading "My Projects" [level=1] [ref=e159]
+      - generic [ref=e165]:
+        - generic: Loading

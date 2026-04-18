@@ -1,0 +1,185 @@
+- generic [active] [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link [ref=e1255] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e14]
+          - generic [ref=e15]: Apps Script
+        - generic [ref=e16]:
+          - generic [ref=e19]:
+            - button [ref=e1256] [cursor=pointer]: JustPass Exam Parser
+            - generic [ref=e1470]:
+              - generic [ref=e1471]: cloud_done
+              - text: Saved to Drive
+          - generic [ref=e38]:
+            - button [ref=e1257] [cursor=pointer]:
+              - generic [ref=e566]:
+                - text: Deploy
+                - generic [ref=e567]: 
+            - button [ref=e1258] [cursor=pointer]:
+              - generic [ref=e572]: person_add
+            - button [ref=e1259] [cursor=pointer]:
+              - generic [ref=e267]: help_outline
+        - generic [ref=e45]:
+          - button [ref=e1260] [cursor=pointer]:
+            - img [ref=e50]
+          - button [ref=e1261] [cursor=pointer]:
+            - img [ref=e57]
+            - img [ref=e63]
+    - generic [ref=e271]:
+      - navigation [ref=e1262]:
+        - link [ref=e1263] [cursor=pointer]:
+          - generic [ref=e276]: info_outline
+          - generic [ref=e277]: Overview
+        - link [ref=e1264] [cursor=pointer]:
+          - generic [ref=e280]: code
+          - generic [ref=e281]: Editor
+        - link [ref=e1265] [cursor=pointer]:
+          - generic [ref=e284]: history
+          - generic [ref=e285]: Project History
+        - link [ref=e1266] [cursor=pointer]:
+          - generic [ref=e288]: alarm
+          - generic [ref=e289]: Triggers
+        - link [ref=e1267] [cursor=pointer]:
+          - generic [ref=e292]: playlist_play
+          - generic [ref=e293]: Executions
+        - link [ref=e1268] [cursor=pointer]:
+          - generic [ref=e296]: settings
+          - generic [ref=e297]: Project Settings
+      - generic [ref=e298]:
+        - heading [level=1] [ref=e1269]: Editor
+        - generic [ref=e300]:
+          - generic [ref=e302]:
+            - generic [ref=e303]:
+              - heading [level=2] [ref=e1270]: Files
+              - generic [ref=e306]:
+                - button [disabled] [ref=e1271]:
+                  - generic [ref=e311]: sort_by_alpha
+                - button [ref=e1272] [cursor=pointer]:
+                  - generic [ref=e316]: add
+            - listbox [ref=e1273]:
+              - option [ref=e1274] [cursor=pointer]:
+                - generic [ref=e1275]: Code.gs
+                - button [ref=e1276]:
+                  - button [ref=e1277]:
+                    - generic [ref=e325]: 
+            - generic [ref=e326]:
+              - heading [level=2] [ref=e1278]: Libraries
+              - button [ref=e1279] [cursor=pointer]:
+                - generic [ref=e333]: add
+            - generic [ref=e334]:
+              - heading [level=2] [ref=e1280]: Services
+              - button [ref=e1281] [cursor=pointer]:
+                - generic [ref=e341]: add
+            - listbox [ref=e1282]:
+              - option [ref=e1283] [cursor=pointer]:
+                - generic [ref=e1284]: Drive
+                - button [ref=e1285]:
+                  - button [ref=e1286]:
+                    - generic [ref=e350]: 
+          - generic [ref=e357]:
+            - region [ref=e358]:
+              - generic [ref=e359]:
+                - generic [ref=e360]:
+                  - button [ref=e1287]:
+                    - generic [ref=e962]: undo
+                  - generic [ref=e366]:
+                    - button [disabled]:
+                      - generic: redo
+                - generic [ref=e370]:
+                  - button [disabled]:
+                    - img
+                - generic [ref=e1218]:
+                  - button [ref=e1288]:
+                    - generic [ref=e1225]: play_arrow
+                    - generic [ref=e1226]: Run
+                  - button [ref=e1289]:
+                    - img [ref=e1233]
+                    - generic [ref=e1236]: Debug
+                  - listbox [ref=e1290] [cursor=pointer]:
+                    - option [selected] [ref=e1291]: setupTrigger
+                - button [ref=e1292]:
+                  - generic [ref=e401]: Execution log
+            - generic [ref=e403]:
+              - main [ref=e407]:
+                - generic [ref=e408]: .
+                - generic [ref=e410]:
+                  - iframe [ref=e411]:
+                    
+                  - code [ref=e413]:
+                    - generic [ref=e414]:
+                      - generic [ref=e417]:
+                        - generic [ref=e970]: "680"
+                        - generic [ref=e1155]:
+                          - generic [ref=e1156] [cursor=pointer]: 
+                          - generic [ref=e1157]: "681"
+                        - generic [ref=e974]: "682"
+                        - generic [ref=e976]: "683"
+                        - generic [ref=e1158]:
+                          - generic [ref=e1159] [cursor=pointer]: 
+                          - generic [ref=e1160]: "684"
+                        - generic [ref=e1162]: "685"
+                        - generic [ref=e983]: "686"
+                        - generic [ref=e985]: "687"
+                        - generic [ref=e1164]: "688"
+                        - generic [ref=e990]: "689"
+                        - generic [ref=e992]: "690"
+                        - generic [ref=e994]: "691"
+                        - generic [ref=e1166]: "692"
+                        - generic [ref=e999]: "693"
+                        - generic [ref=e1167]:
+                          - generic [ref=e1168] [cursor=pointer]: 
+                          - generic [ref=e1169]: "694"
+                        - generic [ref=e1003]: "695"
+                        - generic [ref=e1005]: "696"
+                        - generic [ref=e1008]: "697"
+                        - generic [ref=e1010]: "698"
+                        - generic [ref=e1012]: "699"
+                        - generic [ref=e1014]: "700"
+                        - generic [ref=e1172]: "701"
+                      - generic [ref=e505]:
+                        - generic [ref=e1177]: var atts = msgs[i].getAttachments();
+                        - generic [ref=e1179]: "for (var j = 0; j < atts.length; j++) {"
+                        - generic [ref=e1181]: if (!atts[j].getName().toLowerCase().endsWith('.pdf')) continue;
+                        - generic [ref=e1183]: var blob = atts[j].copyBlob();
+                        - generic [ref=e1185]: var tempFile = Drive.Files.create(
+                        - generic [ref=e1187]: "{ title: 'justpass_test_' + Date.now(), mimeType: MimeType.GOOGLE_DOCS },"
+                        - generic [ref=e1189]: "blob, { ocr: true }"
+                        - generic [ref=e1124]: );
+                        - generic [ref=e1191]: var doc = DocumentApp.openById(tempFile.id);
+                        - generic [ref=e1193]: var text = doc.getBody().getText();
+                        - generic [ref=e1195]: DriveApp.getFileById(tempFile.id).setTrashed(true);
+                        - generic [ref=e1197]: var entries = parseExamTimetableText_(text);
+                        - generic [ref=e1199]: Logger.log('=== PARSED ' + entries.length + ' ENTRIES ===');
+                        - generic [ref=e1201]: "for (var k = 0; k < entries.length; k++) {"
+                        - generic [ref=e1203]: var e = entries[k];
+                        - generic [ref=e1205]: "Logger.log(k + ': ' + e.date + ' | ' + e.session + ' | ' + e.courseCode +"
+                        - generic [ref=e1207]: "' | ' + e.courseName + ' | ' + e.branch);"
+                        - generic [ref=e1146]: "}"
+                        - generic [ref=e1209]: Logger.log('=== END ENTRIES ===');
+                        - generic [ref=e1150]: "}"
+                        - generic [ref=e1152]: "}"
+                        - generic [ref=e1154]: "}"
+                      - textbox [ref=e1293]: "Logger.log('=== END ENTRIES ==='); } } }"
+              - button [ref=e1294] [cursor=pointer]:
+                - generic [ref=e554]: close
+              - tooltip [ref=e555]: Close execution logs
+    - dialog "Manage deployments" [ref=e1296]:
+      - heading "Manage deployments" [level=2] [ref=e1297]
+      - generic [ref=e1299]:
+        - generic [ref=e1472]:
+          - generic [ref=e1473]:
+            - generic: Updating the deployment...
+          - generic [ref=e1503]: Updating the deployment...
+        - generic [ref=e1505]:
+          - button "Done" [disabled]:
+            - generic: Done
+  - generic: Saving project...
+  - generic [ref=e557]:
+    - alert
+    - alert
+    - complementary
+    - complementary

@@ -1,0 +1,80 @@
+- generic [ref=e3]:
+  - button "Skip to main content" [ref=e5] [cursor=pointer]:
+    - generic [ref=e6]: Skip to main content
+  - main [ref=e45]:
+    - generic [ref=e313]:
+      - button "Close" [ref=e314] [cursor=pointer]:
+        - img [ref=e317]: close
+      - heading "Create ad unit" [level=1] [ref=e320]
+      - button "More options" [ref=e322] [cursor=pointer]:
+        - img [ref=e325]: more_vert
+    - generic [ref=e53]:
+      - generic [ref=e329]:
+        - tablist [ref=e330]:
+          - tab "Step 1 of 2, Select ad format" [ref=e331] [cursor=pointer]:
+            - img [ref=e416]: check
+            - generic [ref=e336]: Select ad format
+          - tab "Step 2 of 2, Configure ad unit settings" [active] [selected] [ref=e338]:
+            - generic [ref=e341]: "2"
+            - generic [ref=e343]: Configure ad unit settings
+        - tabpanel [ref=e345]:
+          - generic [ref=e418]:
+            - region "JustPass Android" [ref=e422]:
+              - img [ref=e424]
+              - generic [ref=e425]:
+                - generic [ref=e427]: JustPass
+                - generic [ref=e428]: Android
+            - generic [ref=e430]:
+              - generic [ref=e432]:
+                - heading "Ad format" [level=2] [ref=e433]
+                - button "Point to or press enter on this icon for more information about Ad format" [ref=e434] [cursor=pointer]:
+                  - img [ref=e436]: help_outline
+              - generic [ref=e440]: Interstitial
+            - generic [ref=e442]:
+              - generic [ref=e444]:
+                - generic [ref=e446]:
+                  - heading "Ad unit name" [level=2] [ref=e447]
+                  - button "Point to or press enter on this icon for more information about Ad unit name" [ref=e448] [cursor=pointer]:
+                    - img [ref=e450]: help_outline
+                - generic [ref=e452]:
+                  - generic [ref=e455]:
+                    - generic:
+                      - generic: Enter ad unit name
+                    - textbox "Enter ad unit name" [ref=e456]
+                  - generic [ref=e459]:
+                    - generic [ref=e460]: 0 / 80
+                    - generic [ref=e461]: Text is 0 characters out of 80
+              - generic [ref=e463]:
+                - generic [ref=e466]:
+                  - heading "Partner bidding" [level=2] [ref=e467]
+                  - button "More information" [ref=e468] [cursor=pointer]:
+                    - img [ref=e470]: help_outline
+                - generic [ref=e471]:
+                  - checkbox "I’m using this ad unit for real-time bidding on another mediation platform (not AdMob) When this checkbox is selected, you cannot use the ad unit for AdMob mediation or campaigns, or for accessing Google Ads, Display & Video 360 demand through a third-party waterfall. Google may be required to pay a fee to the third-partyopen_in_new mediation platform." [ref=e472] [cursor=pointer]:
+                    - img [ref=e475]: check_box_outline_blank
+                    - generic [ref=e477]:
+                      - generic [ref=e478]:
+                        - text: I’m using this ad unit for real-time bidding on another mediation platform
+                        - strong [ref=e479]: (not AdMob)
+                      - generic [ref=e480]:
+                        - text: When this checkbox is selected, you cannot use the ad unit for AdMob mediation or campaigns, or for accessing Google Ads, Display & Video 360 demand through a third-party waterfall. Google may be required to pay a fee to the
+                        - link "third-partyopen_in_new" [ref=e481]:
+                          - /url: https://support.google.com/admob/answer/12237336
+                        - text: mediation platform.
+                  - generic [ref=e483]:
+                    - img [ref=e485]: info
+                    - paragraph [ref=e487]: You won't be able to change this setting after you create the ad unit
+              - button "Advanced settings" [ref=e490] [cursor=pointer]:
+                - img [ref=e492]: expand_more
+                - text: Advanced settings
+              - generic [ref=e494]:
+                - button "Create ad unit" [disabled] [ref=e495]:
+                  - generic: Create ad unit
+                - button "Back" [ref=e496] [cursor=pointer]:
+                  - generic [ref=e497]: Back
+      - generic [ref=e60]:
+        - text: © 2026 Google
+        - link "Privacyopen_in_new" [ref=e61] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en_US/policies/privacy
+        - link "Termsopen_in_new" [ref=e62] [cursor=pointer]:
+          - /url: https://adsense.google.com/adsense/terms

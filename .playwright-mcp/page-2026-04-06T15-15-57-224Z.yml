@@ -1,0 +1,170 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Google Apps Script" [ref=e10] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e11]
+          - generic [ref=e12]: Apps Script
+        - generic [ref=e13]:
+          - generic [ref=e16]:
+            - button "Rename" [ref=e18] [cursor=pointer]: JustPass Exam Parser
+            - generic [ref=e22]:
+              - generic [ref=e23]: cloud_done
+              - text: Saved to Drive
+          - generic [ref=e26]:
+            - button "Deploy" [ref=e31] [cursor=pointer]:
+              - generic [ref=e34]:
+                - text: Deploy
+                - generic [ref=e35]: 
+            - button "Share this project with others" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: person_add
+            - button "Support" [ref=e42] [cursor=pointer]:
+              - generic [ref=e45]: help_outline
+        - generic [ref=e47]:
+          - button "Google apps" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - 'button "Google Account: Tarunswamy Muralidharan (tmswamy10@gmail.com)" [ref=e57] [cursor=pointer]':
+            - img [ref=e59]
+            - img [ref=e65]
+    - generic [ref=e67]:
+      - navigation "Apps Script project pages" [ref=e69]:
+        - link "Overview" [ref=e70] [cursor=pointer]:
+          - generic [ref=e72]: info_outline
+          - generic [ref=e73]: Overview
+        - link "Editor" [ref=e74] [cursor=pointer]:
+          - generic [ref=e76]: code
+          - generic [ref=e77]: Editor
+        - link "Project History" [ref=e78] [cursor=pointer]:
+          - generic [ref=e80]: history
+          - generic [ref=e81]: Project History
+        - link "Triggers" [ref=e82] [cursor=pointer]:
+          - generic [ref=e84]: alarm
+          - generic [ref=e85]: Triggers
+        - link "Executions" [ref=e86] [cursor=pointer]:
+          - generic [ref=e88]: playlist_play
+          - generic [ref=e89]: Executions
+        - link "Project Settings" [ref=e90] [cursor=pointer]:
+          - generic [ref=e92]: settings
+          - generic [ref=e93]: Project Settings
+      - generic [ref=e94]:
+        - heading "Editor" [level=1] [ref=e95]
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - heading "Files" [level=2] [ref=e100]
+              - generic [ref=e102]:
+                - button "Sort files alphabetically" [disabled] [ref=e104]:
+                  - generic [ref=e107]: sort_by_alpha
+                - button "Add a file" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e112]: add
+            - listbox "Project files" [ref=e114]:
+              - option "Code.gs" [ref=e115] [cursor=pointer]:
+                - generic "Code.gs" [ref=e116]
+                - button "File operations menu for Code.gs." [ref=e117]:
+                  - button "File operations menu for Code.gs." [ref=e118]:
+                    - generic [ref=e121]: 
+            - generic [ref=e122]:
+              - heading "Libraries" [level=2] [ref=e123]
+              - button "Add a library" [ref=e126] [cursor=pointer]:
+                - generic [ref=e129]: add
+            - generic:
+              - listbox "Library Dependencies"
+            - generic [ref=e130]:
+              - heading "Services" [level=2] [ref=e131]
+              - button "Add a service" [ref=e134] [cursor=pointer]:
+                - generic [ref=e137]: add
+            - listbox "Service Dependencies" [ref=e139]:
+              - option "Drive Operations menu for Drive." [ref=e140] [cursor=pointer]:
+                - generic "Drive" [ref=e141]
+                - button "Operations menu for Drive." [ref=e142]:
+                  - button "Operations menu for Drive." [ref=e143]:
+                    - generic [ref=e146]: 
+          - generic [ref=e153]:
+            - region [ref=e154]:
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e159]:
+                    - button "Undo code edit" [disabled]:
+                      - generic: undo
+                  - generic [ref=e162]:
+                    - button "Redo code edit" [disabled]:
+                      - generic: redo
+                - generic [ref=e166]:
+                  - button "Save project to Drive" [disabled]:
+                    - img
+                - generic [ref=e167]:
+                  - button "Run the selected function" [ref=e171]:
+                    - generic [ref=e174]: play_arrow
+                    - generic [ref=e175]: Run
+                  - button "Debug the selected function" [ref=e179]:
+                    - img [ref=e182]
+                    - generic [ref=e185]: Debug
+                  - listbox "Select function to run" [ref=e188] [cursor=pointer]:
+                    - option "setupTrigger" [selected] [ref=e189]
+                - button "Open the execution log panel" [ref=e194]:
+                  - generic [ref=e197]: Execution log
+            - generic [ref=e199]:
+              - main [ref=e203]:
+                - generic [ref=e204]: .
+                - generic [ref=e206]:
+                  - iframe [ref=e207]:
+                    
+                  - code [ref=e209]:
+                    - generic [ref=e210]:
+                      - generic [ref=e213]:
+                        - generic [ref=e216]: "1"
+                        - generic [ref=e218]: "2"
+                        - generic [ref=e220]: "3"
+                        - generic [ref=e222]: "4"
+                        - generic [ref=e224]: "5"
+                        - generic [ref=e226]: "6"
+                        - generic [ref=e228]: "7"
+                        - generic [ref=e230]: "8"
+                        - generic [ref=e232]: "9"
+                        - generic [ref=e234]: "10"
+                        - generic [ref=e236]: "11"
+                        - generic [ref=e238]: "12"
+                        - generic [ref=e240]: "13"
+                        - generic [ref=e242]: "14"
+                        - generic [ref=e244]: "15"
+                        - generic [ref=e246]: "16"
+                        - generic [ref=e248]: "17"
+                        - generic [ref=e250]: "18"
+                        - generic [ref=e252]: "19"
+                        - generic [ref=e255]: "20"
+                        - generic [ref=e257]: "21"
+                      - generic [ref=e301]:
+                        - generic [ref=e303]: /**
+                        - generic [ref=e305]: "* JustPass Exam Auto-Parser"
+                        - generic [ref=e307]: "* Google Apps Script that monitors Gmail for college exam emails:"
+                        - generic [ref=e309]: "* - Excel attachments -> Exam seat arrangements (hall + seat per roll number)"
+                        - generic [ref=e311]: "* - PDF attachments -> Exam timetables (date + session + subject per branch)"
+                        - generic [ref=e313]: "*"
+                        - generic [ref=e315]: "* SETUP:"
+                        - generic [ref=e317]: "* 1. Open script.google.com -> New Project"
+                        - generic [ref=e319]: "* 2. Paste this code"
+                        - generic [ref=e321]: "* 3. Enable Drive API: Services -> + -> Drive API"
+                        - generic [ref=e323]: "* 4. Deploy -> Web app -> Execute as \"Me\", Access \"Anyone\""
+                        - generic [ref=e325]: "* 5. Run setupTrigger() once to start auto-scanning"
+                        - generic [ref=e327]: "*/"
+                        - generic [ref=e330]: // ============ CONFIGURATION ============
+                        - generic [ref=e333]: "const CONFIG = {"
+                        - generic [ref=e335]: // Gmail search - picks up both Excel and PDF from examcell/college
+                        - generic [ref=e337]: "SEARCH_QUERY: '(from:(@psgtech.ac.in OR @psgitech.ac.in) OR subject:(CAT exam"
+                        - generic [ref=e339]: seating timetable examcell)) has:attachment',
+                        - generic [ref=e341]: "PROCESSED_LABEL: 'JustPass/Processed',"
+                        - generic [ref=e343]: "MAX_EMAILS_PER_RUN: 10,"
+                      - textbox "Editor content;Press Alt+F1 for Accessibility Options." [active] [ref=e348]: "/** * JustPass Exam Auto-Parser * Google Apps Script that monitors Gmail for college exam emails: * - Excel attachments -> Exam seat arrangements (hall + seat per roll number) * - PDF attachments -> Exam timetables (date + session + subject per branch) * * SETUP: * 1. Open script.google.com -> New Project * 2. Paste this code * 3. Enable Drive API: Services -> + -> Drive API"
+              - generic:
+                - generic:
+                  - button "Close execution logs pane" [ref=e349] [cursor=pointer]:
+                    - generic [ref=e350]: close
+                  - tooltip [ref=e351]: Close execution logs
+  - generic [ref=e352]:
+    - alert
+    - alert
+    - complementary
+    - complementary

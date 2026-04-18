@@ -1,0 +1,162 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Google Apps Script" [ref=e10] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e11]
+          - generic [ref=e12]: Apps Script
+        - generic [ref=e13]:
+          - generic [ref=e16]:
+            - button "Rename" [ref=e18] [cursor=pointer]: JustPass Exam Parser
+            - generic [ref=e220]: cloud_done
+          - generic [ref=e26]:
+            - button "Deploy" [ref=e31] [cursor=pointer]:
+              - generic [ref=e34]:
+                - text: Deploy
+                - generic [ref=e35]: 
+            - button "Share this project with others" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: person_add
+            - button "Support" [ref=e42] [cursor=pointer]:
+              - generic [ref=e45]: help_outline
+        - generic [ref=e47]:
+          - button "Google apps" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - 'button "Google Account: Tarunswamy Muralidharan (tmswamy10@gmail.com)" [ref=e57] [cursor=pointer]':
+            - img [ref=e59]
+            - img [ref=e65]
+    - generic [ref=e67]:
+      - navigation "Apps Script project pages" [ref=e69]:
+        - link "Overview" [ref=e70] [cursor=pointer]:
+          - generic [ref=e72]: info_outline
+          - generic [ref=e73]: Overview
+        - link "Editor" [ref=e74] [cursor=pointer]:
+          - generic [ref=e76]: code
+          - generic [ref=e77]: Editor
+        - link "Project History" [ref=e78] [cursor=pointer]:
+          - generic [ref=e80]: history
+          - generic [ref=e81]: Project History
+        - link "Triggers" [ref=e82] [cursor=pointer]:
+          - generic [ref=e84]: alarm
+          - generic [ref=e85]: Triggers
+        - link "Executions" [ref=e86] [cursor=pointer]:
+          - generic [ref=e88]: playlist_play
+          - generic [ref=e89]: Executions
+        - link "Project Settings" [ref=e90] [cursor=pointer]:
+          - generic [ref=e92]: settings
+          - generic [ref=e93]: Project Settings
+      - generic [ref=e94]:
+        - heading "Editor" [level=1] [ref=e95]
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - heading "Files" [level=2] [ref=e100]
+              - generic [ref=e102]:
+                - button "Sort files alphabetically" [disabled] [ref=e104]:
+                  - generic [ref=e107]: sort_by_alpha
+                - button "Add a file" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e112]: add
+            - listbox "Project files" [ref=e114]:
+              - option "Code.gs" [ref=e115] [cursor=pointer]:
+                - generic "Code.gs" [ref=e116]
+                - button "File operations menu for Code.gs." [ref=e117]:
+                  - button "File operations menu for Code.gs." [ref=e118]:
+                    - generic [ref=e121]: 
+            - generic [ref=e122]:
+              - heading "Libraries" [level=2] [ref=e123]
+              - button "Add a library" [ref=e126] [cursor=pointer]:
+                - generic [ref=e129]: add
+            - generic:
+              - listbox "Library Dependencies"
+            - generic [ref=e130]:
+              - heading "Services" [level=2] [ref=e131]
+              - button "Add a service" [ref=e134] [cursor=pointer]:
+                - generic [ref=e137]: add
+            - listbox "Service Dependencies" [ref=e139]:
+              - option "Drive Operations menu for Drive." [ref=e140] [cursor=pointer]:
+                - generic "Drive" [ref=e141]
+                - button "Operations menu for Drive." [ref=e142]:
+                  - button "Operations menu for Drive." [ref=e143]:
+                    - generic [ref=e146]: 
+          - generic [ref=e153]:
+            - region [ref=e154]:
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e159]:
+                    - button "Undo code edit" [disabled]:
+                      - generic: undo
+                  - generic [ref=e162]:
+                    - button "Redo code edit" [disabled]:
+                      - generic: redo
+                - generic [ref=e166]:
+                  - button "Save project to Drive" [disabled]:
+                    - img
+                - generic [ref=e167]:
+                  - generic [ref=e170]:
+                    - button "Run the selected function" [disabled]:
+                      - generic: play_arrow
+                      - generic: Run
+                  - generic [ref=e178]:
+                    - button "Debug the selected function" [disabled]:
+                      - img
+                      - generic: Debug
+                  - listbox "Select function to run" [disabled] [ref=e188]:
+                    - option "testCatPdf" [disabled] [selected] [ref=e378]
+                  - button "Stop the execution" [ref=e393]:
+                    - generic [ref=e396]: stop
+                    - generic [ref=e397]: Stop
+                - button "Close the execution log panel" [ref=e398]:
+                  - generic [ref=e197]: Execution log
+            - generic [ref=e199]:
+              - main [ref=e203]:
+                - generic [ref=e204]: .
+                - generic [ref=e206]:
+                  - iframe [ref=e207]:
+                    
+                  - code [ref=e209]:
+                    - generic [ref=e210]:
+                      - generic [ref=e223]:
+                        - generic [ref=e224]:
+                          - generic [ref=e226] [cursor=pointer]: 
+                          - generic [ref=e227]: "1"
+                        - generic [ref=e229]: "2"
+                        - generic [ref=e231]: "3"
+                        - generic [ref=e233]: "4"
+                        - generic [ref=e235]: "5"
+                      - generic [ref=e312]:
+                        - generic [ref=e314]: /**
+                        - generic [ref=e316]: "* JustPass Exam Auto-Parser"
+                        - generic [ref=e318]: "* Google Apps Script that monitors Gmail for college exam emails:"
+                        - generic [ref=e369]: "* - Excel attachments -> Exam seat arrangements (hall + seat per roll number)"
+                        - generic [ref=e371]: "* - PDF attachments -> Exam timetables (date + session + subject per branch)"
+                      - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=e213]: "/** * JustPass Exam Auto-Parser * Google Apps Script that monitors Gmail for college exam emails: * - Excel attachments -> Exam seat arrangements (hall + seat per roll number) * - PDF attachments -> Exam timetables (date + session + subject per branch) * * SETUP: * 1. Open script.google.com -> New Project * 2. Paste this code * 3. Enable Drive API: Services -> + -> Drive API"
+              - generic [ref=e400]:
+                - complementary [ref=e402]:
+                  - generic [ref=e404]: Execution log
+                  - generic [ref=e406]:
+                    - list "Logs" [active] [ref=e409]:
+                      - listitem "Log 1. 8:47:58 PM. Notice. Execution started." [ref=e410]:
+                        - generic [ref=e411]: 8:47:58 PM
+                        - generic [ref=e412]: Notice
+                        - generic [ref=e413]: Execution started
+                      - 'listitem "Log 2. 8:48:00 PM. Info. Message 0: Fwd: Continuous Assessment Test II - III year students - Time Table - Reg. | 1 attachments." [ref=e414]':
+                        - generic [ref=e415]: 8:48:00 PM
+                        - generic [ref=e416]: Info
+                        - generic [ref=e417]: "Message 0: Fwd: Continuous Assessment Test II - III year students - Time Table - Reg. | 1 attachments"
+                      - 'listitem "Log 3. 8:48:00 PM. Info. Attachment: CAT - II - III yrs - Time table.pdf (application/pdf)." [ref=e418]':
+                        - generic [ref=e419]: 8:48:00 PM
+                        - generic [ref=e420]: Info
+                        - generic [ref=e421]: "Attachment: CAT - II - III yrs - Time table.pdf (application/pdf)"
+                    - generic [ref=e423]:
+                      - generic: Loading...
+                - generic:
+                  - button "Close execution logs pane" [ref=e214] [cursor=pointer]:
+                    - generic [ref=e215]: close
+                  - tooltip [ref=e216]: Close execution logs
+  - generic [ref=e217]:
+    - alert
+    - alert
+    - complementary
+    - complementary

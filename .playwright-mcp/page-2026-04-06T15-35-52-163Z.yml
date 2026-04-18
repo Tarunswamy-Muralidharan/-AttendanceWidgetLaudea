@@ -1,0 +1,165 @@
+- application [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - iframe [ref=e3]:
+    
+  - banner [ref=e518]:
+    - generic [ref=e7]:
+      - link [ref=e519] [cursor=pointer]:
+        - /url: https://docs.google.com/spreadsheets/u/0/?authuser=0&usp=sheets_web
+      - generic [ref=e16]:
+        - generic [ref=e520]:
+          - generic [ref=e19]:
+            - generic: JustPass Exam Data
+            - textbox [ref=e521]: JustPass Exam Data
+          - generic [ref=e22]:
+            - checkbox [ref=e522] [cursor=pointer]
+            - button [ref=e523] [cursor=pointer]
+            - button [ref=e524]
+        - generic [ref=e35]:
+          - button [ref=e525] [cursor=pointer]
+          - button [ref=e526] [cursor=pointer]
+          - button [ref=e527] [cursor=pointer]
+          - generic [ref=e50]:
+            - button [ref=e528] [cursor=pointer]: Share
+            - button [ref=e529] [cursor=pointer]
+          - generic [ref=e325]:
+            - button [ref=e530] [cursor=pointer]:
+              - img [ref=e331]
+            - tooltip [ref=e334]: Ask Gemini
+          - button [ref=e531] [cursor=pointer]:
+            - img [ref=e59]
+            - img [ref=e64]
+    - generic [ref=e65]:
+      - menubar [ref=e67]:
+        - menuitem [ref=e532] [cursor=pointer]: File
+        - menuitem [ref=e533] [cursor=pointer]: Edit
+        - menuitem [ref=e534] [cursor=pointer]: View
+        - menuitem [ref=e535] [cursor=pointer]: Insert
+        - menuitem [ref=e536] [cursor=pointer]: Format
+        - menuitem [ref=e537] [cursor=pointer]: Data
+        - menuitem [ref=e538] [cursor=pointer]: Tools
+        - menuitem [ref=e539] [cursor=pointer]: Gemini
+        - menuitem [ref=e540] [cursor=pointer]: Extensions
+        - menuitem [ref=e541] [cursor=pointer]: Help
+      - generic [ref=e78]:
+        - generic [ref=e79]:
+          - toolbar [ref=e542]:
+            - combobox [ref=e543]
+          - toolbar [ref=e544]:
+            - button [ref=e545] [cursor=pointer]
+            - button [ref=e546] [cursor=pointer]
+            - button [ref=e547] [cursor=pointer]
+            - button [ref=e548] [cursor=pointer]
+            - combobox [ref=e549] [cursor=pointer]:
+              - option [selected] [ref=e550]:
+                - textbox [ref=e551]: 100%
+            - separator [disabled] [ref=e112]
+            - button [ref=e552] [cursor=pointer]:
+              - generic [ref=e115]: $
+            - button [ref=e553] [cursor=pointer]:
+              - generic [ref=e118]: "%"
+            - button [ref=e554] [cursor=pointer]
+            - button [ref=e555] [cursor=pointer]
+            - button [ref=e556] [cursor=pointer]:
+              - generic [ref=e132]: "123"
+            - separator [disabled] [ref=e133]
+            - listbox [ref=e557] [cursor=pointer]:
+              - option [selected] [ref=e558]: Default (Arial)
+            - separator [disabled] [ref=e141]
+            - button [ref=e559] [cursor=pointer]
+        - toolbar [ref=e560]:
+          - button [ref=e561] [cursor=pointer]
+    - generic:
+      - button:
+        - img [ref=e220] [cursor=pointer]
+    - generic [ref=e225]:
+      - generic [ref=e562]:
+        - textbox [ref=e227]: A1
+        - button [ref=e563] [cursor=pointer]
+      - textbox [ref=e245]
+      - button [ref=e564] [cursor=pointer]:
+        - img [ref=e459]
+        - generic [ref=e461]: Summarize this data
+  - navigation [ref=e565]:
+    - toolbar [ref=e282]:
+      - button [ref=e566] [cursor=pointer]
+      - button [ref=e567] [cursor=pointer]
+    - toolbar [ref=e295]:
+      - button [ref=e568] [cursor=pointer]:
+        - generic [ref=e300]: Sheet1
+      - button [ref=e569]:
+        - generic [ref=e308]: ExamTimetable
+    - toolbar [ref=e312]
+  - link [ref=e570] [cursor=pointer]:
+    - /url: "#"
+    - text: Turn on screen reader support
+  - textbox [ref=e315]
+  - region [ref=e316]: To enable screen reader support, press Ctrl+Alt+Z To learn about keyboard shortcuts, press Ctrl+slash
+  - complementary [ref=e571]:
+    - generic [ref=e339]:
+      - generic [ref=e340]:
+        - generic [ref=e341]:
+          - button [ref=e572] [cursor=pointer]:
+            - img [ref=e345]
+          - tooltip [ref=e348]: More options
+        - heading [level=2] [ref=e573]: Gemini
+        - generic [ref=e351]:
+          - generic [ref=e355]:
+            - button [ref=e574] [cursor=pointer]:
+              - img [ref=e359]
+              - img [ref=e362]
+            - tooltip [ref=e365]: View
+          - generic [ref=e366]:
+            - button [ref=e575] [cursor=pointer]:
+              - img [ref=e370]
+            - tooltip [ref=e373]: Close
+      - generic [ref=e378]: Generate complex templates
+      - generic [ref=e379]:
+        - generic [ref=e381]:
+          - combobox [ref=e576]
+          - generic [ref=e385]:
+            - generic [ref=e390]:
+              - button [ref=e577] [cursor=pointer]:
+                - img [ref=e394]
+                - generic [ref=e396]: "2"
+                - img [ref=e398]
+              - tooltip [ref=e401]: 2 sources
+            - generic [ref=e406]:
+              - button [ref=e578] [cursor=pointer]:
+                - img [ref=e410]
+                - img [ref=e413]
+              - tooltip [ref=e416]: Create and edit sheets
+          - generic [ref=e417]:
+            - generic [ref=e419]:
+              - generic [ref=e421]: Beta
+              - tooltip [ref=e422]: Beta
+            - generic [ref=e423]:
+              - button [disabled] [ref=e579]:
+                - img [ref=e427]
+              - tooltip [ref=e430]: Submit
+        - generic [ref=e431]:
+          - text: Gemini in Workspace can make mistakes.
+          - link [ref=e580] [cursor=pointer]:
+            - /url: https://support.google.com/a/users?p=gw_gemini_responses
+            - text: Learn more
+  - dialog [ref=e581]:
+    - generic [ref=e439]:
+      - generic [ref=e441]:
+        - button [ref=e582] [cursor=pointer]:
+          - img [ref=e445]
+        - tooltip [ref=e448]: Close
+      - generic [ref=e450]:
+        - heading [level=2] [ref=e583]:
+          - generic [ref=e452]: Try out Build
+        - generic [ref=e453]: Turn prompts into robust spreadsheets. Create analytical reports and trackers in seconds using data from your Workspace files and the web.
+  - iframe [ref=e584]:
+    
+  - alertdialog "Heads up!" [active] [ref=e586]:
+    - generic [ref=e587]:
+      - heading "Heads up!" [ref=e588]
+      - button "Close" [ref=e589] [cursor=pointer]
+    - generic [ref=e590]: Are you sure you want to delete this sheet?
+    - generic [ref=e591]:
+      - button "Cancel" [ref=e592] [cursor=pointer]
+      - button "OK" [ref=e593] [cursor=pointer]

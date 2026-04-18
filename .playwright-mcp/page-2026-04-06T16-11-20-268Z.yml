@@ -1,0 +1,33 @@
+- generic [ref=e10]:
+  - generic [ref=e11]:
+    - img "Logo" [ref=e13]
+    - heading "Please login to your account" [level=3] [ref=e14]: Please login to your account
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]: Username
+        - textbox "Username" [active] [ref=e19]
+      - generic [ref=e20]:
+        - generic [ref=e21]: Password
+        - textbox "Password" [ref=e23]
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e28]:
+            - checkbox "Remember me" [ref=e29]
+            - text: Remember me
+          - link "Forgot Password?" [ref=e33] [cursor=pointer]:
+            - /url: /realms/itech/login-actions/reset-credentials?client_id=ies_sis&tab_id=s1zDJ2EA-do
+        - button "Log in" [ref=e36] [cursor=pointer]
+  - generic [ref=e40]:
+    - link "Logo" [ref=e42] [cursor=pointer]:
+      - /url: http://www.laudea.in/
+      - img "Logo" [ref=e43]
+    - paragraph [ref=e44]: Laudea is an end-to-end solution, built to cater to the needs of all stakeholders involved in Higher Educational Institutions.
+    - paragraph [ref=e46]:
+      - link "© PSG Software Technologies" [ref=e47] [cursor=pointer]:
+        - /url: https://www.psgsoftwaretechnologies.com/
+      - text: "|"
+      - link "Privacy Policy" [ref=e48] [cursor=pointer]:
+        - /url: https://laudea.psgitech.ac.in/privacyPolicy.html
+      - text: "|"
+      - link "Terms & Conditions" [ref=e49] [cursor=pointer]:
+        - /url: https://laudea.psgitech.ac.in/termsAndConditions.html

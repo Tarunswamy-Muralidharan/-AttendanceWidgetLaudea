@@ -1,0 +1,185 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Google Apps Script" [ref=e13] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e14]
+          - generic [ref=e15]: Apps Script
+        - generic [ref=e16]:
+          - generic [ref=e19]:
+            - button "Rename" [ref=e558] [cursor=pointer]: JustPass Exam Parser
+            - generic [ref=e1217]: cloud_done
+          - generic [ref=e38]:
+            - button "Deploy" [expanded] [ref=e563] [cursor=pointer]:
+              - generic [ref=e566]:
+                - text: Deploy
+                - generic [ref=e567]: 
+            - button "Share this project with others" [ref=e571] [cursor=pointer]:
+              - generic [ref=e572]: person_add
+            - button "Support" [ref=e264] [cursor=pointer]:
+              - generic [ref=e267]: help_outline
+        - generic [ref=e45]:
+          - button "Google apps" [ref=e49] [cursor=pointer]:
+            - img [ref=e50]
+          - 'button "Google Account: Tarunswamy Muralidharan (tmswamy10@gmail.com)" [ref=e55] [cursor=pointer]':
+            - img [ref=e57]
+            - img [ref=e63]
+    - generic [ref=e271]:
+      - navigation "Apps Script project pages" [ref=e573]:
+        - link "Overview" [ref=e574] [cursor=pointer]:
+          - generic [ref=e276]: info_outline
+          - generic [ref=e277]: Overview
+        - link "Editor" [ref=e575] [cursor=pointer]:
+          - generic [ref=e280]: code
+          - generic [ref=e281]: Editor
+        - link "Project History" [ref=e576] [cursor=pointer]:
+          - generic [ref=e284]: history
+          - generic [ref=e285]: Project History
+        - link "Triggers" [ref=e577] [cursor=pointer]:
+          - generic [ref=e288]: alarm
+          - generic [ref=e289]: Triggers
+        - link "Executions" [ref=e578] [cursor=pointer]:
+          - generic [ref=e292]: playlist_play
+          - generic [ref=e293]: Executions
+        - link "Project Settings" [ref=e579] [cursor=pointer]:
+          - generic [ref=e296]: settings
+          - generic [ref=e297]: Project Settings
+      - generic [ref=e298]:
+        - heading "Editor" [level=1] [ref=e580]
+        - generic [ref=e300]:
+          - generic [ref=e302]:
+            - generic [ref=e303]:
+              - heading "Files" [level=2] [ref=e581]
+              - generic [ref=e306]:
+                - button "Sort files alphabetically" [disabled] [ref=e582]:
+                  - generic [ref=e311]: sort_by_alpha
+                - button "Add a file" [ref=e583] [cursor=pointer]:
+                  - generic [ref=e316]: add
+            - listbox "Project files" [ref=e584]:
+              - option "Code.gs" [ref=e585] [cursor=pointer]:
+                - generic "Code.gs" [ref=e586]
+                - button "File operations menu for Code.gs." [ref=e587]:
+                  - button "File operations menu for Code.gs." [ref=e588]:
+                    - generic [ref=e325]: 
+            - generic [ref=e326]:
+              - heading "Libraries" [level=2] [ref=e589]
+              - button "Add a library" [ref=e590] [cursor=pointer]:
+                - generic [ref=e333]: add
+            - generic:
+              - listbox "Library Dependencies"
+            - generic [ref=e334]:
+              - heading "Services" [level=2] [ref=e591]
+              - button "Add a service" [ref=e592] [cursor=pointer]:
+                - generic [ref=e341]: add
+            - listbox "Service Dependencies" [ref=e593]:
+              - option "Drive Operations menu for Drive." [ref=e594] [cursor=pointer]:
+                - generic "Drive" [ref=e595]
+                - button "Operations menu for Drive." [ref=e596]:
+                  - button "Operations menu for Drive." [ref=e597]:
+                    - generic [ref=e350]: 
+          - generic [ref=e357]:
+            - region [ref=e358]:
+              - generic [ref=e359]:
+                - generic [ref=e360]:
+                  - button "Undo code edit" [ref=e959]:
+                    - generic [ref=e962]: undo
+                  - generic [ref=e366]:
+                    - button "Redo code edit" [disabled]:
+                      - generic: redo
+                - generic [ref=e370]:
+                  - button "Save project to Drive" [disabled]:
+                    - img
+                - generic [ref=e1218]:
+                  - button "Run the selected function" [ref=e1222]:
+                    - generic [ref=e1225]: play_arrow
+                    - generic [ref=e1226]: Run
+                  - button "Debug the selected function" [ref=e1230]:
+                    - img [ref=e1233]
+                    - generic [ref=e1236]: Debug
+                  - listbox "Select function to run" [ref=e1239] [cursor=pointer]:
+                    - option "setupTrigger" [selected] [ref=e1240]
+                - button "Open the execution log panel" [ref=e602]:
+                  - generic [ref=e401]: Execution log
+            - generic [ref=e403]:
+              - main [ref=e407]:
+                - generic [ref=e408]: .
+                - generic [ref=e410]:
+                  - iframe [ref=e411]:
+                    
+                  - code [ref=e413]:
+                    - generic [ref=e414]:
+                      - generic [ref=e417]:
+                        - generic [ref=e970]: "680"
+                        - generic [ref=e1155]:
+                          - generic [ref=e1156] [cursor=pointer]: 
+                          - generic [ref=e1157]: "681"
+                        - generic [ref=e974]: "682"
+                        - generic [ref=e976]: "683"
+                        - generic [ref=e1158]:
+                          - generic [ref=e1159] [cursor=pointer]: 
+                          - generic [ref=e1160]: "684"
+                        - generic [ref=e1162]: "685"
+                        - generic [ref=e983]: "686"
+                        - generic [ref=e985]: "687"
+                        - generic [ref=e1164]: "688"
+                        - generic [ref=e990]: "689"
+                        - generic [ref=e992]: "690"
+                        - generic [ref=e994]: "691"
+                        - generic [ref=e1166]: "692"
+                        - generic [ref=e999]: "693"
+                        - generic [ref=e1167]:
+                          - generic [ref=e1168] [cursor=pointer]: 
+                          - generic [ref=e1169]: "694"
+                        - generic [ref=e1003]: "695"
+                        - generic [ref=e1005]: "696"
+                        - generic [ref=e1008]: "697"
+                        - generic [ref=e1010]: "698"
+                        - generic [ref=e1012]: "699"
+                        - generic [ref=e1014]: "700"
+                        - generic [ref=e1172]: "701"
+                      - generic [ref=e505]:
+                        - generic [ref=e1177]: var atts = msgs[i].getAttachments();
+                        - generic [ref=e1179]: "for (var j = 0; j < atts.length; j++) {"
+                        - generic [ref=e1181]: if (!atts[j].getName().toLowerCase().endsWith('.pdf')) continue;
+                        - generic [ref=e1183]: var blob = atts[j].copyBlob();
+                        - generic [ref=e1185]: var tempFile = Drive.Files.create(
+                        - generic [ref=e1187]: "{ title: 'justpass_test_' + Date.now(), mimeType: MimeType.GOOGLE_DOCS },"
+                        - generic [ref=e1189]: "blob, { ocr: true }"
+                        - generic [ref=e1124]: );
+                        - generic [ref=e1191]: var doc = DocumentApp.openById(tempFile.id);
+                        - generic [ref=e1193]: var text = doc.getBody().getText();
+                        - generic [ref=e1195]: DriveApp.getFileById(tempFile.id).setTrashed(true);
+                        - generic [ref=e1197]: var entries = parseExamTimetableText_(text);
+                        - generic [ref=e1199]: Logger.log('=== PARSED ' + entries.length + ' ENTRIES ===');
+                        - generic [ref=e1201]: "for (var k = 0; k < entries.length; k++) {"
+                        - generic [ref=e1203]: var e = entries[k];
+                        - generic [ref=e1205]: "Logger.log(k + ': ' + e.date + ' | ' + e.session + ' | ' + e.courseCode +"
+                        - generic [ref=e1207]: "' | ' + e.courseName + ' | ' + e.branch);"
+                        - generic [ref=e1146]: "}"
+                        - generic [ref=e1209]: Logger.log('=== END ENTRIES ===');
+                        - generic [ref=e1150]: "}"
+                        - generic [ref=e1152]: "}"
+                        - generic [ref=e1154]: "}"
+                      - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=e650]: "Logger.log('=== END ENTRIES ==='); } } }"
+              - generic:
+                - generic:
+                  - button "Close execution logs pane" [ref=e651] [cursor=pointer]:
+                    - generic [ref=e554]: close
+                  - tooltip [ref=e555]: Close execution logs
+  - generic: Saving project...
+  - generic [ref=e557]:
+    - alert
+    - alert
+    - complementary
+    - complementary
+  - menu [active] [ref=e1243]:
+    - generic [ref=e1245]:
+      - menuitem "New deployment" [ref=e1246] [cursor=pointer]:
+        - generic [ref=e1248]: New deployment
+      - menuitem "Manage deployments option" [ref=e1249] [cursor=pointer]:
+        - generic [ref=e1251]: Manage deployments
+      - menuitem "Test deployments" [ref=e1252] [cursor=pointer]:
+        - generic [ref=e1254]: Test deployments

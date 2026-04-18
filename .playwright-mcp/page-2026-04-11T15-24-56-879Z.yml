@@ -1,0 +1,366 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - link "Google" [ref=e6] [cursor=pointer]:
+        - /url: /home/
+        - img [ref=e7]
+      - link "AdMob" [ref=e10] [cursor=pointer]:
+        - /url: /home/
+      - link "Skip to Content" [ref=e11] [cursor=pointer]:
+        - /url: "#jump-content"
+        - generic [ref=e12]: Skip to Content
+    - generic [ref=e13]:
+      - navigation [ref=e14]:
+        - list [ref=e15]:
+          - listitem [level=1] [ref=e16]:
+            - link "Mediation" [ref=e17] [cursor=pointer]:
+              - /url: /home/admob-advantage/
+          - listitem [level=1] [ref=e18]:
+            - link "Bidding" [ref=e19] [cursor=pointer]:
+              - /url: /home/bidding/what-is-bidding/
+          - listitem [level=1] [ref=e20]:
+            - link "Get Started" [ref=e21] [cursor=pointer]:
+              - /url: /home/get-started/
+          - listitem [level=1] [ref=e22]:
+            - link "Resources" [ref=e23] [cursor=pointer]:
+              - /url: /home/resources/
+          - listitem [level=1] [ref=e24]:
+            - link "Blog" [ref=e25] [cursor=pointer]:
+              - /url: https://www.blog.google/products/admob/
+      - generic [ref=e27]:
+        - generic [ref=e28]: Search this site
+        - textbox "Search" [ref=e29]
+        - img [ref=e31]
+    - list [ref=e34]:
+      - listitem [ref=e35]:
+        - link "sign in" [ref=e36] [cursor=pointer]:
+          - /url: https://apps.admob.com/
+          - text: Sign in
+      - listitem [ref=e37]:
+        - link "sign up" [ref=e38] [cursor=pointer]:
+          - /url: https://apps.admob.com/signup/
+          - text: Sign up
+  - main [ref=e39]:
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - heading "Earn more revenue with your apps." [level=1] [ref=e45]
+        - paragraph [ref=e47]: You work hard on your app. AdMob makes earning revenue easy with in-app ads, actionable insights, and powerful, easy-to-use tools that grow your app business.
+        - link "get started" [ref=e49] [cursor=pointer]:
+          - /url: https://apps.admob.com/signup/
+          - text: Get started
+        - paragraph [ref=e51]: Need a consultation?
+        - link "contact us." [ref=e53] [cursor=pointer]:
+          - /url: /home/request-consult/
+          - text: Contact us.
+      - img "Earn more revenue with your apps." [ref=e57]
+    - generic [ref=e58]:
+      - heading "Experience AdMob Mediation" [level=2] [ref=e63]
+      - generic [ref=e64]:
+        - generic [ref=e67]:
+          - list [ref=e68]:
+            - listitem [ref=e69]:
+              - img "light-bulb icon" [ref=e72]
+              - heading "Smarter tech, more revenue" [level=3] [ref=e75]
+              - paragraph [ref=e77]: As one of the largest global ad networks, the AdMob Network can fill your ad requests from anywhere in the world. Maximize the value of every impression across all your networks with the most advanced monetization technology.
+            - listitem [ref=e78]:
+              - img "rising-rate icon" [ref=e81]
+              - heading "High-performing ad formats" [level=3] [ref=e84]
+              - paragraph [ref=e86]: Engage and retain your users with our innovative ad formats. Customize the user experience and earn more revenue by integrating native, rewarded, banner, video, and interstitial ads seamlessly into your app.
+          - list [ref=e87]:
+            - listitem [ref=e88]:
+              - img "bar-graph icon" [ref=e91]
+              - heading "Actionable analytics" [level=3] [ref=e94]
+              - paragraph [ref=e96]: Make smarter decisions to grow mobile app earnings and improve customer experience. AdMob’s robust reporting and measurement features deliver deeper insights into how your users are interacting with your mobile app and ads. Gain even richer insights by directly integrating Google Analytics for Firebase with AdMob.
+            - listitem [ref=e97]:
+              - img "wrench icon" [ref=e100]
+              - heading "Automated tools" [level=3] [ref=e104]
+              - paragraph [ref=e106]: Streamline your day-to-day mediation tasks with our automated tools. Easy to set up and integrate, our tools offer everything from state-of-the-art brand safety controls to advanced monetization technology with mediation and bidding.
+        - link "learn more" [ref=e108] [cursor=pointer]:
+          - /url: /home/admob-advantage/
+          - text: Learn more
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - heading "Get higher revenue for impressions with bidding" [level=3] [ref=e115]
+        - generic [ref=e116]:
+          - paragraph [ref=e117]: Bidding allows your ad sources to bid on each impression in real time. Since all participating networks compete at the same priority, the winner of any impression is the highest-paying bid.
+          - paragraph [ref=e118]:
+            - link "Learn about AdMob bidding" [ref=e119] [cursor=pointer]:
+              - /url: home/bidding/what-is-bidding/
+      - img "Get higher revenue for impressions with bidding" [ref=e124]
+    - generic [ref=e126]:
+      - paragraph [ref=e127]: Drive revenue
+      - heading "See how much you could earn from AdMob" [level=2] [ref=e129]
+      - generic [ref=e130]:
+        - paragraph [ref=e131]: To view your potential earnings, select a region and category for your app’s users.
+        - generic [ref=e132]:
+          - button "Select a region" [ref=e135] [cursor=pointer]
+          - button "Select a device" [ref=e138] [cursor=pointer]
+          - button "Select a category" [ref=e141] [cursor=pointer]
+        - button "Calculate" [disabled] [ref=e142]
+    - generic [ref=e147]:
+      - heading "AdMob for every app." [level=2] [ref=e148]
+      - paragraph [ref=e150]: Wherever you are, whatever your app can do, AdMob can help you grow lasting revenue.
+    - generic [ref=e156]:
+      - generic [ref=e157]: Are you a game developer?
+      - link "check out admob for games." [ref=e158] [cursor=pointer]:
+        - /url: /home/games
+        - text: Check out AdMob for Games.
+    - generic [ref=e159]:
+      - img "AdMob for every app." [ref=e166]
+      - list [ref=e172]:
+        - listitem [ref=e173]:
+          - img "earth icon" [ref=e176]
+          - heading "Everywhere" [level=3] [ref=e179]
+          - paragraph [ref=e181]: AdMob helps translate your hard work into earnings from around the world with features like multiple currency support, country-level mediation, and high fill rates.
+        - listitem [ref=e182]:
+          - img "size icon" [ref=e185]
+          - heading "Every size" [level=3] [ref=e189]
+          - paragraph [ref=e191]: Whether you’re just starting out or you’re well on your way, AdMob can help your business grow with features like mediation groups, in-house campaigns, and direct deal support that scale to your needs.
+        - listitem [ref=e192]:
+          - img "category icon" [ref=e195]
+          - heading "Every category" [level=3] [ref=e201]
+          - paragraph [ref=e203]:
+            - text: We know one size doesn’t fit all. That’s why we cater to every app category, from
+            - link "Games" [ref=e204] [cursor=pointer]:
+              - /url: ../../../../../../../home/games/
+            - text: to Utilities, with ad formats to fit your unique needs.
+            - link "Talk to an expert" [ref=e205] [cursor=pointer]:
+              - /url: ../../../../../../../home/request-consult/
+            - text: for your personal consultation.
+    - generic [ref=e206]:
+      - heading "AdMob by the numbers." [level=2] [ref=e211]
+      - list [ref=e215]:
+        - listitem [ref=e216]:
+          - generic [ref=e217]:
+            - generic [ref=e218]: 81%
+            - paragraph [ref=e220]: of the Android top 1000 use AdMob.
+        - listitem [ref=e221]:
+          - generic [ref=e222]:
+            - generic [ref=e223]: 97%
+            - paragraph [ref=e225]: of AdAge 100 world's largest advertisers buy ads on AdMob.
+        - listitem [ref=e226]:
+          - generic [ref=e227]:
+            - generic [ref=e228]: 1 million +
+            - paragraph [ref=e230]: apps use AdMob.
+        - listitem [ref=e231]:
+          - generic [ref=e232]:
+            - generic [ref=e233]: 1 million +
+            - paragraph [ref=e235]: Google advertisers are on AdMob.
+    - generic [ref=e240]:
+      - heading "AdMob is able to provide advertiser demand in more than 200 countries for us. We have seen really competitive, consistently high CPMs from AdMob across a variety of formats — from text interstitials to rich media and video." [level=3] [ref=e241]
+      - paragraph [ref=e242]:
+        - generic [ref=e243]: Mike Evans
+        - text: ", VP, Digital Marketing, SEGA Networks"
+    - generic [ref=e245]:
+      - generic [ref=e249]:
+        - heading "Getting Started is easy." [level=3] [ref=e250]
+        - generic [ref=e253]: Sign up for AdMob and get more from your app today.
+        - link "sign up" [ref=e255] [cursor=pointer]:
+          - /url: https://apps.admob.com/signup/
+          - text: Sign up
+        - paragraph [ref=e257]: Need a consultation?
+        - link "contact us." [ref=e259] [cursor=pointer]:
+          - /url: /home/request-consult/
+          - text: Contact us.
+      - img "Getting Started is easy." [ref=e264]
+    - generic [ref=e267]:
+      - heading "Featured resources" [level=2] [ref=e272]
+      - list [ref=e275]:
+        - listitem [ref=e276]:
+          - 'link "Rewarded ads: a win for users, developers, and advertisers Guide Rewarded ads: a win for users, developers, and advertisers" [ref=e277] [cursor=pointer]':
+            - /url: /home/resources/rewarded-ads-win-for-everyone/
+            - 'img "Rewarded ads: a win for users, developers, and advertisers" [ref=e279]'
+            - generic [ref=e280]:
+              - generic [ref=e281]: Guide
+              - 'heading "Rewarded ads: a win for users, developers, and advertisers" [level=3] [ref=e282]'
+              - list [ref=e283]:
+                - listitem:
+                  - img [ref=e284]
+        - listitem [ref=e286]:
+          - link "How developers can maximize app revenue with AdMob mediation Guide How developers can maximize app revenue with AdMob mediation" [ref=e287] [cursor=pointer]:
+            - /url: /home/resources/optimize-revenue-with-ad-mediation/
+            - img "How developers can maximize app revenue with AdMob mediation" [ref=e289]
+            - generic [ref=e290]:
+              - generic [ref=e291]: Guide
+              - heading "How developers can maximize app revenue with AdMob mediation" [level=3] [ref=e292]
+              - list [ref=e293]:
+                - listitem:
+                  - img [ref=e294]
+        - listitem [ref=e296]:
+          - 'link "Mobile ads: the key to monetizing gaming apps Guide Mobile ads: the key to monetizing gaming apps" [ref=e297] [cursor=pointer]':
+            - /url: /home/resources/monetize-mobile-game-with-ads/
+            - 'img "Mobile ads: the key to monetizing gaming apps" [ref=e299]'
+            - generic [ref=e300]:
+              - generic [ref=e301]: Guide
+              - 'heading "Mobile ads: the key to monetizing gaming apps" [level=3] [ref=e302]'
+              - list [ref=e303]:
+                - listitem:
+                  - img [ref=e304]
+      - link "see more" [ref=e307] [cursor=pointer]:
+        - /url: /home/resources/
+        - text: See more
+  - paragraph [ref=e310]: Some features are in beta and are not yet available to all publishers.
+  - contentinfo [ref=e311]:
+    - generic [ref=e314]:
+      - paragraph [ref=e315]: Follow us
+      - list [ref=e316]:
+        - listitem [ref=e317]:
+          - link "Share to Twitter" [ref=e318] [cursor=pointer]:
+            - /url: https://x.com/gforpublishers?s=11&t=Fq0k82NtKzZ9YGK2OM_mnw
+            - img [ref=e319]
+        - listitem [ref=e321]:
+          - link "Share to YouTube" [ref=e322] [cursor=pointer]:
+            - /url: https://www.youtube.com/admob
+            - img [ref=e323]
+        - listitem [ref=e325]:
+          - link "Share to LinkedIn" [ref=e326] [cursor=pointer]:
+            - /url: https://www.linkedin.com/showcase/google-for-publishers
+            - img [ref=e327]
+        - listitem [ref=e329]:
+          - link "Share to Facebook" [ref=e330] [cursor=pointer]:
+            - /url: https://www.facebook.com/GoogleforPublishers
+            - img [ref=e331]
+    - navigation [ref=e333]:
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - heading "About Google AdMob" [level=3] [ref=e337]
+          - list [ref=e339]:
+            - listitem [ref=e340]:
+              - link "overview" [ref=e341] [cursor=pointer]:
+                - /url: /home/
+                - text: Overview
+            - listitem [ref=e342]:
+              - link "admob advantage" [ref=e343] [cursor=pointer]:
+                - /url: /home/admob-advantage/
+                - text: AdMob Advantage
+            - listitem [ref=e344]:
+              - link "admob for games" [ref=e345] [cursor=pointer]:
+                - /url: /home/games/
+                - text: AdMob for Games
+            - listitem [ref=e346]:
+              - link "bidding" [ref=e347] [cursor=pointer]:
+                - /url: /home/bidding/what-is-bidding/
+                - text: Bidding
+            - listitem [ref=e348]:
+              - link "get started" [ref=e349] [cursor=pointer]:
+                - /url: /home/get-started/
+                - text: Get Started
+            - listitem [ref=e350]:
+              - link "resources" [ref=e351] [cursor=pointer]:
+                - /url: /home/resources/
+                - text: Resources
+            - listitem [ref=e352]:
+              - link "request a consultation" [ref=e353] [cursor=pointer]:
+                - /url: /home/request-consult/
+                - text: Request a consultation
+        - generic [ref=e354]:
+          - heading "Learning & support" [level=3] [ref=e355]
+          - list [ref=e357]:
+            - listitem [ref=e358]:
+              - link "blog" [ref=e359] [cursor=pointer]:
+                - /url: https://www.blog.google/products/admob/?utm_source=admob.google.com&utm_medium=et&utm_campaign=admob.google.com%2Fhome%2F
+                - text: Blog
+            - listitem [ref=e360]:
+              - link "forum" [ref=e361] [cursor=pointer]:
+                - /url: https://groups.google.com/forum/#!forum/google-admob-ads-sdk
+                - text: Forum
+            - listitem [ref=e362]:
+              - link "youtube" [ref=e363] [cursor=pointer]:
+                - /url: https://www.youtube.com/admob?utm_source=admob.google.com&utm_medium=et&utm_campaign=admob.google.com%2Fhome%2F
+                - text: YouTube
+            - listitem [ref=e364]:
+              - link "sdk" [ref=e365] [cursor=pointer]:
+                - /url: https://developers.google.com/admob/?hl=en#apps
+                - text: SDK
+            - listitem [ref=e366]:
+              - link "support" [ref=e367] [cursor=pointer]:
+                - /url: https://support.google.com/admob/
+                - text: Support
+        - generic [ref=e368]:
+          - heading "Developers & partners" [level=3] [ref=e369]
+          - list [ref=e371]:
+            - listitem [ref=e372]:
+              - link "google developers" [ref=e373] [cursor=pointer]:
+                - /url: https://developers.google.com/?utm_source=admob.google.com&utm_medium=et&utm_campaign=admob.google.com%2Fhome%2F
+                - text: Google Developers
+            - listitem [ref=e374]:
+              - link "certified publishing partners" [ref=e375] [cursor=pointer]:
+                - /url: https://www.google.com/ads/publisher/partners/find-a-partner/?utm_source=admob&utm_medium=website&utm_campaign=footer3
+                - text: Certified Publishing Partners
+        - generic [ref=e376]:
+          - heading "Related products" [level=3] [ref=e377]
+          - list [ref=e379]:
+            - listitem [ref=e380]:
+              - link "firebase" [ref=e381] [cursor=pointer]:
+                - /url: https://firebase.google.com/
+                - text: Firebase
+            - listitem [ref=e382]:
+              - link "google ads" [ref=e383] [cursor=pointer]:
+                - /url: https://ads.google.com/home/campaigns/app-ads/
+                - text: Google Ads
+            - listitem [ref=e384]:
+              - link "google ad manager" [ref=e385] [cursor=pointer]:
+                - /url: https://admanager.google.com/home/?utm_source=admob.google.com&utm_medium=et&utm_campaign=admob.google.com%2Fhome%2F
+                - text: Google Ad Manager
+            - listitem [ref=e386]:
+              - link "google adsense" [ref=e387] [cursor=pointer]:
+                - /url: https://adsense.google.com/start/?subid=ww-en-et-ads-ot-a-amob_site!o3&utm_source=internal&utm_medium=et&utm_campaign=amob_site
+                - text: Google AdSense
+        - generic [ref=e388]:
+          - heading "More from Google" [level=3] [ref=e389]
+          - list [ref=e391]:
+            - listitem [ref=e392]:
+              - link "think with google" [ref=e393] [cursor=pointer]:
+                - /url: https://www.thinkwithgoogle.com/?utm_source=admob.google.com&utm_medium=et&utm_campaign=admob.google.com%2Fhome%2F
+                - text: Think with Google
+            - listitem [ref=e394]:
+              - link "business solutions" [ref=e395] [cursor=pointer]:
+                - /url: https://www.google.com/services/?utm_source=admob.google.com&utm_medium=et&utm_campaign=admob.google.com%2Fhome%2F
+                - text: Business Solutions
+    - generic [ref=e396]:
+      - link "Google" [ref=e398] [cursor=pointer]:
+        - /url: https://www.google.com/
+        - img [ref=e399]
+      - list [ref=e401]:
+        - listitem [ref=e402]:
+          - link "privacy" [ref=e403] [cursor=pointer]:
+            - /url: https://www.google.com/intl/en/policies/privacy/
+            - text: Privacy
+        - listitem [ref=e404]:
+          - link "terms" [ref=e405] [cursor=pointer]:
+            - /url: https://www.google.com/intl/en/policies/terms/
+            - text: Terms
+        - listitem [ref=e406]:
+          - link "about google" [ref=e407] [cursor=pointer]:
+            - /url: https://about.google/intl/en/
+            - text: About Google
+        - listitem [ref=e408]:
+          - link "google products" [ref=e409] [cursor=pointer]:
+            - /url: https://about.google/intl/en/products/
+            - text: Google Products
+      - list [ref=e410]:
+        - listitem [ref=e411]:
+          - link "Help" [ref=e412] [cursor=pointer]:
+            - /url: https://support.google.com/
+            - img [ref=e413]
+            - text: Help
+        - listitem [ref=e415]:
+          - generic [ref=e416]: Change language or region
+          - combobox "Change language or region" [ref=e417]:
+            - option "Deutsch"
+            - option "English" [selected]
+            - option "Español (Latinoamérica)"
+            - option "Français"
+            - option "Indonesia"
+            - option "Italiano"
+            - option "Português (Brasil)"
+            - option "Tiếng Việt"
+            - option "Türkçe"
+            - option "Русский"
+            - option "اردو"
+            - option "العربية"
+            - option "ไทย"
+            - option "中文 (简体, 中国)"
+            - option "中文 (繁體)"
+            - option "日本語"
+            - option "한국어"

@@ -1,0 +1,175 @@
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - link "Google Apps Script" [ref=e10] [cursor=pointer]:
+          - /url: /home
+          - img [ref=e11]
+          - generic [ref=e12]: Apps Script
+        - generic [ref=e13]:
+          - generic [ref=e16]:
+            - button "Rename" [ref=e18] [cursor=pointer]: JustPass Exam Parser
+            - generic [ref=e1289]: cloud_done
+          - generic [ref=e26]:
+            - button "Deploy" [ref=e31] [cursor=pointer]:
+              - generic [ref=e34]:
+                - text: Deploy
+                - generic [ref=e35]: 
+            - button "Share this project with others" [ref=e39] [cursor=pointer]:
+              - generic [ref=e40]: person_add
+            - button "Support" [ref=e42] [cursor=pointer]:
+              - generic [ref=e45]: help_outline
+        - generic [ref=e47]:
+          - button "Google apps" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+          - 'button "Google Account: Tarunswamy Muralidharan (tmswamy10@gmail.com)" [ref=e57] [cursor=pointer]':
+            - img [ref=e59]
+            - img [ref=e65]
+    - generic [ref=e67]:
+      - navigation "Apps Script project pages" [ref=e69]:
+        - link "Overview" [ref=e70] [cursor=pointer]:
+          - generic [ref=e72]: info_outline
+          - generic [ref=e73]: Overview
+        - link "Editor" [ref=e74] [cursor=pointer]:
+          - generic [ref=e76]: code
+          - generic [ref=e77]: Editor
+        - link "Project History" [ref=e78] [cursor=pointer]:
+          - generic [ref=e80]: history
+          - generic [ref=e81]: Project History
+        - link "Triggers" [ref=e82] [cursor=pointer]:
+          - generic [ref=e84]: alarm
+          - generic [ref=e85]: Triggers
+        - link "Executions" [ref=e86] [cursor=pointer]:
+          - generic [ref=e88]: playlist_play
+          - generic [ref=e89]: Executions
+        - link "Project Settings" [ref=e90] [cursor=pointer]:
+          - generic [ref=e92]: settings
+          - generic [ref=e93]: Project Settings
+      - generic [ref=e94]:
+        - heading "Editor" [level=1] [ref=e95]
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - generic [ref=e99]:
+              - heading "Files" [level=2] [ref=e100]
+              - generic [ref=e102]:
+                - button "Sort files alphabetically" [disabled] [ref=e104]:
+                  - generic [ref=e107]: sort_by_alpha
+                - button "Add a file" [ref=e109] [cursor=pointer]:
+                  - generic [ref=e112]: add
+            - listbox "Project files" [ref=e114]:
+              - option "Code.gs" [ref=e115] [cursor=pointer]:
+                - generic "Code.gs" [ref=e116]
+                - button "File operations menu for Code.gs." [ref=e117]:
+                  - button "File operations menu for Code.gs." [ref=e118]:
+                    - generic [ref=e121]: 
+            - generic [ref=e122]:
+              - heading "Libraries" [level=2] [ref=e123]
+              - button "Add a library" [ref=e126] [cursor=pointer]:
+                - generic [ref=e129]: add
+            - generic:
+              - listbox "Library Dependencies"
+            - generic [ref=e130]:
+              - heading "Services" [level=2] [ref=e131]
+              - button "Add a service" [ref=e134] [cursor=pointer]:
+                - generic [ref=e137]: add
+            - listbox "Service Dependencies" [ref=e139]:
+              - option "Drive Operations menu for Drive." [ref=e140] [cursor=pointer]:
+                - generic "Drive" [ref=e141]
+                - button "Operations menu for Drive." [ref=e142]:
+                  - button "Operations menu for Drive." [ref=e143]:
+                    - generic [ref=e146]: 
+          - generic [ref=e153]:
+            - region [ref=e154]:
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e159]:
+                    - button "Undo code edit" [disabled]:
+                      - generic: undo
+                  - generic [ref=e162]:
+                    - button "Redo code edit" [disabled]:
+                      - generic: redo
+                - generic [ref=e166]:
+                  - button "Save project to Drive" [disabled]:
+                    - img
+                - generic [ref=e1290]:
+                  - generic [ref=e1293]:
+                    - button "Run the selected function" [disabled]:
+                      - generic: play_arrow
+                      - generic: Run
+                  - generic [ref=e1301]:
+                    - button "Debug the selected function" [disabled]:
+                      - img
+                      - generic: Debug
+                  - listbox "Select function to run" [disabled] [ref=e1311]:
+                    - option "reprocessAll" [disabled] [selected] [ref=e1327]
+                  - button "Stop the execution" [ref=e1343]:
+                    - generic [ref=e1346]: stop
+                    - generic [ref=e1347]: Stop
+                - button "Close the execution log panel" [ref=e1348]:
+                  - generic [ref=e197]: Execution log
+            - generic [ref=e199]:
+              - main [ref=e203]:
+                - generic [ref=e204]: .
+                - generic [ref=e206]:
+                  - iframe [ref=e207]:
+                    
+                  - code [ref=e209]:
+                    - generic [ref=e210]:
+                      - generic [ref=e223]:
+                        - generic [ref=e1123]:
+                          - generic [ref=e1125] [cursor=pointer]: 
+                          - generic [ref=e1126]: "1"
+                        - generic [ref=e1128]: "2"
+                        - generic [ref=e1130]: "3"
+                        - generic [ref=e1132]: "4"
+                        - generic [ref=e1134]: "5"
+                      - generic [ref=e312]:
+                        - generic [ref=e1211]: /**
+                        - generic [ref=e1213]: "* JustPass Exam Auto-Parser"
+                        - generic [ref=e1215]: "* Google Apps Script that monitors Gmail for college exam emails:"
+                        - generic [ref=e1217]: "* - Excel attachments -> Exam seat arrangements (hall + seat per roll number)"
+                        - generic [ref=e1219]: "* - PDF attachments -> Exam timetables (date + session + subject per branch)"
+                      - textbox "Editor content;Press Alt+F1 for Accessibility Options." [ref=e213]: "/** * JustPass Exam Auto-Parser * Google Apps Script that monitors Gmail for college exam emails: * - Excel attachments -> Exam seat arrangements (hall + seat per roll number) * - PDF attachments -> Exam timetables (date + session + subject per branch) * * SETUP: * 1. Open script.google.com -> New Project * 2. Paste this code * 3. Enable Drive API: Services -> + -> Drive API"
+              - generic [ref=e400]:
+                - complementary [ref=e402]:
+                  - generic [ref=e404]: Execution log
+                  - generic [ref=e1349]:
+                    - list "Logs" [active] [ref=e1352]:
+                      - listitem "Log 1. 8:59:39 PM. Notice. Execution started." [ref=e1353]:
+                        - generic [ref=e1354]: 8:59:39 PM
+                        - generic [ref=e1355]: Notice
+                        - generic [ref=e1356]: Execution started
+                      - listitem "Log 2. 8:59:40 PM. Info. Removing label from 4 threads." [ref=e1357]:
+                        - generic [ref=e1358]: 8:59:40 PM
+                        - generic [ref=e1359]: Info
+                        - generic [ref=e1360]: Removing label from 4 threads
+                      - listitem "Log 3. 8:59:41 PM. Info. Found 8 thread(s) to process.." [ref=e1361]:
+                        - generic [ref=e1362]: 8:59:41 PM
+                        - generic [ref=e1363]: Info
+                        - generic [ref=e1364]: Found 8 thread(s) to process.
+                      - 'listitem "Log 4. 8:59:42 PM. Info. PDF: CAT - II - III yrs - Time table.pdf." [ref=e1365]':
+                        - generic [ref=e1366]: 8:59:42 PM
+                        - generic [ref=e1367]: Info
+                        - generic [ref=e1368]: "PDF: CAT - II - III yrs - Time table.pdf"
+                      - 'listitem "Log 5. 8:59:47 PM. Info. PDF text length: 3870." [ref=e1400]':
+                        - generic [ref=e1401]: 8:59:47 PM
+                        - generic [ref=e1402]: Info
+                        - generic [ref=e1403]: "PDF text length: 3870"
+                      - listitem [ref=e1404]:
+                        - generic [ref=e1405]: 8:59:47 PM
+                        - generic [ref=e1406]: Info
+                        - generic [ref=e1407]: "PDF text preview: PSG iTech PSG INSTITUTE OF TECHNOLOGY AND APPLIED RESEARCH OFFICE OF THE CONTROLLER OF EXAMINATIONS CONTROLLER OF EXAMINATIONS Ref: 124 /COE/A-M-26/ VI/CAT-II/2026 CIRCULAR Date: 6-4-2026 The Continuous Assessment Test-II for the VI Semester B.E./B.Tech. Students will be held from 17-4-2026 to 22-4-2026. The Schedule for the test is as mentioned below: Date Session FN-I Course Code Course Name Branch AG3601 Engineering Geology CIVIL (8.45 am EE3601 Protection and Switchgear EEE to 10.30 am) ME3691 Heat and Mass Transfer MECHANICAL FN-II CCS342 DEVOPS AI&DS (10.45am CCS356 to 17-4-2026 12.30 pm) ET3491 Object Oriented Software Engineering Embedded Systems and IOT Design CSBS, CSE ECE (Friday) AN-I OCS353 Data Science Fundamentals CIVIL, EEE, MECH (12.45 pm to OCS352 IOT Concepts and Applications 2.30 pm) AN-II OCE351 (2.45 pm Environment and Social Impact Assessment EEE AI&DS, CSBS, CSE to 4.30 pm) CS3491 Artificial Intelligence and Machine Learning ECE CE3601 Design of Steel Structural Elements CIVIL FN-I (8.45 am EE3602 Power System Operation and Control EEE to CAU332 Dynamics of Ground Vehicles 10.30 am) MECHANICAL CME338 Value Engineering FN-II CS3691 Embedded Systems and IOT AI&DS, CSE (10.45am CCW332 Digital Marketing CSBS to 12.30 pm) CEC366 Image Processing ECE 18-4-2026 CE3005 Rehabilitation/Heritage Restoration CIVIL (Saturday) AN-I (12.45 pm EE3016 Embedded System Design EEE to CME342 Ergonomics in Design 2.30 pm) MECHANICAL CME387 Non-Traditional Machining Processes AD3002 Health Care Analytics AI&DS AN-II CCS336 Cloud Services Management AI&DS, CSE (2.45 pm CCS335 Cloud Computing CSBS to 4.30 pm) CEC332 CEC339 Advanced Digital Signal Processing Fundamentals of Nanoelectronics ECE Course Date Session Course Name Branch Code CE3602 Structural Analysis II CIVIL FN-I (8.45 am to CEI331 PLC Programming EEE CME343 New Prod"
+                    - generic [ref=e1370]:
+                      - generic: Loading...
+                - generic:
+                  - button "Close execution logs pane" [ref=e214] [cursor=pointer]:
+                    - generic [ref=e215]: close
+                  - tooltip [ref=e216]: Close execution logs
+  - generic: Saving project...
+  - generic [ref=e217]:
+    - alert
+    - alert
+    - complementary
+    - complementary

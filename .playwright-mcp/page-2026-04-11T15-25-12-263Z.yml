@@ -1,0 +1,76 @@
+- generic [ref=e3]:
+  - button "Skip to main content" [ref=e5] [cursor=pointer]:
+    - generic [ref=e6]: Skip to main content
+  - generic [ref=e8]:
+    - banner [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - button "Menu" [ref=e13] [cursor=pointer]:
+            - img [ref=e16]: menu
+          - link "Go to AdMob home" [ref=e18] [cursor=pointer]:
+            - /url: /v2/home
+        - generic [ref=e24]:
+          - img [ref=e27]: search
+          - generic [ref=e28]:
+            - generic:
+              - generic: Search for apps, ad units, mediation groups, reports, and campaigns
+            - combobox "Search box to look for your apps, ad units, mediation groups, reports, and campaigns" [ref=e29]
+        - generic [ref=e30]:
+          - button "Open notifications" [ref=e33] [cursor=pointer]:
+            - generic [ref=e36]:
+              - img [ref=e38]: notifications
+              - generic [ref=e40]: "3"
+          - button "Google account" [ref=e44] [cursor=pointer]:
+            - img "Google account (tmswamy10@gmail.com)" [ref=e45]
+    - generic [ref=e46]:
+      - navigation [ref=e47]:
+        - navigation "Sidebar" [ref=e50]:
+          - link "Home" [ref=e55] [cursor=pointer]:
+            - /url: /v2/home
+            - img [ref=e57]: home
+          - link "Open/Close apps" [ref=e64] [cursor=pointer]:
+            - img [ref=e66]: apps
+          - generic [ref=e68]:
+            - link "Reports" [ref=e72] [cursor=pointer]:
+              - /url: /v2/reports/library
+              - img [ref=e74]: assessment
+            - link "Mediation" [ref=e79] [cursor=pointer]:
+              - /url: /v2/mediation/groups/list
+            - link "Campaigns" [ref=e85] [cursor=pointer]:
+              - /url: /v2/campaigns/list
+              - img [ref=e87]: campaign
+          - generic [ref=e89]:
+            - link "Policy center" [ref=e93] [cursor=pointer]:
+              - /url: /v2/policycenter
+              - img [ref=e95]: verified_user
+            - link "Privacy & messaging" [ref=e100] [cursor=pointer]:
+              - /url: /v2/privacymessaging
+            - link "Publisher data" [ref=e106] [cursor=pointer]:
+              - /url: /v2/first-party-data-controls/list
+              - img [ref=e108]: badge
+            - link "Blocking controls" [ref=e113] [cursor=pointer]:
+              - /url: /v2/pubcontrols
+              - img [ref=e115]: block
+            - link "Payments" [ref=e120] [cursor=pointer]:
+              - /url: /v2/payments/overview
+            - link "Change history" [ref=e126] [cursor=pointer]:
+              - /url: /v2/changehistory
+              - img [ref=e128]: history
+            - link "Settings" [ref=e133] [cursor=pointer]:
+              - /url: /v2/settings/personal-settings
+              - img [ref=e135]: settings
+            - link "Labs" [ref=e140] [cursor=pointer]:
+              - /url: /v2/labs/list
+              - img [ref=e142]: stream_science
+            - button "Help" [ref=e147] [cursor=pointer]:
+              - img [ref=e149]: help_outline
+            - button "Feedback" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]: feedback
+      - main [ref=e158]:
+        - heading "Home" [level=1] [ref=e166]
+        - generic [ref=e180]:
+          - text: © 2026 Google
+          - link "Privacyopen_in_new" [ref=e181] [cursor=pointer]:
+            - /url: https://www.google.com/intl/en_US/policies/privacy
+          - link "Termsopen_in_new" [ref=e182] [cursor=pointer]:
+            - /url: https://adsense.google.com/adsense/terms
